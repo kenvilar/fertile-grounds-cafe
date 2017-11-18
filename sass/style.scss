@@ -1,3 +1,5 @@
+/*-------------------------Normalize-----------------------------------*/
+@import "normalize";
 /*-------------------------Variables Site------------------------------*/
 @import "variables-site/colors";
 @import "variables-site/columns";
@@ -17,3 +19,8 @@
 /*-------------------------Site----------------------------------------*/
 @import "site/site";
 @import "site/footer";
+@import "site/home";
+@import "site/about";
+@import "site/contact";
+@import "site/menu";
+@import "site/venue";
