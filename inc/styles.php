@@ -4,14 +4,19 @@
  * Enqueue styles.
  */
 function fertilegroundscafe_styles() {
+	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/vendor/twbs/dist/css/bootstrap.min.css',
+		array(),
+		'2017',
+		'all' );
+	
 	if ( fertilegroundscafe_is_localhost() ) {
 		wp_enqueue_style( 'main-style-expanded', get_template_directory_uri() . '/assets/css/style.css',
-			'',
+			array(),
 			'2017',
 			'all' );
 	} else {
 		wp_enqueue_style( 'main-style-compressed', get_template_directory_uri() . '/assets/css/style.min.css',
-			'',
+			array(),
 			'2017',
 			'all' );
 	}
