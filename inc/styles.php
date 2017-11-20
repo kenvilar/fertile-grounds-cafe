@@ -4,10 +4,9 @@
  * Enqueue styles.
  */
 function fertilegroundscafe_styles() {
-	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/vendor/twbs/dist/css/bootstrap.min.css',
+	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/assets/bower_components/bootstrap/dist/css/bootstrap.min.css',
 		array(),
-		'2017',
-		'all' );
+		'2017' );
 	
 	if ( fertilegroundscafe_is_localhost() ) {
 		wp_enqueue_style( 'main-style-expanded', get_template_directory_uri() . '/assets/css/style.css',

@@ -4,8 +4,8 @@
  * Enqueue scripts.
  */
 function fertilegroundscafe_scripts() {
-	wp_enqueue_script( 'bootstrap-js',
-		get_template_directory_uri() . '/vendor/twbs/dist/js/bootstrap.min.js',
+	wp_enqueue_script( 'bootstrap-script',
+		get_template_directory_uri() . '/assets/bower_components/bootstrap/dist/js/bootstrap.min.js',
 		array(),
 		'2017',
 		true );
