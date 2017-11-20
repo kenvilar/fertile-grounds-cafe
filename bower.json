@@ -1,0 +1,14 @@
+{
+  "name": "fertilegroundscafe",
+  "description": "Fertile Grounds Cafe is a coffee house located inside one of Rochesters treasured East Avenue mansions. Completely remodeled, our coffee shop boasts multiple gathering spaces, including gardens, patios, decks and cozy fireplaces, perfect for small groups or solitude.",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
