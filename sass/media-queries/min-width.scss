@@ -1,0 +1,55 @@
+@media screen and (min-width: 768px) {
+	#Header {
+		height: 80px;
+		.navbar {
+			min-height: 80px;
+		}
+		.navbar-brand {
+			height: 80px;
+			max-height: 80px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		.navbar-collapse {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		.nav {
+			> li {
+				border-top: 0;
+			}
+			> li > a {
+				background-color: transparent;
+				padding: 30px 25px;
+			}
+		}
+		&.transparent {
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			.navbar:not(.navbar-fixed-top) {
+				background-color: transparent;
+				border-bottom: 1px solid hsla(0, 0%, 67%, .4);
+				.navbar-brand {
+					> img:first-child {
+						display: block;
+					}
+					> img:last-child {
+						display: none;
+					}
+				}
+				.nav {
+					> li > a {
+						color: #fff;
+					}
+					> li.active > a,
+					> li > a:hover {
+						background-color: transparent;
+						color: #f89406;
+					}
+				}
+			}
+		}
+	}
+}
