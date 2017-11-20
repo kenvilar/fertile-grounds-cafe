@@ -8,6 +8,14 @@ html {
 }
 body {
 	background: $color__background-body;
+	font-size: 14px;
+	font-weight: 400;
+	color: #222;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+svg {
+	display: block;
 }
 hr {
 	background-color: $color__background-hr;
