@@ -23,5 +23,7 @@
 @import "site/home";
 @import "site/about";
 @import "site/contact";
-@import "site/menu";
 @import "site/venue";
+/*-------------------------Media Queries-------------------------------*/
+@import "media-queries/min-width";
+@import "media-queries/max-width";
