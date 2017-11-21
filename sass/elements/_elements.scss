@@ -7,7 +7,7 @@ html {
 	box-sizing: inherit;
 }
 body {
-	background: $color__background-body;
+	background: $color__main-white;
 	font-size: 14px;
 	font-weight: 400;
 	color: #222;
@@ -18,7 +18,7 @@ svg {
 	display: block;
 }
 hr {
-	background-color: $color__background-hr;
+	background-color: $color__main-brown;
 	border: 0;
 	height: 1px;
 	margin-bottom: 1.5em;
@@ -37,4 +37,9 @@ a {
 	-webkit-transition: all .15s ease-in-out;
 	-o-transition: all .15s ease-in-out;
 	transition: all .15s ease-in-out;
+}
+[data-image] {
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat
 }
