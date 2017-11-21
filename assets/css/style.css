@@ -293,6 +293,46 @@ th {
   src: local("Raleway Black"), local("Raleway-Black"), url("../../assets/fonts/raleway-black.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/raleway-black.woff2") format("woff2"), url("../../assets/fonts/raleway-black.woff") format("woff"), url("../../assets/fonts/raleway-black.ttf") format("truetype"), url("../../assets/fonts/raleway-black.svg#Raleway") format("svg");
   /* Legacy iOS */
 }
+h1, .h1 {
+  font-size: 78px;
+  line-height: 1.026;
+  font-family: 'Raleway-Bold', sans-serif;
+  color: #ffffff;
+}
+
+h2, .h2 {
+  font-size: 48px;
+  line-height: 1.667;
+}
+
+h3, .h3 {
+  font-size: 22px;
+  line-height: 1.273;
+}
+
+h4, .h4 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+h5, .h5 {
+  font-size: 19px;
+}
+
+h6, .h6 {
+  font-size: 17px;
+  line-height: 1.647;
+}
+
+p, .p {
+  font-size: 15px;
+}
+
+.small-p {
+  font-size: 14px;
+  line-height: 2;
+}
+
 /*-------------------------Elements------------------------------------*/
 html {
   box-sizing: border-box;
@@ -305,10 +345,12 @@ html {
 }
 
 body {
-  background: #ffffff;
-  font-size: 14px;
+  font-family: 'Raleway-Regular', sans-serif;
+  color: #ffffff;
   font-weight: 400;
-  color: #222;
+  font-size: 14px;
+  line-height: 2;
+  background: #ffffff;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -320,7 +362,7 @@ svg {
 hr {
   background-color: #937a6b;
   border: 0;
-  height: 1px;
+  height: 2px;
   margin-bottom: 1.5em;
 }
 
@@ -366,6 +408,10 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.text-brown {
+  color: #937a6b;
 }
 
 /*-------------------------Modules-------------------------------------*/
@@ -503,7 +549,6 @@ a {
 }
 /*-------------------------Site----------------------------------------*/
 #Banner {
-  text-align: center;
   position: relative;
   overflow: hidden;
   z-index: 3;
@@ -524,7 +569,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(17, 17, 17, 0.85);
+  background-color: rgba(17, 17, 17, 0.9);
   z-index: 1;
 }
 #Banner:not(.banner-ripples-effect) {
@@ -532,11 +577,12 @@ a {
   -o-transition: height .75s ease-in-out;
   transition: height .75s ease-in-out;
 }
-#Banner > .Intro-content {
+#Banner > .intro-content {
   position: relative;
   width: 100%;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 300px;
+  margin-bottom: 240px;
+  z-index: 1;
 }
 
 /*-------------------------Media Queries-------------------------------*/
@@ -591,6 +637,12 @@ a {
 
   #Banner {
     min-height: 750px;
+  }
+  #Banner > .intro-content .container {
+    width: 1370px;
+  }
+  #Banner > .intro-content .container h1 {
+    margin-bottom: 0;
   }
 }
 

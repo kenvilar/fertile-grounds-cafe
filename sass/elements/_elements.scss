@@ -7,10 +7,9 @@ html {
 	box-sizing: inherit;
 }
 body {
+	@include raleway;
+	@include font_small_p;
 	background: $color__main-white;
-	font-size: 14px;
-	font-weight: 400;
-	color: #222;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -20,7 +19,7 @@ svg {
 hr {
 	background-color: $color__main-brown;
 	border: 0;
-	height: 1px;
+	height: 2px;
 	margin-bottom: 1.5em;
 }
 img {

@@ -1,8 +1,25 @@
-$font_h1: 78px;
-$font_h2: 48px;
-$font_h3: 22px;
-$font_h4: 20px;
-$font_h5: 19px;
-$font_h6: 17px;
-$font_p: 15px;
-$font_small_p: 14px;
+h1, .h1 {
+	@include font_h1;
+	@include raleway-bold;
+}
+h2, .h2 {
+	@include font_h2;
+}
+h3, .h3 {
+	@include font_h3;
+}
+h4, .h4 {
+	@include font_h4;
+}
+h5, .h5 {
+	@include font_h5;
+}
+h6, .h6 {
+	@include font_h6;
+}
+p, .p {
+	@include font_p;
+}
+.small-p {
+	@include font_small_p;
+}
