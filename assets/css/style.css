@@ -298,39 +298,103 @@ h1, .h1 {
   line-height: 1.026;
   font-family: 'Raleway-Bold', sans-serif;
   color: #ffffff;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 h2, .h2 {
   font-size: 48px;
   line-height: 1.667;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 h3, .h3 {
   font-size: 22px;
   line-height: 1.273;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 h4, .h4 {
   font-size: 20px;
   line-height: 1.2;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 h5, .h5 {
   font-size: 19px;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 h6, .h6 {
   font-size: 17px;
   line-height: 1.647;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 p, .p {
   font-size: 15px;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 .small-p {
   font-size: 14px;
   line-height: 2;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 /*-------------------------Elements------------------------------------*/
@@ -464,7 +528,7 @@ a {
   position: relative;
 }
 #Header .container-fluid {
-  max-width: 1370px;
+  max-width: 1200px;
 }
 #Header .navbar {
   border-radius: 0;
@@ -503,10 +567,6 @@ a {
   text-transform: uppercase;
   line-height: 1.2;
   z-index: 89;
-}
-#Header .nav > li.active > a,
-#Header .nav > li > a:hover {
-  border-bottom: 2px solid #937a6b;
 }
 #Header .navbar-toggle {
   border-radius: 0;
@@ -587,6 +647,14 @@ a {
 
 /*-------------------------Media Queries-------------------------------*/
 @media screen and (min-width: 768px) {
+  .nopadding {
+    padding: 0;
+  }
+
+  .container {
+    width: 1200px;
+  }
+
   #Header {
     height: 154px;
   }
@@ -607,6 +675,10 @@ a {
     border-top: 0;
     padding-top: 50px;
     padding-left: 30px;
+  }
+  #Header .nav > li.active > a,
+  #Header .nav > li > a:hover {
+    border-bottom: 2px solid #937a6b;
   }
   #Header .nav > li > a {
     background-color: transparent;
@@ -639,7 +711,7 @@ a {
     min-height: 750px;
   }
   #Banner > .intro-content .container {
-    width: 1370px;
+    width: 1200px;
   }
   #Banner > .intro-content .container h1 {
     margin-bottom: 0;

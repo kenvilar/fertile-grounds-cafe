@@ -1,25 +1,33 @@
 h1, .h1 {
 	@include font_h1;
 	@include raleway-bold;
+	@include wordbreak;
 }
 h2, .h2 {
 	@include font_h2;
+	@include wordbreak;
 }
 h3, .h3 {
 	@include font_h3;
+	@include wordbreak;
 }
 h4, .h4 {
 	@include font_h4;
+	@include wordbreak;
 }
 h5, .h5 {
 	@include font_h5;
+	@include wordbreak;
 }
 h6, .h6 {
 	@include font_h6;
+	@include wordbreak;
 }
 p, .p {
 	@include font_p;
+	@include wordbreak;
 }
 .small-p {
 	@include font_small_p;
+	@include wordbreak;
 }
