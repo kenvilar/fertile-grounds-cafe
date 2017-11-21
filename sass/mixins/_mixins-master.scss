@@ -45,7 +45,34 @@
 }
 // Fonts
 @mixin raleway() {
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: $color__main-white;
-	line-height: 1.2;
+}
+@mixin raleway-light() {
+	font-family: 'Raleway Light', sans-serif;
+	color: $color__main-white;
+}
+@mixin raleway-light-italic() {
+	font-family: 'Raleway Light Italic', sans-serif;
+	color: $color__main-white;
+}
+@mixin raleway-bold() {
+	font-family: 'Raleway Bold', sans-serif;
+	color: $color__main-white;
+}
+@mixin raleway-bold-italic() {
+	font-family: 'Raleway Bold Italic', sans-serif;
+	color: $color__main-white;
+}
+@mixin raleway-extrabold() {
+	font-family: 'Raleway ExtraBold', sans-serif;
+	color: $color__main-white;
+}
+@mixin raleway-black() {
+	font-family: 'Raleway Black', sans-serif;
+	color: $color__main-white;
+}
+@mixin raleway-medium-italic() {
+	font-family: 'Raleway Medium Italic', sans-serif;
+	color: $color__main-white;
 }
