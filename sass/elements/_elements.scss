@@ -9,6 +9,7 @@ html {
 body {
 	@include raleway;
 	@include font_small_p;
+	color: $color__main-black;
 	background: $color__main-white;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
