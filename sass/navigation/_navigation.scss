@@ -1,7 +1,7 @@
 #Header {
 	position: relative;
 	.container-fluid {
-		max-width: 1275px;
+		max-width: 1370px;
 	}
 	.navbar {
 		border-radius: 0;
@@ -15,8 +15,8 @@
 		box-shadow: 0 0 8px 1px rgba(0, 0, 0, .1);
 		&.navbar-fixed-top {
 			position: fixed;
-			-webkit-animation: d .35s;
-			animation: d .35s;
+			-webkit-animation: dnavbarfixedtop .35s;
+			animation: dnavbarfixedtop .35s;
 		}
 	}
 	.navbar-brand {
@@ -37,11 +37,12 @@
 		border-top: 1px solid #ddd;
 		> a {
 			text-transform: uppercase;
-			color: #222;
+			line-height: 1.2;
+			z-index: 89;
 		}
 		&.active > a,
 		> a:hover {
-			color: #f89406;
+			border-bottom: 2px solid $color__main-brown;
 		}
 	}
 	.navbar-toggle {
@@ -59,7 +60,7 @@
 		}
 	}
 }
-@-webkit-keyframes d {
+@-webkit-keyframes dnavbarfixedtop {
 	0% {
 		opacity: 0;
 		-webkit-transform: translateY(-100%);
@@ -71,7 +72,7 @@
 		transform: translateY(0);
 	}
 }
-@keyframes d {
+@keyframes dnavbarfixedtop {
 	0% {
 		opacity: 0;
 		-webkit-transform: translateY(-100%);

@@ -1,12 +1,12 @@
 @media screen and (min-width: 768px) {
 	#Header {
-		height: 80px;
+		height: 154px;
 		.navbar {
-			min-height: 80px;
+			min-height: 154px;
 		}
 		.navbar-brand {
-			height: 80px;
-			max-height: 80px;
+			height: 154px;
+			max-height: 154px;
 			padding-top: 20px;
 			padding-bottom: 20px;
 		}
@@ -17,10 +17,11 @@
 		.nav {
 			> li {
 				border-top: 0;
+				padding-top: 50px;
+				padding-left: 30px;
 			}
 			> li > a {
 				background-color: transparent;
-				padding: 30px 25px;
 			}
 		}
 		&.transparent {
@@ -29,8 +30,8 @@
 			right: 0;
 			left: 0;
 			.navbar:not(.navbar-fixed-top) {
-				background-color: transparent;
-				border-bottom: 1px solid hsla(0, 0%, 67%, .4);
+				background-color: rgba(17, 17, 17, 0.65);
+				border-bottom: 2px solid rgba(147, 122, 107, 0.251);
 				.navbar-brand {
 					> img:first-child {
 						display: block;
@@ -46,7 +47,6 @@
 					> li.active > a,
 					> li > a:hover {
 						background-color: transparent;
-						color: #f89406;
 					}
 				}
 			}

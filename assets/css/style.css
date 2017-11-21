@@ -213,7 +213,17 @@ th {
 /*-------------------------Variables Site------------------------------*/
 /*-------------------------Mixins--------------------------------------*/
 /*-------------------------Typography----------------------------------*/
-/* raleway-light-italic - latin */
+/* raleway-300 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../assets/fonts/raleway-light.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway Light"), local("Raleway-Light"), url("../../assets/fonts/raleway-light.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/raleway-light.woff2") format("woff2"), url("../../assets/fonts/raleway-light.woff") format("woff"), url("../../assets/fonts/raleway-light.ttf") format("truetype"), url("../../assets/fonts/raleway-light.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* raleway-300italic - latin */
 @font-face {
   font-family: 'Raleway';
   font-style: italic;
@@ -223,7 +233,17 @@ th {
   src: local("Raleway Light Italic"), local("Raleway-LightItalic"), url("../../assets/fonts/raleway-light-italic.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/raleway-light-italic.woff2") format("woff2"), url("../../assets/fonts/raleway-light-italic.woff") format("woff"), url("../../assets/fonts/raleway-light-italic.ttf") format("truetype"), url("../../assets/fonts/raleway-light-italic.svg#Raleway") format("svg");
   /* Legacy iOS */
 }
-/* raleway-medium-italic - latin */
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/raleway.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway"), local("Raleway-Regular"), url("../../assets/fonts/raleway.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/raleway.woff2") format("woff2"), url("../../assets/fonts/raleway.woff") format("woff"), url("../../assets/fonts/raleway.ttf") format("truetype"), url("../../assets/fonts/raleway.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* raleway-500italic - latin */
 @font-face {
   font-family: 'Raleway';
   font-style: italic;
@@ -233,7 +253,17 @@ th {
   src: local("Raleway Medium Italic"), local("Raleway-MediumItalic"), url("../../assets/fonts/raleway-medium-italic.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/raleway-medium-italic.woff2") format("woff2"), url("../../assets/fonts/raleway-medium-italic.woff") format("woff"), url("../../assets/fonts/raleway-medium-italic.ttf") format("truetype"), url("../../assets/fonts/raleway-medium-italic.svg#Raleway") format("svg");
   /* Legacy iOS */
 }
-/* raleway-bold-italic - latin */
+/* raleway-700 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../assets/fonts/raleway-bold.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway Bold"), local("Raleway-Bold"), url("../../assets/fonts/raleway-bold.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/raleway-bold.woff2") format("woff2"), url("../../assets/fonts/raleway-bold.woff") format("woff"), url("../../assets/fonts/raleway-bold.ttf") format("truetype"), url("../../assets/fonts/raleway-bold.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* raleway-700italic - latin */
 @font-face {
   font-family: 'Raleway';
   font-style: italic;
@@ -241,6 +271,26 @@ th {
   src: url("../../assets/fonts/raleway-bold-italic.eot");
   /* IE9 Compat Modes */
   src: local("Raleway Bold Italic"), local("Raleway-BoldItalic"), url("../../assets/fonts/raleway-bold-italic.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/raleway-bold-italic.woff2") format("woff2"), url("../../assets/fonts/raleway-bold-italic.woff") format("woff"), url("../../assets/fonts/raleway-bold-italic.ttf") format("truetype"), url("../../assets/fonts/raleway-bold-italic.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* raleway-800 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../assets/fonts/raleway-extrabold.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway ExtraBold"), local("Raleway-ExtraBold"), url("../../assets/fonts/raleway-extrabold.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/raleway-extrabold.woff2") format("woff2"), url("../../assets/fonts/raleway-extrabold.woff") format("woff"), url("../../assets/fonts/raleway-extrabold.ttf") format("truetype"), url("../../assets/fonts/raleway-extrabold.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* raleway-900 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../assets/fonts/raleway-black.eot");
+  /* IE9 Compat Modes */
+  src: local("Raleway Black"), local("Raleway-Black"), url("../../assets/fonts/raleway-black.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/raleway-black.woff2") format("woff2"), url("../../assets/fonts/raleway-black.woff") format("woff"), url("../../assets/fonts/raleway-black.ttf") format("truetype"), url("../../assets/fonts/raleway-black.svg#Raleway") format("svg");
   /* Legacy iOS */
 }
 /*-------------------------Elements------------------------------------*/
@@ -255,11 +305,20 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  color: #222;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+svg {
+  display: block;
 }
 
 hr {
-  background-color: #ccc;
+  background-color: #937a6b;
   border: 0;
   height: 1px;
   margin-bottom: 1.5em;
@@ -282,6 +341,12 @@ a {
   -webkit-transition: all .15s ease-in-out;
   -o-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
+}
+
+[data-image] {
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
 }
 
 .alignleft {
@@ -317,15 +382,13 @@ a {
   word-wrap: normal !important;
 }
 .screen-reader-text:focus {
-  background-color: #f1f1f1;
+  background-color: #937a6b;
   border-radius: 3px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip: auto !important;
   clip-path: none;
-  color: #21759b;
+  color: #937a6b;
   display: block;
-  font-size: 14px;
-  font-size: 0.875rem;
   font-weight: bold;
   height: auto;
   left: 5px;
@@ -355,7 +418,7 @@ a {
   position: relative;
 }
 #Header .container-fluid {
-  max-width: 1275px;
+  max-width: 1370px;
 }
 #Header .navbar {
   border-radius: 0;
@@ -370,8 +433,8 @@ a {
 }
 #Header .navbar.navbar-fixed-top {
   position: fixed;
-  -webkit-animation: d .35s;
-  animation: d .35s;
+  -webkit-animation: dnavbarfixedtop .35s;
+  animation: dnavbarfixedtop .35s;
 }
 #Header .navbar-brand {
   text-transform: uppercase;
@@ -392,11 +455,12 @@ a {
 }
 #Header .nav > li > a {
   text-transform: uppercase;
-  color: #222;
+  line-height: 1.2;
+  z-index: 89;
 }
 #Header .nav > li.active > a,
 #Header .nav > li > a:hover {
-  color: #f89406;
+  border-bottom: 2px solid #937a6b;
 }
 #Header .navbar-toggle {
   border-radius: 0;
@@ -413,7 +477,7 @@ a {
   background-color: #fff;
 }
 
-@-webkit-keyframes d {
+@-webkit-keyframes dnavbarfixedtop {
   0% {
     opacity: 0;
     -webkit-transform: translateY(-100%);
@@ -425,7 +489,7 @@ a {
     transform: translateY(0);
   }
 }
-@keyframes d {
+@keyframes dnavbarfixedtop {
   0% {
     opacity: 0;
     -webkit-transform: translateY(-100%);
@@ -438,17 +502,54 @@ a {
   }
 }
 /*-------------------------Site----------------------------------------*/
+#Banner {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 3;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #111111;
+}
+#Banner:before {
+  visibility: visible;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 17, 17, 0.85);
+  z-index: 1;
+}
+#Banner:not(.banner-ripples-effect) {
+  -webkit-transition: height .75s ease-in-out;
+  -o-transition: height .75s ease-in-out;
+  transition: height .75s ease-in-out;
+}
+#Banner > .Intro-content {
+  position: relative;
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
 /*-------------------------Media Queries-------------------------------*/
 @media screen and (min-width: 768px) {
   #Header {
-    height: 80px;
+    height: 154px;
   }
   #Header .navbar {
-    min-height: 80px;
+    min-height: 154px;
   }
   #Header .navbar-brand {
-    height: 80px;
-    max-height: 80px;
+    height: 154px;
+    max-height: 154px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -458,10 +559,11 @@ a {
   }
   #Header .nav > li {
     border-top: 0;
+    padding-top: 50px;
+    padding-left: 30px;
   }
   #Header .nav > li > a {
     background-color: transparent;
-    padding: 30px 25px;
   }
   #Header.transparent {
     position: absolute;
@@ -470,8 +572,8 @@ a {
     left: 0;
   }
   #Header.transparent .navbar:not(.navbar-fixed-top) {
-    background-color: transparent;
-    border-bottom: 1px solid rgba(171, 171, 171, 0.4);
+    background-color: rgba(17, 17, 17, 0.65);
+    border-bottom: 2px solid rgba(147, 122, 107, 0.251);
   }
   #Header.transparent .navbar:not(.navbar-fixed-top) .navbar-brand > img:first-child {
     display: block;
@@ -485,7 +587,10 @@ a {
   #Header.transparent .navbar:not(.navbar-fixed-top) .nav > li.active > a,
   #Header.transparent .navbar:not(.navbar-fixed-top) .nav > li > a:hover {
     background-color: transparent;
-    color: #f89406;
+  }
+
+  #Banner {
+    min-height: 750px;
   }
 }
 
