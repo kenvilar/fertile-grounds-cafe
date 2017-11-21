@@ -1,7 +1,7 @@
 #Header {
 	position: relative;
 	.container-fluid {
-		max-width: 1370px;
+		max-width: 1200px;
 	}
 	.navbar {
 		border-radius: 0;
@@ -39,10 +39,6 @@
 			text-transform: uppercase;
 			line-height: 1.2;
 			z-index: 89;
-		}
-		&.active > a,
-		> a:hover {
-			border-bottom: 2px solid $color__main-brown;
 		}
 	}
 	.navbar-toggle {

@@ -1,4 +1,10 @@
 @media screen and (min-width: 768px) {
+	.nopadding {
+		padding: 0;
+	}
+	.container {
+		width: 1200px;
+	}
 	#Header {
 		height: 154px;
 		.navbar {
@@ -19,6 +25,10 @@
 				border-top: 0;
 				padding-top: 50px;
 				padding-left: 30px;
+				&.active > a,
+				> a:hover {
+					border-bottom: 2px solid $color__main-brown;
+				}
 			}
 			> li > a {
 				background-color: transparent;
@@ -56,7 +66,7 @@
 		min-height: 750px;
 		> .intro-content {
 			.container {
-				width: 1370px;
+				width: 1200px;
 				h1 {
 					margin-bottom: 0;
 				}
