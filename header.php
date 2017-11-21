@@ -52,3 +52,5 @@
 			</div>
 		</nav>
 	</header>
+	
+	<?php require 'layouts/navigation-menu.php'; ?>
