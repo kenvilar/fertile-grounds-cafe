@@ -20,7 +20,7 @@ get_header();
 						health-conscious selection of light fare.
 
 						<br><br>
-						
+
 						Completely remodeled, our coffee shop boasts multiple gathering spaces, including gardens,
 						patios, decks and cozy fireplaces, perfect for small groups or solitude. Inside, you will find
 						an eclectic collection of wellness-centered goods, including essential oils, self-help books,
