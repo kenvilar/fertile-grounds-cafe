@@ -4,14 +4,14 @@ get_header();
 ?>
 
 	<section id="home-about">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="nopadding col-lg-6">
 					<img class="img-responsive"
 					     src="<?php echo get_template_directory_uri() . '/assets/images/home/mug.png'; ?>"
 					     alt="home-image">
 				</div>
-				<div class="nopadding col-lg-6">
+				<div class="col-lg-6">
 					<br>
 					<h2 class="text-brown text-uppercase">About</h2>
 					<div class="h6">
@@ -65,6 +65,8 @@ get_header();
 
 						<a href="" class="btn btn-version2">Check Rental Fees &nbsp;<i
 									class="fa fa-angle-right"></i></a>
+
+						<br><br><br>
 					</div>
 				</div>
 			</div>

@@ -27,11 +27,11 @@
 	border-radius: 0;
 	padding: 10px 22px;
 	&:hover {
-		color: inherit;
-		background-color: $color__main-brown;
+		color: $color__main-brown;
+		background-color: $color__main-white;
 		border-color: #adadad;
 		.fa {
-			color: $color__main-black;
+			color: $color__main-brown;
 		}
 	}
 	.fa {

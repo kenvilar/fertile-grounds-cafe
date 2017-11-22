@@ -3579,12 +3579,12 @@ section {
   padding: 10px 22px;
 }
 .btn-version2:hover {
-  color: inherit;
-  background-color: #937a6b;
+  color: #937a6b;
+  background-color: #ffffff;
   border-color: #adadad;
 }
 .btn-version2:hover .fa {
-  color: #111111;
+  color: #937a6b;
 }
 .btn-version2 .fa {
   color: #111111;
