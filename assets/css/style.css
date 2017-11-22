@@ -3499,6 +3499,13 @@ a {
   background-repeat: no-repeat;
 }
 
+.wrapper {
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 330px;
+  z-index: 1;
+}
+
 .alignleft {
   display: inline;
   float: left;
@@ -3520,6 +3527,13 @@ a {
 
 .text-brown {
   color: #937a6b;
+}
+
+.link-no-hover {
+  color: inherit;
+}
+.link-no-hover:hover {
+  color: inherit;
 }
 
 .btn-version1 {
@@ -3708,6 +3722,30 @@ a {
   margin-top: 300px;
   margin-bottom: 240px;
   z-index: 1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #111111;
+  color: #ffffff;
+  padding-top: 30px;
+}
+footer .footer-widgets .widgettitle {
+  font-size: 22px;
+  line-height: 1.273;
+  font-family: 'Raleway-ExtraBold', sans-serif;
+  color: #ffffff;
+  color: #937a6b;
+}
+footer .footer-widgets .textwidget p, footer .footer-widgets .textwidget address {
+  font-size: 17px;
+  line-height: 1.647;
+  font-family: 'Raleway-Regular', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 /*-------------------------Libraries----------------------------------------*/
@@ -5052,13 +5090,18 @@ a {
 }
 
 /*-------------------------Media Queries-------------------------------*/
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+
+  #Banner > .intro-content .container {
+    width: 1200px;
+  }
+}
 @media screen and (min-width: 768px) {
   .nopadding {
     padding: 0;
-  }
-
-  .container {
-    width: 1200px;
   }
 
   #Header {
@@ -5116,11 +5159,17 @@ a {
   #Banner {
     min-height: 750px;
   }
-  #Banner > .intro-content .container {
-    width: 1200px;
-  }
   #Banner > .intro-content .container h1 {
     margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    margin-bottom: 0;
+  }
+
+  footer {
+    position: relative;
   }
 }
 
