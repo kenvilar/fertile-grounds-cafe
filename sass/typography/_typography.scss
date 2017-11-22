@@ -1,34 +1,40 @@
 h1, .h1 {
-	@include font_h1;
+	font-size: 78px;
+	line-height: 1.026;
 	@include raleway-bold;
 	@include wordbreak;
 }
 h2, .h2 {
-	@include font_h2;
+	font-size: 48px;
+	line-height: 1.667;
 	@include raleway-extrabold;
 	@include wordbreak;
 }
 h3, .h3 {
-	@include font_h3;
+	font-size: 22px;
+	line-height: 1.273;
 	@include wordbreak;
 }
 h4, .h4 {
-	@include font_h4;
+	font-size: 20px;
+	line-height: 1.2;
 	@include wordbreak;
 }
 h5, .h5 {
-	@include font_h5;
+	font-size: 19px;
 	@include wordbreak;
 }
 h6, .h6 {
-	@include font_h6;
+	font-size: 17px;
+	line-height: 1.65;
 	@include wordbreak;
 }
 p, .p {
-	@include font_p;
+	font-size: 15px;
 	@include wordbreak;
 }
 .small-p {
-	@include font_small_p;
+	font-size: 14px;
+	line-height: 2;
 	@include wordbreak;
 }

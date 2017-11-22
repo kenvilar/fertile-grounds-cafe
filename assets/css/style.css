@@ -310,10 +310,10 @@ h1, .h1 {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  -webkit-hyphens: auto;
+  /*-webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto;*/
 }
 
 h2, .h2 {
@@ -325,10 +325,10 @@ h2, .h2 {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  -webkit-hyphens: auto;
+  /*-webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto;*/
 }
 
 h3, .h3 {
@@ -338,10 +338,10 @@ h3, .h3 {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  -webkit-hyphens: auto;
+  /*-webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto;*/
 }
 
 h4, .h4 {
@@ -351,10 +351,10 @@ h4, .h4 {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  -webkit-hyphens: auto;
+  /*-webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto;*/
 }
 
 h5, .h5 {
@@ -363,23 +363,23 @@ h5, .h5 {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  -webkit-hyphens: auto;
+  /*-webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto;*/
 }
 
 h6, .h6 {
   font-size: 17px;
-  line-height: 1.647;
+  line-height: 1.65;
   -ms-word-break: break-all;
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  -webkit-hyphens: auto;
+  /*-webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto;*/
 }
 
 p, .p {
@@ -388,10 +388,10 @@ p, .p {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  -webkit-hyphens: auto;
+  /*-webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto;*/
 }
 
 .small-p {
@@ -401,10 +401,10 @@ p, .p {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  -webkit-hyphens: auto;
+  /*-webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto;*/
 }
 
 .fa {
@@ -3533,6 +3533,14 @@ section {
   color: #937a6b;
 }
 
+.text-white {
+  color: #ffffff;
+}
+
+.text-black {
+  color: #111111;
+}
+
 .link-no-hover {
   color: inherit;
 }
@@ -3559,6 +3567,27 @@ section {
 }
 .btn-version1 .fa {
   color: #937a6b;
+}
+
+.btn-version2 {
+  color: inherit;
+  background-color: transparent;
+  border-color: #ccc;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  padding: 10px 22px;
+}
+.btn-version2:hover {
+  color: inherit;
+  background-color: #937a6b;
+  border-color: #adadad;
+}
+.btn-version2:hover .fa {
+  color: #111111;
+}
+.btn-version2 .fa {
+  color: #111111;
 }
 
 /*-------------------------Modules-------------------------------------*/
@@ -3737,19 +3766,13 @@ footer {
   padding-top: 30px;
 }
 footer .footer-widgets .widgettitle {
-  font-size: 22px;
-  line-height: 1.273;
   font-family: 'Raleway-ExtraBold', sans-serif;
   color: #ffffff;
   color: #937a6b;
 }
-footer .footer-widgets .textwidget {
-  font-size: 17px;
-  line-height: 1.647;
-}
 footer .footer-widgets .textwidget p, footer .footer-widgets .textwidget address {
   font-size: 17px;
-  line-height: 1.647;
+  line-height: 1.65;
   font-family: 'Raleway-Regular', sans-serif;
   color: #ffffff;
   font-weight: 400;
@@ -3759,8 +3782,16 @@ footer ul {
   padding: 0;
 }
 footer ul li {
-  line-height: 1;
+  line-height: 1.2;
   margin-bottom: 15px;
+}
+
+#home-venue {
+  padding-bottom: 0;
+}
+#home-venue .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /*-------------------------Libraries----------------------------------------*/

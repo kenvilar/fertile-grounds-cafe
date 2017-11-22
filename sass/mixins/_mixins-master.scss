@@ -25,40 +25,10 @@
 
 	/* Non standard for webkit */
 	word-break: break-word;
-	-webkit-hyphens: auto;
+	/*-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
-	hyphens: auto;
-}
-@mixin font_h1() {
-	font-size: 78px;
-	line-height: 1.026;
-}
-@mixin font_h2() {
-	font-size: 48px;
-	line-height: 1.667;
-}
-@mixin font_h3() {
-	font-size: 22px;
-	line-height: 1.273;
-}
-@mixin font_h4() {
-	font-size: 20px;
-	line-height: 1.2;
-}
-@mixin font_h5() {
-	font-size: 19px;
-}
-@mixin font_h6() {
-	font-size: 17px;
-	line-height: 1.647;
-}
-@mixin font_p() {
-	font-size: 15px;
-}
-@mixin font_small_p() {
-	font-size: 14px;
-	line-height: 2;
+	hyphens: auto;*/
 }
 // Fonts
 @mixin raleway() {

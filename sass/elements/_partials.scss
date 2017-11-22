@@ -20,6 +20,12 @@
 .text-brown {
 	color: $color__main-brown;
 }
+.text-white {
+	color: $color__main-white;
+}
+.text-black {
+	color: $color__main-black;
+}
 .link-no-hover {
 	color: inherit;
 	&:hover {

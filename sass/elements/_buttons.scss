@@ -15,6 +15,26 @@
 		}
 	}
 	.fa {
-		color: $color__fa-angle;
+		color: $color__main-brown;
+	}
+}
+.btn-version2 {
+	color: inherit;
+	background-color: transparent;
+	border-color: #ccc;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 10px 22px;
+	&:hover {
+		color: inherit;
+		background-color: $color__main-brown;
+		border-color: #adadad;
+		.fa {
+			color: $color__main-black;
+		}
+	}
+	.fa {
+		color: $color__main-black;
 	}
 }

@@ -7,26 +7,22 @@ footer {
 	padding-top: 30px;
 	.footer-widgets {
 		.widgettitle {
-			@include font_h3;
 			@include raleway-extrabold;
 			color: $color__main-brown;
 		}
 		.textwidget {
-			@include font-h6;
 			p, address {
-				@include font-h6;
+				font-size: 17px;
+				line-height: 1.65;
 				@include raleway;
 			}
 		}
-	}
-	.copyright {
-
 	}
 	ul {
 		list-style-type: none;
 		padding: 0;
 		li {
-			line-height: 1;
+			line-height: 1.2;
 			margin-bottom: 15px;
 		}
 	}
