@@ -65,3 +65,8 @@
 	font-family: 'Raleway-MediumItalic', sans-serif;
 	color: $color__main-white;
 }
+@mixin fontawesome() {
+	font-family: 'FontAwesome', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
