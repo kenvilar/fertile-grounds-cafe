@@ -1,9 +1,18 @@
+@media screen and (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+	#Banner {
+		> .intro-content {
+			.container {
+				width: 1200px;
+			}
+		}
+	}
+}
 @media screen and (min-width: 768px) {
 	.nopadding {
 		padding: 0;
-	}
-	.container {
-		width: 1200px;
 	}
 	#Header {
 		height: 154px;
@@ -66,7 +75,6 @@
 		min-height: 750px;
 		> .intro-content {
 			.container {
-				width: 1200px;
 				h1 {
 					margin-bottom: 0;
 				}
