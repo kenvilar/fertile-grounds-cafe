@@ -2,27 +2,33 @@
 /* Navigation Menu */
 ?>
 
-<section id="Banner" data-image="<?php echo get_template_directory_uri() . '/assets/images/banner/home.png'; ?>"
-         style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/banner/home.png'; ?>);">
-	<div class="intro-content">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-md-10 col-sm-8 col-xs-12 nopadding">
-					<h1 class="animated fadeInUp">Welcome to <br>Fertile Grounds Cafe!</h1>
-				</div>
+<header class="transparent" id="Header">
+	<nav class="navbar">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar"
+				        aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="">
+					<img src="<?php echo get_template_directory_uri() . '/assets/images/logos/logo.png'; ?>"
+					     alt="Fertile Grounds Cafe">
+					<img src="<?php echo get_template_directory_uri() . '/assets/images/logos/logo.png'; ?>"
+					     alt="Fertile Grounds Cafe">
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">About</a></li>
+					<li class=""><a href="#">Coffee</a></li>
+					<li class=""><a href="#">Venue</a></li>
+					<li class=""><a href="#">Events</a></li>
+					<li class=""><a href="#">Contact Us</a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 nopadding" style="padding-left: 0;">
-			<hr>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 nopadding">
-					<h4>Coffee House <span class="text-brown">•</span> Wellness Shop <span class="text-brown">•</span>
-						Events <span class="text-brown">•</span> Rental Space
-					</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+	</nav>
+</header>
