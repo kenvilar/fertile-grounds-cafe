@@ -29,6 +29,11 @@
 								<span class="text-brown">Call</span> <a class="link-no-hover"
 								                                        href="tel:+1 585-244-1280">+1 585-244-1280</a>
 							</address>
+							<ul class="footer-social">
+								<li><a href=""><i class="fa fa-facebook"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-instagram"></i></a></li>
+							</ul>
 						</div>
 					</div>
 				</div>

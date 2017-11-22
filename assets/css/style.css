@@ -3511,6 +3511,10 @@ strong {
   color: inherit;
 }
 
+address {
+  margin-bottom: 5px;
+}
+
 .wrapper {
   position: relative;
   background-color: #fff;
@@ -3819,6 +3823,23 @@ footer ul {
 footer ul li {
   line-height: 1.4;
   margin-bottom: 15px;
+}
+footer .footer-social {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+footer .footer-social li {
+  margin: 0 1px;
+  display: inline-block;
+}
+footer .footer-social li a {
+  color: #fafafa;
+}
+footer .footer-social li a .fa {
+  font-size: 16px;
+  background: #937a6b;
+  padding: 13px 16px;
 }
 
 #home-venue {
