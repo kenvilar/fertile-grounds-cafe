@@ -12,7 +12,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 nopadding" style="padding-left: 0;">
+		<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 nopadding" style="padding-left: 0;">
 			<hr>
 		</div>
 		<div class="container">
