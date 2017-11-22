@@ -3504,6 +3504,13 @@ section {
   padding-bottom: 10px;
 }
 
+strong {
+  font-size: inherit;
+  font-family: 'Raleway-Bold', sans-serif;
+  color: #ffffff;
+  color: inherit;
+}
+
 .wrapper {
   position: relative;
   background-color: #fff;
@@ -5163,6 +5170,54 @@ footer ul li {
   animation-name: slideOutUp;
 }
 
+#testimonial-carousel {
+  margin: 0 0 90px;
+}
+#testimonial-carousel .owl-nav [class*=owl-] {
+  height: auto;
+  line-height: 30px;
+  border-radius: 0;
+  text-align: center;
+}
+#testimonial-carousel .owl-nav [class*=owl-]:hover {
+  background: transparent;
+  color: #FFF;
+}
+#testimonial-carousel .owl-prev, #testimonial-carousel .owl-next {
+  position: absolute;
+  top: 10px;
+  height: 30px;
+  margin: auto !important;
+}
+#testimonial-carousel .owl-prev {
+  left: 0;
+}
+#testimonial-carousel .owl-next {
+  right: 0;
+}
+#testimonial-carousel blockquote {
+  padding: 0;
+  border-left: transparent;
+  font-size: 17.5px;
+  padding-left: 100px;
+  margin: 0;
+  background: url("../../assets/images/icons/quote.png") no-repeat top left;
+}
+
+@media screen and (max-width: 767px) {
+  #testimonial-carousel .owl-nav [class*=owl-] {
+    width: 30px;
+    height: auto;
+    line-height: 30px;
+    border-radius: 0;
+    text-align: center;
+    top: 100px;
+  }
+  #testimonial-carousel blockquote {
+    padding-left: 0;
+    background: none;
+  }
+}
 /*-------------------------Media Queries-------------------------------*/
 @media screen and (min-width: 1200px) {
   .container {

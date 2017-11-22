@@ -80,5 +80,47 @@ get_header();
 		</div>
 	</section>
 
+	<section id="home-testimonial">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="text-center text-uppercase text-brown">What our Customer says</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 nopadding">
+					<div id="testimonial-carousel" class="owl-carousel owl-theme">
+						<div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+							<div class="item">
+								<blockquote>
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus neque velit,
+										convallis at est sed, condimentum blandit nisl. Vivamus felis neque, semper et
+										elit eget, congue consectetur felis. Aenean quis quam nec eros convallis
+										lacinia. In hac habitasse platea dictumst. Integer sollicitudin dignissim purus,
+										at tristique orci egestas nec. Proin malesuada vehicula sagittis.</h6>
+
+									<strong><span class="h6">John Doe</span></strong>
+								</blockquote>
+							</div>
+						</div>
+						<div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+							<div class="item">
+								<blockquote>
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus neque velit,
+										convallis at est sed, condimentum blandit nisl. Vivamus felis neque, semper et
+										elit eget, congue consectetur felis. Aenean quis quam nec eros convallis
+										lacinia. In hac habitasse platea dictumst. Integer sollicitudin dignissim purus,
+										at tristique orci egestas nec. Proin malesuada vehicula sagittis.</h6>
+
+									<strong><span class="h6">John Doe</span></strong>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 <?php
 get_footer();

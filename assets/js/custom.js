@@ -2,7 +2,24 @@
 
 	$( 'document' ).ready( function() {
 
-		$( '.owl-carousel' ).owlCarousel();
+		$( '#testimonial-carousel' ).owlCarousel( {
+			margin          : 15,
+			items           : 1,
+			nav             : true,
+			autoHeight      : true,
+			dots            : false,
+			navText         : [
+				"<img src='../../wp-content/themes/fertilegroundscafe/assets/images/icons/arrow-left.png'>",
+				"<img src='../../wp-content/themes/fertilegroundscafe/assets/images/icons/arrow-right.png'>"
+			],
+			loop            : true,
+			responsiveClass : true,
+			responsive      : {
+				0 : {
+					items : 1
+				}
+			}
+		} );
 
 	} );
 

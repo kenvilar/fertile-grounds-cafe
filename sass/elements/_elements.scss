@@ -48,3 +48,8 @@ section {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+strong {
+	font-size: inherit;
+	@include raleway-bold;
+	color: inherit;
+}
