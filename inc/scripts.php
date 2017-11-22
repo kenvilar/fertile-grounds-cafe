@@ -25,6 +25,12 @@ function fertilegroundscafe_scripts() {
 		array( 'jquery' ),
 		'2017',
 		true );
+	
+	wp_enqueue_script( 'owl-carousel-script',
+		get_template_directory_uri() . '/assets/bower_components/owl.carousel/dist/owl.carousel.min.js',
+		array( 'jquery' ),
+		'2017',
+		true );
 }
 
 add_action( 'wp_enqueue_scripts', 'fertilegroundscafe_scripts' );
