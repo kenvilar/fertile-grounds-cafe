@@ -14,6 +14,8 @@
 			],
 			loop            : true,
 			responsiveClass : true,
+			animateOut      : 'fadeOutLeft',
+			animateIn       : 'flipInX',
 			responsive      : {
 				0 : {
 					items : 1
