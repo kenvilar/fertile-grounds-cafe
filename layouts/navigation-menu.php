@@ -8,7 +8,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-md-10 col-sm-8 col-xs-12 nopadding">
-					<h1>Welcome to <br>Fertile Grounds Cafe!</h1>
+					<h1 class="animated fadeInUp">Welcome to <br>Fertile Grounds Cafe!</h1>
 				</div>
 			</div>
 		</div>
