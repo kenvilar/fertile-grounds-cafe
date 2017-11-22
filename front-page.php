@@ -66,12 +66,16 @@ get_header();
 						<a href="" class="btn btn-version2">Check Rental Fees &nbsp;<i
 									class="fa fa-angle-right"></i></a>
 
-						<br><br><br>
+						<br><br><br><br>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-5 col-md-5 col-sm-12">
-				<!--put here the gallery-->
+				<?php
+				if ( function_exists( 'envira_gallery' ) ) {
+					envira_gallery( 'home-gallery', 'slug', array( 'limit' => 8 ) );
+				}
+				?>
 			</div>
 		</div>
 	</section>
