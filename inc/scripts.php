@@ -20,15 +20,21 @@ function fertilegroundscafe_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 	
-	wp_enqueue_script( 'bootstrap-script',
+	wp_enqueue_script( 'bootstrap',
 		get_template_directory_uri() . '/assets/bower_components/bootstrap/dist/js/bootstrap.min.js',
 		array( 'jquery' ),
 		'2017',
 		true );
 	
-	wp_enqueue_script( 'owl-carousel-script',
+	wp_enqueue_script( 'owl-carousel',
 		get_template_directory_uri() . '/assets/bower_components/owl.carousel/dist/owl.carousel.min.js',
 		array( 'jquery' ),
+		'2017',
+		true );
+	
+	wp_enqueue_script( 'main-custom',
+		get_template_directory_uri() . '/assets/js/custom.js',
+		array(),
 		'2017',
 		true );
 }
