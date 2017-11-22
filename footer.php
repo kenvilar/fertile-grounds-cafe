@@ -17,7 +17,7 @@
 	<div class="footer-widgets">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 nopadding">
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 nopadding">
 					<div id="text-1" class="widget widget_text">
 						<h3 class="widgettitle">About</h3>
 						<div class="textwidget">
@@ -32,11 +32,15 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div id="text-2" class="widget widget_text">
 						<h3 class="widgettitle">Gallery</h3>
 						<div class="textwidget">
-
+							<?php
+							if ( function_exists( 'envira_gallery' ) ) {
+								envira_gallery( 'footer-widget-gallery', 'slug', array( 'limit' => 9, 'column' => 3 ) );
+							}
+							?>
 						</div>
 					</div>
 				</div>
