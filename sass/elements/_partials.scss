@@ -1,3 +1,9 @@
+.wrapper {
+	position: relative;
+	background-color: #fff;
+	margin-bottom: 330px;
+	z-index: 1;
+}
 .alignleft {
 	display: inline;
 	float: left;
@@ -14,4 +20,10 @@
 }
 .text-brown {
 	color: $color__main-brown;
+}
+.link-no-hover {
+	color: inherit;
+	&:hover {
+		color: inherit;
+	}
 }
