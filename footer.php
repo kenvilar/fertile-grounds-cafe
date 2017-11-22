@@ -26,8 +26,8 @@
 							<address>
 								2244 East Avenue <br>
 								Rochester, New York <br>
-								<span class="text-brown">Call</span> <a class="link-no-hover" href="">+1
-									585-244-1280</a>
+								<span class="text-brown">Call</span> <a class="link-no-hover"
+								                                        href="tel:+1 585-244-1280">+1 585-244-1280</a>
 							</address>
 						</div>
 					</div>

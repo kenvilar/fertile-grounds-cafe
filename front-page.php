@@ -4,7 +4,7 @@ get_header();
 ?>
 
 	<section id="home-about">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<div class="nopadding col-lg-6">
 					<img class="img-responsive"
@@ -70,7 +70,7 @@ get_header();
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-5 col-md-5">
+			<div class="col-lg-5 col-md-5 col-sm-12">
 				<!--put here the gallery-->
 			</div>
 		</div>
