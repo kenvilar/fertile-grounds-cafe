@@ -21,7 +21,7 @@
 </head>
 
 <body data-spy="scroll" data-target="#navbar">
-<div id="wrapper">
+<div class="wrapper">
 	<header class="transparent" id="Header">
 		<nav class="navbar">
 			<div class="container-fluid">
