@@ -3499,10 +3499,14 @@ a {
   background-repeat: no-repeat;
 }
 
+section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .wrapper {
   position: relative;
   background-color: #fff;
-  margin-bottom: 330px;
   z-index: 1;
 }
 
@@ -3725,7 +3729,6 @@ a {
 }
 
 footer {
-  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -3740,12 +3743,24 @@ footer .footer-widgets .widgettitle {
   color: #ffffff;
   color: #937a6b;
 }
+footer .footer-widgets .textwidget {
+  font-size: 17px;
+  line-height: 1.647;
+}
 footer .footer-widgets .textwidget p, footer .footer-widgets .textwidget address {
   font-size: 17px;
   line-height: 1.647;
   font-family: 'Raleway-Regular', sans-serif;
   color: #ffffff;
   font-weight: 400;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+footer ul li {
+  line-height: 1;
+  margin-bottom: 15px;
 }
 
 /*-------------------------Libraries----------------------------------------*/

@@ -1,5 +1,4 @@
 footer {
-	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -13,6 +12,7 @@ footer {
 			color: $color__main-brown;
 		}
 		.textwidget {
+			@include font-h6;
 			p, address {
 				@include font-h6;
 				@include raleway;
@@ -21,5 +21,13 @@ footer {
 	}
 	.copyright {
 
+	}
+	ul {
+		list-style-type: none;
+		padding: 0;
+		li {
+			line-height: 1;
+			margin-bottom: 15px;
+		}
 	}
 }
