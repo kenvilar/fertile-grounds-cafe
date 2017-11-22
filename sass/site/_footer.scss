@@ -1,0 +1,25 @@
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: $color__main-black;
+	color: $color__main-white;
+	padding-top: 30px;
+	.footer-widgets {
+		.widgettitle {
+			@include font_h3;
+			@include raleway-extrabold;
+			color: $color__main-brown;
+		}
+		.textwidget {
+			p, address {
+				@include font-h6;
+				@include raleway;
+			}
+		}
+	}
+	.copyright {
+
+	}
+}
