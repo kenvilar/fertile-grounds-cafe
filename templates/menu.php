@@ -68,7 +68,7 @@ get_header(); ?>
 	         style="background-image: linear-gradient(rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.9)), url(<?php echo get_template_directory_uri() . '/assets/images/menu/new-teas.jpg'; ?>)">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-md-offset-3 col-md-6">
+				<div class="col-xs-12 col-md-offset-3 col-md-6 nopadding">
 					<div class="gradient-bg-image-box">
 						<h2 class="text-white text-uppercase text-bold text-center">
 							New Teas From Serendipitea
@@ -127,6 +127,23 @@ get_header(); ?>
 					<img class="img-responsive center-block"
 					     src="<?php echo get_template_directory_uri() . '/assets/images/menu/menu1.png'; ?>"
 					     alt="image">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="gradient-bg-image"
+	         data-image="<?php echo get_template_directory_uri() . '/assets/images/menu/fertile-grounds-cafe.jpg'; ?>"
+	         style="background-image: linear-gradient(rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.9)), url(<?php echo get_template_directory_uri() . '/assets/images/menu/fertile-grounds-cafe.jpg'; ?>)">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-offset-3 col-md-6 nopadding">
+					<div class="gradient-bg-image-box">
+						<h2 class="text-white text-uppercase text-bold text-center">
+							Fertile Grounds Cafe
+						</h2>
+						<div class="gradient-bg-image-box-border"></div>
+					</div>
 				</div>
 			</div>
 		</div>
