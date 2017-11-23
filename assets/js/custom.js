@@ -2,6 +2,9 @@
 
 	$( 'document' ).ready( function() {
 
+		//Equal Columns height
+		$( '.equal-height' ).matchHeight();
+
 		$( '#testimonial-carousel' ).owlCarousel( {
 			margin          : 15,
 			items           : 1,

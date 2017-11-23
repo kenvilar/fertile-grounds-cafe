@@ -32,6 +32,16 @@ function fertilegroundscafe_scripts() {
 		'2017',
 		true );
 	
+	wp_enqueue_script( 'matchheight',
+		get_template_directory_uri() . '/assets/lib/jquery.matchHeight-min.js',
+		array( 'jquery' ),
+		'2017', true );
+	
+	wp_enqueue_script( 'viewport',
+		get_template_directory_uri() . '/assets/lib/jquery.viewportchecker.min.js',
+		array( 'jquery' ),
+		'2017', true );
+	
 	wp_enqueue_script( 'main-custom',
 		get_template_directory_uri() . '/assets/js/custom.js',
 		array(),
