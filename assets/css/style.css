@@ -3555,15 +3555,15 @@ address {
 }
 
 .background-brown {
-  background-color: #937a6b;
+  background-color: #937a6b !important;
 }
 
 .background-white {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
 }
 
 .background-black {
-  background-color: #111111;
+  background-color: #111111 !important;
 }
 
 .btn-version1 {
@@ -5460,6 +5460,12 @@ footer .footer-social li a .fa {
 
   footer {
     position: relative;
+  }
+}
+@media screen and (max-width: 360px) {
+  /* Menu */
+  .cafe-menu-wrapper {
+    padding: 30px 10px 50px;
   }
 }
 

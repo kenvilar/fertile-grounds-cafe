@@ -81,5 +81,56 @@ get_header(); ?>
 		</div>
 	</section>
 
+	<section style="padding-top: 60px;padding-bottom: 65px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<div class="background-white cafe-menu-wrapper nopadding">
+						<div class="cafe-menu-item text-black">
+							<strong>Peppermint</strong>
+						</div>
+						<div class="cafe-menu-item text-black">
+							<strong>Lemongrass</strong>
+						</div>
+						<div class="cafe-menu-item text-black">
+							<strong>Ginger</strong>
+						</div>
+						<div class="cafe-menu-item text-black">
+							<strong>Chamomile</strong>
+						</div>
+						<div class="cafe-menu-item text-black">
+							<strong>Remember Rosemary</strong>
+							Chinese green tea, lemon myrtle, orange peel, rosemary
+						</div>
+						<div class="cafe-menu-item text-black">
+							<strong>Passion and Envy</strong>
+							Blue mallow flowers, Chinese green tea, mango flavor, marigold petals, papaya flavor,
+							pineapple flavor
+						</div>
+						<div class="cafe-menu-item text-black">
+							<strong>Secret Garden Tisane</strong>
+							Chamomile, lavender, peppermint, rooibos, rose petals
+						</div>
+						<div class="cafe-menu-item text-black">
+							<strong>Red Velvet *contains traces of sugar & dairy</strong>
+							Apple, cacao beans, chocolate bits, hibiscus, raspberry, rooibos, rose hips, vanilla, white
+							chocolate bits
+						</div>
+						<div class="cafe-menu-item text-black">
+							<strong>Once Upon A Tea *contains traces of sugar & dairy</strong>
+							Apple, cacao beans, chocolate bits, peppermint, rooibos, vanilla,
+							white chocolate bits
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<img class="img-responsive center-block"
+					     src="<?php echo get_template_directory_uri() . '/assets/images/menu/menu1.png'; ?>"
+					     alt="image">
+				</div>
+			</div>
+		</div>
+	</section>
+
 <?php
 get_footer();
