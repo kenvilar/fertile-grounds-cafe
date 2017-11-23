@@ -63,5 +63,23 @@ get_header(); ?>
 		</div>
 	</section>
 
+	<section class="gradient-bg-image"
+	         data-image="<?php echo get_template_directory_uri() . '/assets/images/menu/new-teas.jpg'; ?>"
+	         style="background-image: linear-gradient(rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.9)), url(<?php echo get_template_directory_uri() . '/assets/images/menu/new-teas.jpg'; ?>)">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-offset-3 col-md-6">
+					<div class="gradient-bg-image-box">
+						<h2 class="text-white text-uppercase text-bold text-center">
+							New Teas From Serendipitea
+						</h2>
+						<div class="gradient-bg-image-box-border"></div>
+						<h5 class="text-white text-center">Sm: $1.25, Med: $1.75, Lrg: $2.50</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 <?php
 get_footer();

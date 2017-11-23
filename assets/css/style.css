@@ -3960,6 +3960,15 @@ footer .footer-social li a .fa {
   border-bottom: transparent;
 }
 
+.gradient-bg-image .gradient-bg-image-box {
+  padding: 130px 0 140px;
+}
+.gradient-bg-image .gradient-bg-image-box .gradient-bg-image-box-border {
+  border-bottom: 2px solid #937a6b;
+  width: 100px;
+  margin: 24px auto 25px;
+}
+
 /*-------------------------Libraries----------------------------------------*/
 .animated {
   animation-duration: 1s;

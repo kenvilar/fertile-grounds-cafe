@@ -10,3 +10,13 @@
 		}
 	}
 }
+.gradient-bg-image {
+	.gradient-bg-image-box {
+		padding: 130px 0 140px;
+		.gradient-bg-image-box-border {
+			border-bottom: 2px solid $color__main-brown;
+			width: 100px;
+			margin: 24px auto 25px;
+		}
+	}
+}
