@@ -8,8 +8,8 @@ html {
 }
 body {
 	@include raleway;
-	font-size: 14px;
-	line-height: 2;
+	font-size: 17px;
+	line-height: 1.647;
 	color: $color__main-black;
 	background: $color__main-white;
 	-webkit-backface-visibility: hidden;

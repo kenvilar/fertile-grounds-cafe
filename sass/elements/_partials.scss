@@ -38,3 +38,9 @@
 .banner-title-light {
 	@include raleway-light;
 }
+.background-brown {
+	background-color: $color__main-brown;
+}
+.background-white {
+	background-color: $color__main-white;
+}

@@ -6,7 +6,7 @@ h1, .h1 {
 }
 h2, .h2 {
 	font-size: 48px;
-	line-height: 1.667;
+	line-height: 1.2;
 	@include raleway-extrabold;
 	@include wordbreak;
 }
@@ -30,8 +30,10 @@ h6, .h6 {
 	@include wordbreak;
 }
 p, .p {
-	font-size: 15px;
+	font-size: 17px;
+	line-height: 1.647;
 	@include wordbreak;
+	margin-bottom: 20px;
 }
 .small-p {
 	font-size: 14px;

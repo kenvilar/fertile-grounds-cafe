@@ -83,3 +83,14 @@
 		}
 	}
 }
+@media screen and (min-width: 480px) {
+	.content-md {
+		padding: 60px 70px;
+	}
+}
+@media screen and (min-width: 240px) {
+	.container-fluid-xs {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

@@ -318,7 +318,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 48px;
-  line-height: 1.667;
+  line-height: 1.2;
   font-family: 'Raleway-ExtraBold', sans-serif;
   color: #ffffff;
   -ms-word-break: break-all;
@@ -383,7 +383,8 @@ h6, .h6 {
 }
 
 p, .p {
-  font-size: 15px;
+  font-size: 17px;
+  line-height: 1.647;
   -ms-word-break: break-all;
   word-break: break-all;
   /* Non standard for webkit */
@@ -392,6 +393,7 @@ p, .p {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;*/
+  margin-bottom: 20px;
 }
 
 .small-p {
@@ -3455,8 +3457,8 @@ body {
   font-family: 'Raleway-Regular', sans-serif;
   color: #ffffff;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 2;
+  font-size: 17px;
+  line-height: 1.647;
   color: #111111;
   background: #ffffff;
   -webkit-backface-visibility: hidden;
@@ -3567,6 +3569,14 @@ address {
   font-family: 'Raleway-Light', sans-serif;
   color: #ffffff;
   font-weight: 300;
+}
+
+.background-brown {
+  background-color: #937a6b;
+}
+
+.background-white {
+  background-color: #ffffff;
 }
 
 .btn-version1 {
@@ -5320,6 +5330,17 @@ footer .footer-social li a .fa {
   }
   #Banner > .intro-content .container h1 {
     margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .content-md {
+    padding: 60px 70px;
+  }
+}
+@media screen and (min-width: 240px) {
+  .container-fluid-xs {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media screen and (max-width: 1200px) {
