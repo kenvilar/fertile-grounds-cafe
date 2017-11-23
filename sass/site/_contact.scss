@@ -1,0 +1,27 @@
+.map-and-address-wrapper {
+	.map {
+	}
+	.address {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		.fa {
+			color: $color__main-brown;
+			font-size: 25px;
+			&.fa-center {
+				position: relative;
+				top: 50%;
+				transform: translateY(50%);
+			}
+		}
+	}
+}
+@media screen and (max-width: 767px) {
+	.map-and-address-wrapper {
+		.address {
+			span.h6 {
+				text-align: center;
+				display: block;
+			}
+		}
+	}
+}

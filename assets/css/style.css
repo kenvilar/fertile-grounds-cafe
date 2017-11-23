@@ -3585,6 +3585,10 @@ address {
   background-color: #ffffff;
 }
 
+.background-black {
+  background-color: #111111;
+}
+
 .btn-version1 {
   color: #333;
   background-color: #fff;
@@ -3874,6 +3878,26 @@ footer .footer-social li a .fa {
   padding-right: 0;
 }
 
+.map-and-address-wrapper .address {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.map-and-address-wrapper .address .fa {
+  color: #937a6b;
+  font-size: 25px;
+}
+.map-and-address-wrapper .address .fa.fa-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+@media screen and (max-width: 767px) {
+  .map-and-address-wrapper .address span.h6 {
+    text-align: center;
+    display: block;
+  }
+}
 /*-------------------------Libraries----------------------------------------*/
 .animated {
   animation-duration: 1s;
