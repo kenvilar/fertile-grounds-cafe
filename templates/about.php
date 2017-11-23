@@ -66,9 +66,9 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row text-justify">
 				<div style="margin-bottom: 20px;"></div>
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="col-md-6 col-xs-12">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium quam ornare hendrerit
 						tristique. Duis quis felis ac neque accumsan volutpat. Curabitur gravida tempus lacinia. Donec
 						vel massa elit. Proin ac felis erat. Donec quis turpis sit amet lacus posuere mattis in at
@@ -77,7 +77,7 @@ get_header(); ?>
 						mus. Donec ornare varius nibh, maximus suscipit eros consectetur a. Donec nibh enim, dictum et
 						consectetur quis, hendrerit quis velit. Aenean in vestibulum odio. Morbi semper,</p>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="col-md-6 col-xs-12">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium quam ornare hendrerit
 						tristique. Duis quis felis ac neque accumsan volutpat. Curabitur gravida tempus lacinia. Donec
 						vel massa elit. Proin ac felis erat. Donec quis turpis sit amet lacus posuere mattis in at
