@@ -31,6 +31,12 @@
 	-ms-text-align-last: center;
 	text-align-last: center;
 }
+.text-bold {
+	font-family: 'Raleway-Bold', sans-serif;
+}
+.text-extrabold {
+	font-family: 'Raleway-ExtraBold', sans-serif;
+}
 .link-no-hover {
 	color: inherit;
 	&:hover {

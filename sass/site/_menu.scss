@@ -1,0 +1,12 @@
+.cafe-menu-wrapper {
+	background-color: $color__main-brown;
+	padding: 30px 65px 50px;
+	.cafe-menu-item {
+		border-bottom: 1px solid #bfa697;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		&:last-child {
+			border-bottom: transparent;
+		}
+	}
+}
