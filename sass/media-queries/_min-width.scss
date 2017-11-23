@@ -10,6 +10,15 @@
 		}
 	}
 }
+@media screen and (min-width: 992px) {
+	/* Menu */
+	.absolute-md {
+		position: absolute;
+	}
+	.relative-md {
+		position: relative;
+	}
+}
 @media screen and (min-width: 768px) {
 	.nopadding {
 		padding: 0;

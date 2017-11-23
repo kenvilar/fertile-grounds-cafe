@@ -6,12 +6,12 @@
 get_header(); ?>
 
 	<section style="padding-top: 70px;">
-		<div class="container-fluid container-fluid-xs">
+		<div class="container-fluid container-fluid-xs relative-md">
 			<div class="col-md-6 col-xs-12 nopadding hidden-sm hidden-xs"
 			     data-image="<?php echo get_template_directory_uri() . '/assets/images/menu/cafemenu1.png'; ?>"
 			     style="height: 950px;background-image: url(<?php echo get_template_directory_uri() . '/assets/images/menu/cafemenu1.png'; ?>)">
 			</div>
-			<div class="col-md-6 col-xs-12 nopadding">
+			<div class="col-md-7 col-xs-12 nopadding absolute-md" style="right: 0;">
 				<div style="margin-bottom: 50px;"></div>
 				<div class="cafe-menu-wrapper">
 					<h2 class="text-uppercase text-white text-bold">
