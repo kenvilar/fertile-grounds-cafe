@@ -11,8 +11,9 @@ get_header(); ?>
 				<div class="col-xs-12 col-md-6 nopadding">
 					<div class="map-and-address-wrapper">
 						<!--map area-->
-						<div class="map">
-							asda
+						<div class="map"
+						     data-image="<?php echo get_template_directory_uri() . '/assets/images/contact/map.png'; ?>"
+						     style="height: 615px;background-image: url(<?php echo get_template_directory_uri() . '/assets/images/contact/map.png'; ?>)">
 						</div>
 						<!--black background-->
 						<div class="address background-black text-white">
