@@ -26,6 +26,7 @@
 	.no-margin {
 		margin: 0;
 	}
+	/* Menu */
 	#Header {
 		height: 154px;
 		.navbar {
@@ -46,13 +47,42 @@
 				border-top: 0;
 				padding-top: 50px;
 				padding-left: 30px;
-				&.active > a,
-				> a:hover {
-					border-bottom: 2px solid $color__main-brown;
+				&:hover > a:before,
+				&:focus > a:before,
+				&:active > a:before,
+				&.active > a:before {
+					color: $color__main-brown;
+					-webkit-transform: scale3d(1, 1, 1);
+					-moz-transform: scale3d(1, 1, 1);
+					-ms-transform: scale3d(1, 1, 1);
+					-o-transform: scale3d(1, 1, 1);
+					transform: scale3d(1, 1, 1);
 				}
 			}
 			> li > a {
 				background-color: transparent;
+				&:before {
+					content: "";
+					height: 2px;
+					background-color: $color__main-brown;
+					-webkit-transform: scale3d(0, 1, 1);
+					-moz-transform: scale3d(0, 1, 1);
+					-ms-transform: scale3d(0, 1, 1);
+					-o-transform: scale3d(0, 1, 1);
+					transform: scale3d(0, 1, 1);
+					-webkit-transform-origin: 0 50%;
+					transform-origin: 0 50%;
+					-webkit-transition: -webkit-transform 0.3s;
+					transition: -webkit-transform 0.3s;
+					transition: transform 0.3s;
+					transition: transform 0.3s, -webkit-transform 0.3s;
+					-webkit-transition-timing-function: cubic-bezier(1, 0.68, 0.16, 0.9);
+					transition-timing-function: cubic-bezier(1, 0.68, 0.16, 0.9);
+					left: 15px;
+					right: 15px;
+					bottom: 10px;
+					position: absolute;
+				}
 			}
 		}
 		&.transparent {
