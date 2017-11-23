@@ -32,3 +32,9 @@
 		color: inherit;
 	}
 }
+.home-banner-title {
+	padding-top: 130px;
+}
+.banner-title-light {
+	@include raleway-light;
+}

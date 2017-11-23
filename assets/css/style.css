@@ -3559,6 +3559,16 @@ address {
   color: inherit;
 }
 
+.home-banner-title {
+  padding-top: 130px;
+}
+
+.banner-title-light {
+  font-family: 'Raleway-Light', sans-serif;
+  color: #ffffff;
+  font-weight: 300;
+}
+
 .btn-version1 {
   color: #333;
   background-color: #fff;
@@ -3791,8 +3801,6 @@ address {
 #Banner > .intro-content {
   position: relative;
   width: 100%;
-  margin-top: 300px;
-  margin-bottom: 240px;
   z-index: 1;
 }
 
@@ -5307,7 +5315,8 @@ footer .footer-social li a .fa {
   }
 
   #Banner {
-    min-height: 750px;
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
   #Banner > .intro-content .container h1 {
     margin-bottom: 0;
