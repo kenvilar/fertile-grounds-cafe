@@ -70,3 +70,12 @@
 	-moz-border-radius: $numborderradius;
 	border-radius: $numborderradius;
 }
+@mixin transition() {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-webkit-transition: all .3s ease-in-out !important;
+	-moz-transition: all .3s ease-in-out !important;
+	-o-transition: all .3s ease-in-out !important;
+	transition: all .3s ease-in-out !important;
+}

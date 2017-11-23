@@ -6,6 +6,7 @@
 	-moz-border-radius: 0;
 	border-radius: 0;
 	padding: 10px 22px;
+	@include transition;
 	&:hover {
 		color: $color__main-white;
 		background-color: $color__main-brown;
@@ -29,6 +30,7 @@
 	-moz-border-radius: 0;
 	border-radius: 0;
 	padding: 10px 22px;
+	@include transition;
 	&:hover {
 		color: $color__main-brown;
 		background-color: $color__main-white;
@@ -50,6 +52,7 @@
 	border-color: #ccc;
 	@include border-radius(0);
 	padding: 15px 35px;
+	@include transition;
 	&:hover {
 		color: $color__main-brown;
 		background-color: $color__main-white;
