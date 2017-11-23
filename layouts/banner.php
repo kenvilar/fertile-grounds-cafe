@@ -3,8 +3,8 @@
 ?>
 
 <section id="Banner" class="<?php echo ( ! is_home() && ! is_front_page() ) ? 'Banner-Light' : ''; ?>"
-         data-image="<?php echo has_post_thumbnail() ? the_post_thumbnail_url() : get_template_directory_uri() . '/assets/images/banner/home.png'; ?>"
-         style="background-image: url(<?php echo has_post_thumbnail() ? the_post_thumbnail_url() : get_template_directory_uri() . '/assets/images/banner/home.png'; ?>);">
+         data-image="<?php echo has_post_thumbnail() ? the_post_thumbnail_url() : get_template_directory_uri() . '/assets/images/banner/home.jpg'; ?>"
+         style="background-image: url(<?php echo has_post_thumbnail() ? the_post_thumbnail_url() : get_template_directory_uri() . '/assets/images/banner/home.jpg'; ?>);">
 	<div class="intro-content">
 
 		<div class="container">

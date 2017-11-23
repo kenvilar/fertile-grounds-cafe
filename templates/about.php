@@ -25,8 +25,8 @@ get_header(); ?>
 
 	<section>
 		<div class="container-fluid container-fluid-xs"
-		     data-image="<?php echo get_template_directory_uri() . '/assets/images/about/fresh-roasted-coffee.png'; ?>"
-		     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/about/fresh-roasted-coffee.png'; ?>)">
+		     data-image="<?php echo get_template_directory_uri() . '/assets/images/about/fresh-roasted-coffee.jpg'; ?>"
+		     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/about/fresh-roasted-coffee.jpg'; ?>)">
 			<div class="col-md-6 col-xs-12 nopadding">
 				<div class="col-md-offset-3 col-md-9 col-xs-12 nopadding">
 				</div>
