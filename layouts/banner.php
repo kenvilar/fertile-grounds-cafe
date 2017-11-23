@@ -2,8 +2,8 @@
 /* Banner */
 ?>
 
-<section id="Banner" data-image="<?php echo get_template_directory_uri() . '/assets/images/banner/home.png'; ?>"
-         style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/banner/home.png'; ?>);">
+<section id="Banner" data-image="<?php echo has_post_thumbnail() ? the_post_thumbnail_url() : get_template_directory_uri() . '/assets/images/banner/home.png'; ?>"
+         style="background-image: url(<?php echo has_post_thumbnail() ? the_post_thumbnail_url() : get_template_directory_uri() . '/assets/images/banner/home.png'; ?>);">
 	<div class="intro-content">
 
 		<div class="container">
