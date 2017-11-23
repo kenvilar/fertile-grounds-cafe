@@ -3536,13 +3536,14 @@ address {
 }
 
 .home-banner-title {
-  padding-top: 130px;
+  padding-top: 100px;
 }
 
 .banner-title-light {
   font-family: 'Raleway-Light', sans-serif;
   color: #ffffff;
   font-weight: 300;
+  padding-top: 60px;
 }
 
 .background-brown {
@@ -5383,6 +5384,11 @@ footer .footer-social li a .fa {
   }
   #Banner > .intro-content .container h1 {
     margin-bottom: 0;
+  }
+
+  .Banner-Light {
+    padding-top: 200px;
+    padding-bottom: 130px !important;
   }
 }
 @media screen and (min-width: 480px) {

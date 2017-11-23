@@ -38,10 +38,11 @@
 	}
 }
 .home-banner-title {
-	padding-top: 130px;
+	padding-top: 100px;
 }
 .banner-title-light {
 	@include raleway-light;
+	padding-top: 60px;
 }
 .background-brown {
 	background-color: $color__main-brown;

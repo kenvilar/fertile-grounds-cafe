@@ -2,7 +2,7 @@
 /* Banner */
 ?>
 
-<section id="Banner"
+<section id="Banner" class="<?php echo ( ! is_home() && ! is_front_page() ) ? 'Banner-Light' : ''; ?>"
          data-image="<?php echo has_post_thumbnail() ? the_post_thumbnail_url() : get_template_directory_uri() . '/assets/images/banner/home.png'; ?>"
          style="background-image: url(<?php echo has_post_thumbnail() ? the_post_thumbnail_url() : get_template_directory_uri() . '/assets/images/banner/home.png'; ?>);">
 	<div class="intro-content">
@@ -36,11 +36,11 @@
 		</div>
 		
 		<?php if ( is_home() || is_front_page() ) : ?>
-			<div class="col-lg-8 col-xs-12 nopadding" style="padding-left: 0;">
+			<div class="col-lg-8 col-xs-12 nopadding hidden-xs" style="padding-left: 0;">
 				<hr>
 			</div>
 		<?php else : ?>
-			<div class="col-lg-5 col-xs-12 nopadding" style="padding-left: 0;">
+			<div class="col-lg-5 col-xs-12 nopadding hidden-xs" style="padding-left: 0;">
 				<hr>
 			</div>
 		<?php endif; ?>
