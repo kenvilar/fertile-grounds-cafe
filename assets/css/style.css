@@ -3554,6 +3554,12 @@ address {
   color: #111111;
 }
 
+.text-justify-center {
+  text-align: justify;
+  -ms-text-align-last: center;
+  text-align-last: center;
+}
+
 .link-no-hover {
   color: inherit;
 }
