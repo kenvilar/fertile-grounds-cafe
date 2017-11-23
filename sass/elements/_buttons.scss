@@ -14,6 +14,9 @@
 			color: $color__main-white;
 		}
 	}
+	&:hover, &:active, &:focus {
+		outline: none;
+	}
 	.fa {
 		color: $color__main-brown;
 	}
@@ -34,6 +37,9 @@
 			color: $color__main-brown;
 		}
 	}
+	&:hover, &:active, &:focus {
+		outline: none;
+	}
 	.fa {
 		color: $color__main-black;
 	}
@@ -48,5 +54,8 @@
 		color: $color__main-brown;
 		background-color: $color__main-white;
 		border-color: $color__main-brown;
+	}
+	&:hover, &:active, &:focus {
+		outline: none;
 	}
 }
