@@ -310,10 +310,6 @@ h1, .h1 {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  /*-webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;*/
 }
 
 h2, .h2 {
@@ -325,10 +321,6 @@ h2, .h2 {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  /*-webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;*/
 }
 
 h3, .h3 {
@@ -338,10 +330,6 @@ h3, .h3 {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  /*-webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;*/
 }
 
 h4, .h4 {
@@ -351,10 +339,6 @@ h4, .h4 {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  /*-webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;*/
 }
 
 h5, .h5 {
@@ -363,10 +347,6 @@ h5, .h5 {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  /*-webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;*/
 }
 
 h6, .h6 {
@@ -376,10 +356,6 @@ h6, .h6 {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  /*-webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;*/
 }
 
 p, .p {
@@ -389,10 +365,6 @@ p, .p {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  /*-webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;*/
   margin-bottom: 20px;
 }
 
@@ -403,10 +375,6 @@ p, .p {
   word-break: break-all;
   /* Non standard for webkit */
   word-break: break-word;
-  /*-webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;*/
 }
 
 .fa {
@@ -3606,6 +3574,9 @@ address {
 .btn-version1:hover .fa {
   color: #ffffff;
 }
+.btn-version1:hover, .btn-version1:active, .btn-version1:focus {
+  outline: none;
+}
 .btn-version1 .fa {
   color: #937a6b;
 }
@@ -3627,8 +3598,30 @@ address {
 .btn-version2:hover .fa {
   color: #937a6b;
 }
+.btn-version2:hover, .btn-version2:active, .btn-version2:focus {
+  outline: none;
+}
 .btn-version2 .fa {
   color: #111111;
+}
+
+.btn-contact {
+  font-family: 'Raleway-Bold', sans-serif;
+  color: #ffffff;
+  color: #937a6b;
+  border-color: #ccc;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  padding: 15px 35px;
+}
+.btn-contact:hover {
+  color: #937a6b;
+  background-color: #ffffff;
+  border-color: #937a6b;
+}
+.btn-contact:hover, .btn-contact:active, .btn-contact:focus {
+  outline: none;
 }
 
 /*-------------------------Modules-------------------------------------*/
@@ -3890,6 +3883,32 @@ footer .footer-social li a .fa {
   position: relative;
   top: 50%;
   transform: translateY(50%);
+}
+
+.contact-form-wrapper {
+  padding: 0 20px;
+}
+.contact-form-wrapper .contact-form-box {
+  background-color: #f2eeeb;
+  padding: 30px 25px;
+}
+.contact-form-wrapper .contact-form-box label {
+  font-family: 'Raleway-Regular', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  color: #111111;
+  margin: 4px 0;
+}
+.contact-form-wrapper .contact-form-box input.form-control {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  height: 55px;
+}
+.contact-form-wrapper .contact-form-box textarea {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 @media screen and (max-width: 767px) {
