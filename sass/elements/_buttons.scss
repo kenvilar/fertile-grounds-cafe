@@ -38,3 +38,15 @@
 		color: $color__main-black;
 	}
 }
+.btn-contact {
+	@include raleway-bold;
+	color: $color__main-brown;
+	border-color: #ccc;
+	@include border-radius(0);
+	padding: 15px 35px;
+	&:hover {
+		color: $color__main-brown;
+		background-color: $color__main-white;
+		border-color: $color__main-brown;
+	}
+}
