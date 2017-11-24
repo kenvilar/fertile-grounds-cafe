@@ -70,13 +70,13 @@ class Fertilegrounds_Walker_Nav_Menu extends Walker_Nav_Menu {
 		
 		$output .= $indent . '<li ' . $li_has_children . '>';
 		
-		$atts                = array();
-		$atts['title']       = ! empty( $item->attr_title ) ? $item->attr_title : '';
-		$atts['target']      = ! empty( $item->target ) ? $item->target : '';
-		$atts['rel']         = ! empty( $item->xfn ) ? $item->xfn : '';
-		$atts['href']        = ! empty( $item->url ) ? $item->url : '';
-		$atts['class']       = ( $item->hasChildren ) ? 'dropdown-toggle' : '';
-		$atts['data-toggle'] = ( $item->hasChildren ) ? 'dropdown' : '';
+		$atts           = array();
+		$atts['title']  = ! empty( $item->attr_title ) ? $item->attr_title : '';
+		$atts['target'] = ! empty( $item->target ) ? $item->target : '';
+		$atts['rel']    = ! empty( $item->xfn ) ? $item->xfn : '';
+		$atts['href']   = ! empty( $item->url ) ? $item->url : '';
+		/*$atts['class']       = ( $item->hasChildren ) ? 'dropdown-toggle' : '';
+		$atts['data-toggle'] = ( $item->hasChildren ) ? 'dropdown' : '';*/
 		
 		$atts = apply_filters( 'nav_menu_link_attributes', $atts, $item, $args, $depth );
 		
@@ -95,7 +95,7 @@ class Fertilegrounds_Walker_Nav_Menu extends Walker_Nav_Menu {
 		$item_output = $args->before;
 		$item_output .= '<a' . $attributes . '>';
 		$item_output .= $args->link_before . $title . $args->link_after;
-		$item_output .= ( $item->hasChildren ) ? '<span class="glyphicon glyphicon-chevron-down"></span>' : '';
+		$item_output .= ( $item->hasChildren ) ? '<span data-toggle="dropdown" class="dropdown-toggle glyphicon glyphicon-chevron-down"></span>' : '';
 		$item_output .= '</a>';
 		$item_output .= $args->after;
 		

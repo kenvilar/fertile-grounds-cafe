@@ -41,10 +41,10 @@
 				z-index: 89;
 				font-size: 15px;
 			}
-			> a.dropdown-toggle {
-				.glyphicon {
+			.dropdown-toggle {
+				&.glyphicon {
 					font-size: 10px;
-					padding-left: 5px;
+					padding-left: 10px;
 				}
 			}
 		}
@@ -111,19 +111,32 @@
 					li {
 						a {
 							color: $color__main_brown;
+							.dropdown-toggle {
+								font-size: 15px;
+								position: absolute;
+								right: 0;
+								top: 0;
+								padding: 10px 20px 12px 30px;
+							}
 						}
 						&.active a {
 							background-color: #eee;
 						}
-					}
-					.dropdown-menu {
-						li {
-							a {
-								line-height: 20px;
-								padding: 10px 15px 10px 25px;
-							}
-							&:not(.active) a {
-								background: transparent;
+						a.open + .dropdown-menu {
+							position: relative;
+							display: block;
+							float: none;
+							border-radius: 0;
+						}
+						.dropdown-menu {
+							li {
+								a {
+									line-height: 20px;
+									padding: 10px 15px 10px 25px;
+								}
+								&:not(.active) a {
+									background: transparent;
+								}
 							}
 						}
 					}
