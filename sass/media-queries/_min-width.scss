@@ -1,3 +1,12 @@
+@media screen and (min-width: 1920px) {
+	body {
+		width: 1600px;
+		margin: 0 auto;
+		background-color: $color__main-brown;
+		-webkit-backface-visibility: initial !important;
+		backface-visibility: initial !important;
+	}
+}
 @media screen and (min-width: 1200px) {
 	.container {
 		width: 1200px;

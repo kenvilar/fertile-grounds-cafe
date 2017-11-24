@@ -5435,6 +5435,15 @@ footer .footer-social li a .fa {
   }
 }
 /*-------------------------Media Queries-------------------------------*/
+@media screen and (min-width: 1920px) {
+  body {
+    width: 1600px;
+    margin: 0 auto;
+    background-color: #937a6b;
+    -webkit-backface-visibility: initial !important;
+    backface-visibility: initial !important;
+  }
+}
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
@@ -5585,6 +5594,11 @@ footer .footer-social li a .fa {
   /* Menu */
   .cafe-menu-wrapper {
     padding: 30px 10px 50px;
+  }
+
+  /* Banner */
+  #Banner .home-banner-title, #Banner .banner-title-light {
+    font-size: 50px;
   }
 
   /* Footer Widget */
