@@ -75,35 +75,7 @@ get_header(); ?>
 							lacinia. Donec vel massa elit. Proin ac felis erat. Donec quis turpis sit amet lacus posuere
 							mattis in at risus. Pellentesque at malesuada tortor.</p>
 						<div class="contact-form-box">
-							<form action="">
-								<div class="form-row">
-									<div class="form-group required">
-										<label for="your-name" class="control-label h6">Your name</label>
-										<input id="your-name" name="your-name" class="form-control your-name" size="4"
-										       type="text">
-									</div>
-								</div>
-								<div class="form-row">
-									<div class="form-group required">
-										<label for="your-email" class="control-label">Your email</label>
-										<input id="your-email" name="your-email" class="form-control your-email"
-										       size="20" type="email">
-									</div>
-								</div>
-								<div class="form-row">
-									<div class="form-group required">
-										<label for="my-message" class="control-label">Message</label>
-										<textarea id="my-message" name="my-message" class="form-control your-message"
-										          cols="30" rows="7"></textarea>
-									</div>
-								</div>
-								<div class="form-row">
-									<div class="form-group">
-										<button class="h4 background-black btn btn-contact" type="submit">Submit
-										</button>
-									</div>
-								</div>
-							</form>
+							<?php echo do_shortcode( '[contact-form-7 id="103" title="Contact Form"]' ); ?>
 						</div>
 					</div>
 				</div>
