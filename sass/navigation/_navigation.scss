@@ -88,3 +88,37 @@
 		transform: translateY(0);
 	}
 }
+@media screen and (max-width: 767px) {
+	#Header {
+		.navbar {
+			background: $color__main-black;
+			.navbar-collapse {
+				-webkit-box-shadow: none;
+				box-shadow: none;
+				.navbar-nav {
+					margin: initial;
+					background: $color__main-white;
+					li {
+						a {
+							color: $color__main_brown;
+						}
+						&.active a {
+							background-color: #eee;
+						}
+					}
+					.dropdown-menu {
+						li {
+							a {
+								line-height: 20px;
+								padding: 10px 15px 10px 25px;
+							}
+							&:not(.active) a {
+								background: transparent;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
