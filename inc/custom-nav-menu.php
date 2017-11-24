@@ -95,7 +95,7 @@ class Fertilegrounds_Walker_Nav_Menu extends Walker_Nav_Menu {
 		$item_output = $args->before;
 		$item_output .= '<a' . $attributes . '>';
 		$item_output .= $args->link_before . $title . $args->link_after;
-		$item_output .= ( $item->hasChildren ) ? '<span class="caret"></span>' : '';
+		$item_output .= ( $item->hasChildren ) ? '<span class="glyphicon glyphicon-chevron-down"></span>' : '';
 		$item_output .= '</a>';
 		$item_output .= $args->after;
 		

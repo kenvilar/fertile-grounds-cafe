@@ -24,6 +24,7 @@
 			wp_nav_menu( array(
 				'menu'            => 'primary-menu',
 				'container'       => 'div',
+				'container_id'    => 'navbar',
 				'container_class' => 'collapse navbar-collapse',
 				'menu_class'      => 'nav navbar-nav navbar-right',
 				'echo'            => true,
