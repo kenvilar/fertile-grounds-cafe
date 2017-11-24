@@ -2,7 +2,7 @@
 /**
  * Fertile Grounds Cafe functions and definitions
  *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ * @link    https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package Fertile_Grounds_Cafe
  */
@@ -23,10 +23,10 @@ if ( ! function_exists( 'fertilegroundscafe_setup' ) ) :
 		 * to change 'fertilegroundscafe' to the name of your theme in all the template files.
 		 */
 		load_theme_textdomain( 'fertilegroundscafe', get_template_directory() . '/languages' );
-
+		
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
-
+		
 		/*
 		 * Let WordPress manage the document title.
 		 * By adding theme support, we declare that this theme does not use a
@@ -34,19 +34,19 @@ if ( ! function_exists( 'fertilegroundscafe_setup' ) ) :
 		 * provide it for us.
 		 */
 		add_theme_support( 'title-tag' );
-
+		
 		/*
 		 * Enable support for Post Thumbnails on posts and pages.
 		 *
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
 		add_theme_support( 'post-thumbnails' );
-
+		
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'fertilegroundscafe' ),
+			'primary-menu' => esc_html__( 'Primary', 'fertilegroundscafe' ),
 		) );
-
+		
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
@@ -58,16 +58,16 @@ if ( ! function_exists( 'fertilegroundscafe_setup' ) ) :
 			'gallery',
 			'caption',
 		) );
-
+		
 		// Set up the WordPress core custom background feature.
 		add_theme_support( 'custom-background', apply_filters( 'fertilegroundscafe_custom_background_args', array(
 			'default-color' => 'ffffff',
 			'default-image' => '',
 		) ) );
-
+		
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );
-
+		
 		/**
 		 * Add support for core custom logo.
 		 *
@@ -93,6 +93,7 @@ add_action( 'after_setup_theme', 'fertilegroundscafe_setup' );
 function fertilegroundscafe_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'fertilegroundscafe_content_width', 640 );
 }
+
 add_action( 'after_setup_theme', 'fertilegroundscafe_content_width', 0 );
 
 /**
@@ -111,6 +112,7 @@ function fertilegroundscafe_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
+
 add_action( 'widgets_init', 'fertilegroundscafe_widgets_init' );
 
 /**
@@ -157,3 +159,8 @@ if ( class_exists( 'WooCommerce' ) ) {
  * Own Custom
  */
 require get_template_directory() . '/inc/custom.php';
+
+/**
+ * Custom Nav Menu
+ */
+require get_template_directory() . '/inc/custom-nav-menu.php';

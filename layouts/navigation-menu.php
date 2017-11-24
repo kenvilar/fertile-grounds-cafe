@@ -20,15 +20,21 @@
 					     alt="Fertile Grounds Cafe">
 				</a>
 			</div>
-			<div class="collapse navbar-collapse" id="navbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="/about">About</a></li>
-					<li class=""><a href="/menu">Menu</a></li>
-					<li class=""><a href="/venue">Venue</a></li>
-					<li class=""><a href="/events">Events</a></li>
-					<li class=""><a href="/contact-us">Contact Us</a></li>
-				</ul>
-			</div>
+			<?php
+			wp_nav_menu( array(
+				'menu'            => 'primary-menu',
+				'container'       => 'div',
+				'container_class' => 'collapse navbar-collapse',
+				'menu_class'      => 'nav navbar-nav navbar-right',
+				'echo'            => true,
+				'fallback_cb'     => 'wp_page_menu',
+				'items_wrap'      => '<ul class="%2$s">%3$s</ul>',
+				'item_spacing'    => 'preserve',
+				'depth'           => 0,
+				'walker'          => new Fertilegrounds_Walker_Nav_Menu(),
+				'theme_location'  => 'primary-menu',
+			) );
+			?>
 		</div>
 	</nav>
 </header>
