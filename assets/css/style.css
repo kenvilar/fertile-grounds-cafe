@@ -5593,6 +5593,9 @@ footer .footer-social li a .fa {
     visibility: visible;
     z-index: 99999999;
   }
+  #Header .nav > li.open ul.dropdown-menu li.active a {
+    background: #937a6b;
+  }
   #Header.transparent {
     position: absolute;
     top: 0;
