@@ -31,13 +31,17 @@ img {
 figure {
 	margin: 1em 0;
 }
-a, a:hover {
+a, a:hover, a:focus, a:active {
 	text-decoration: none;
+	outline: 0;
 }
-a {
-	-webkit-transition: all .15s ease-in-out;
-	-o-transition: all .15s ease-in-out;
-	transition: all .15s ease-in-out;
+a, button, input[type="button"] {
+	@include transition;
+}
+i {
+	@include raleway-light-italic;
+	font-size: inherit;
+	color: inherit;
 }
 [data-image] {
 	background-size: cover;

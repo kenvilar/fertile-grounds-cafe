@@ -18,13 +18,13 @@
 	@include center-block;
 }
 .text-brown {
-	color: $color__main-brown;
+	color: $color__main-brown !important;
 }
 .text-white {
-	color: $color__main-white;
+	color: $color__main-white !important;
 }
 .text-black {
-	color: $color__main-black;
+	color: $color__main-black !important;
 }
 .text-justify-center {
 	text-align: justify;
@@ -36,6 +36,9 @@
 }
 .text-extrabold {
 	font-family: 'Raleway-ExtraBold', sans-serif;
+}
+.text-medium-italic {
+	@include raleway-medium-italic;
 }
 .link-no-hover {
 	color: inherit;

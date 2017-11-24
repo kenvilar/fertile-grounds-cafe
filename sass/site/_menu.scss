@@ -20,3 +20,59 @@
 		}
 	}
 }
+#coffee-tabs {
+	margin-bottom: 80px;
+	li {
+		padding-right: 25px;
+		a {
+			color: $color__main-black;
+			background-color: transparent;
+			border: 1px solid $color__main-black;
+			padding: 17px 0;
+			@include border-radius(0);
+		}
+		&:hover a,
+		&.active a {
+			background-color: #927a69;
+			color: #fff;
+		}
+	}
+}
+.tab-content {
+	table {
+		border: transparent;
+		thead {
+			th {
+				border-bottom: transparent;
+			}
+		}
+		tbody {
+			tr {
+				td {
+					border-top: transparent;
+					&:first-child {
+						position: relative;
+						padding-left: 0;
+						&:after {
+							content: "";
+							border-bottom: 1px solid $color__main-brown;
+							width: 100%;
+							position: absolute;
+							left: 0;
+							right: 0;
+							z-index: 1;
+							top: 20px;
+						}
+					}
+					.table-title {
+						float: left;
+						background: $color__main-white;
+						z-index: 2;
+						position: relative;
+						padding-right: 6px;
+					}
+				}
+			}
+		}
+	}
+}

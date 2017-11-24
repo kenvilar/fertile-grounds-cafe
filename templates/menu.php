@@ -6,7 +6,7 @@
 get_header(); ?>
 
 	<section style="padding-top: 70px;">
-		<div class="container-fluid container-fluid-xs relative-md">
+		<div class="container-fluid nopadding relative-md">
 			<div class="col-md-6 col-xs-12 nopadding hidden-sm hidden-xs"
 			     data-image="<?php echo get_template_directory_uri() . '/assets/images/menu/cafemenu1.png'; ?>"
 			     style="height: 950px;background-image: url(<?php echo get_template_directory_uri() . '/assets/images/menu/cafemenu1.png'; ?>)">
@@ -148,6 +148,8 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
+
+<?php require get_template_directory() . '/template-parts/menu-nav-tabs.php'; ?>
 
 <?php
 get_footer();

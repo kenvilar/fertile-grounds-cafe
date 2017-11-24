@@ -3453,14 +3453,27 @@ figure {
   margin: 1em 0;
 }
 
-a, a:hover {
+a, a:hover, a:focus, a:active {
   text-decoration: none;
+  outline: 0;
 }
 
-a {
-  -webkit-transition: all .15s ease-in-out;
-  -o-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
+a, button, input[type="button"] {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-transition: all .3s ease-in-out !important;
+  -moz-transition: all .3s ease-in-out !important;
+  -ms-transition: all .3s ease-in-out !important;
+  -o-transition: all .3s ease-in-out !important;
+  transition: all .3s ease-in-out !important;
+}
+
+i {
+  font-family: 'Raleway-LightItalic', sans-serif;
+  color: #ffffff;
+  font-size: inherit;
+  color: inherit;
 }
 
 [data-image] {
@@ -3511,15 +3524,15 @@ address {
 }
 
 .text-brown {
-  color: #937a6b;
+  color: #937a6b !important;
 }
 
 .text-white {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .text-black {
-  color: #111111;
+  color: #111111 !important;
 }
 
 .text-justify-center {
@@ -3534,6 +3547,11 @@ address {
 
 .text-extrabold {
   font-family: 'Raleway-ExtraBold', sans-serif;
+}
+
+.text-medium-italic {
+  font-family: 'Raleway-MediumItalic', sans-serif;
+  color: #ffffff;
 }
 
 .link-no-hover {
@@ -3579,6 +3597,7 @@ address {
   -ms-user-select: none;
   -webkit-transition: all .3s ease-in-out !important;
   -moz-transition: all .3s ease-in-out !important;
+  -ms-transition: all .3s ease-in-out !important;
   -o-transition: all .3s ease-in-out !important;
   transition: all .3s ease-in-out !important;
 }
@@ -3610,6 +3629,7 @@ address {
   -ms-user-select: none;
   -webkit-transition: all .3s ease-in-out !important;
   -moz-transition: all .3s ease-in-out !important;
+  -ms-transition: all .3s ease-in-out !important;
   -o-transition: all .3s ease-in-out !important;
   transition: all .3s ease-in-out !important;
 }
@@ -3642,12 +3662,13 @@ address {
   -ms-user-select: none;
   -webkit-transition: all .3s ease-in-out !important;
   -moz-transition: all .3s ease-in-out !important;
+  -ms-transition: all .3s ease-in-out !important;
   -o-transition: all .3s ease-in-out !important;
   transition: all .3s ease-in-out !important;
 }
 .btn-contact:hover {
   color: #937a6b;
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   border-color: #937a6b;
 }
 .btn-contact:hover, .btn-contact:active, .btn-contact:focus {
@@ -3768,9 +3789,9 @@ address {
   border-top: 1px solid #ddd;
 }
 #Header .nav > li > a {
-  text-transform: uppercase;
   line-height: 1.2;
   z-index: 89;
+  font-size: 15px;
 }
 #Header .navbar-toggle {
   border-radius: 0;
@@ -3967,6 +3988,57 @@ footer .footer-social li a .fa {
   border-bottom: 2px solid #937a6b;
   width: 100px;
   margin: 24px auto 25px;
+}
+
+#coffee-tabs {
+  margin-bottom: 80px;
+}
+#coffee-tabs li {
+  padding-right: 25px;
+}
+#coffee-tabs li a {
+  color: #111111;
+  background-color: transparent;
+  border: 1px solid #111111;
+  padding: 17px 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#coffee-tabs li:hover a, #coffee-tabs li.active a {
+  background-color: #927a69;
+  color: #fff;
+}
+
+.tab-content table {
+  border: transparent;
+}
+.tab-content table thead th {
+  border-bottom: transparent;
+}
+.tab-content table tbody tr td {
+  border-top: transparent;
+}
+.tab-content table tbody tr td:first-child {
+  position: relative;
+  padding-left: 0;
+}
+.tab-content table tbody tr td:first-child:after {
+  content: "";
+  border-bottom: 1px solid #937a6b;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  top: 20px;
+}
+.tab-content table tbody tr td .table-title {
+  float: left;
+  background: #ffffff;
+  z-index: 2;
+  position: relative;
+  padding-right: 6px;
 }
 
 /*-------------------------Libraries----------------------------------------*/
@@ -5484,12 +5556,6 @@ footer .footer-social li a .fa {
     padding: 60px 70px;
   }
 }
-@media screen and (min-width: 240px) {
-  .container-fluid-xs {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
 @media screen and (max-width: 1200px) {
   .wrapper {
     margin-bottom: 0;
@@ -5497,6 +5563,11 @@ footer .footer-social li a .fa {
 
   footer {
     position: relative;
+  }
+}
+@media screen and (max-width: 767px) {
+  #coffee-tabs li {
+    padding-right: 0;
   }
 }
 @media screen and (max-width: 360px) {

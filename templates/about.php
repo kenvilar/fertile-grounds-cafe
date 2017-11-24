@@ -24,7 +24,7 @@ get_header(); ?>
 	</section>
 
 	<section>
-		<div class="container-fluid container-fluid-xs"
+		<div class="container-fluid nopadding"
 		     data-image="<?php echo get_template_directory_uri() . '/assets/images/about/fresh-roasted-coffee.jpg'; ?>"
 		     style="background-image: url(<?php echo get_template_directory_uri() . '/assets/images/about/fresh-roasted-coffee.jpg'; ?>)">
 			<div class="col-md-6 col-xs-12 nopadding">

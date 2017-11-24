@@ -6,7 +6,7 @@
 get_header(); ?>
 
 	<section>
-		<div class="container-fluid container-fluid-xs">
+		<div class="container-fluid nopadding">
 			<div class="col-md-6 col-xs-12 nopadding hidden-sm hidden-xs"
 			     data-image="<?php echo get_template_directory_uri() . '/assets/images/venue/venue1.png'; ?>"
 			     style="height: 859px;background-image: url(<?php echo get_template_directory_uri() . '/assets/images/venue/venue1.png'; ?>)">

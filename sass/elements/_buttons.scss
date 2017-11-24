@@ -55,7 +55,7 @@
 	@include transition;
 	&:hover {
 		color: $color__main-brown;
-		background-color: $color__main-white;
+		background-color: $color__main-white !important;
 		border-color: $color__main-brown;
 	}
 	&:hover, &:active, &:focus {
