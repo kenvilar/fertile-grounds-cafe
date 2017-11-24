@@ -81,7 +81,7 @@ get_header(); ?>
 		</div>
 	</section>
 
-	<section style="padding-top: 60px;padding-bottom: 65px;">
+	<section>
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6">

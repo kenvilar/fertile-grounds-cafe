@@ -49,7 +49,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 nopadding">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 nopadding opening-hours">
 					<div id="text-2" class="widget widget_text">
 						<h3 class="widgettitle">Opening Hours</h3>
 						<div class="textwidget">

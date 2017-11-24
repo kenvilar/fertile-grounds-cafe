@@ -3981,6 +3981,10 @@ footer .footer-social li a .fa {
   border-bottom: transparent;
 }
 
+.gradient-bg-image {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
 .gradient-bg-image .gradient-bg-image-box {
   padding: 130px 0 140px;
 }
@@ -5565,6 +5569,13 @@ footer .footer-social li a .fa {
     position: relative;
   }
 }
+@media screen and (max-width: 992px) {
+  /* Footer Widget */
+  .opening-hours ul li {
+    width: 48%;
+    display: inline-block;
+  }
+}
 @media screen and (max-width: 767px) {
   #coffee-tabs li {
     padding-right: 0;
@@ -5574,6 +5585,12 @@ footer .footer-social li a .fa {
   /* Menu */
   .cafe-menu-wrapper {
     padding: 30px 10px 50px;
+  }
+
+  /* Footer Widget */
+  .opening-hours ul li {
+    width: 100%;
+    text-align: center;
   }
 }
 

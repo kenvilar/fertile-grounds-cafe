@@ -36,7 +36,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-md-4 nopadding">
 						<div data-image=""
-						     style="height: 475px;background-image: url(<?php echo get_template_directory_uri() . '/assets/images/menu/smoothies.png'; ?>)">
+						     style="height: 475px;background-image: url(<?php echo get_template_directory_uri() . '/assets/images/menu/fertile-grounds-cafe.jpg'; ?>)">
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-6 panel-body">
@@ -121,7 +121,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-md-4 nopadding">
 						<div data-image=""
-						     style="height: 475px;background-image: url(<?php echo get_template_directory_uri() . '/assets/images/menu/smoothies.png'; ?>)">
+						     style="height: 475px;background-image: url(<?php echo get_template_directory_uri() . '/assets/images/menu/menu1.png'; ?>)">
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-6 panel-body">
@@ -206,7 +206,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-md-4 nopadding">
 						<div data-image=""
-						     style="height: 475px;background-image: url(<?php echo get_template_directory_uri() . '/assets/images/menu/smoothies.png'; ?>)">
+						     style="height: 475px;background-image: url(<?php echo get_template_directory_uri() . '/assets/images/menu/new-teas.jpg'; ?>)">
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-6 panel-body">

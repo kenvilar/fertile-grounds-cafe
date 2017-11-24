@@ -6,6 +6,17 @@
 		position: relative;
 	}
 }
+@media screen and (max-width: 992px) {
+	/* Footer Widget */
+	.opening-hours {
+		ul {
+			li {
+				width: 48%;
+				display: inline-block;
+			}
+		}
+	}
+}
 @media screen and (max-width: 767px) {
 	#coffee-tabs {
 		li {
@@ -17,5 +28,14 @@
 	/* Menu */
 	.cafe-menu-wrapper {
 		padding: 30px 10px 50px;
+	}
+	/* Footer Widget */
+	.opening-hours {
+		ul {
+			li {
+				width: 100%;
+				text-align: center;
+			}
+		}
 	}
 }
