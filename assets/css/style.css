@@ -3771,14 +3771,14 @@ address {
 }
 #Header .navbar-toggle {
   border-radius: 0;
-  border-color: #f89406;
+  border-color: #937a6b;
   -webkit-transition: all .25s ease-in-out;
   -o-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
 #Header .navbar-toggle:hover,
 #Header .navbar-toggle > span {
-  background-color: #f89406;
+  background-color: #937a6b;
 }
 #Header .navbar-toggle:hover > span {
   background-color: #fff;
@@ -3810,7 +3810,17 @@ address {
 }
 @media screen and (max-width: 767px) {
   #Header .navbar {
+    position: relative;
+    margin-bottom: 0;
     background: #111111;
+  }
+  #Header .navbar .navbar-toggle {
+    margin-top: 25px;
+  }
+  #Header .navbar .navbar-brand {
+    padding: 0;
+    height: 80px;
+    max-height: 100%;
   }
   #Header .navbar .navbar-collapse {
     -webkit-box-shadow: none;
