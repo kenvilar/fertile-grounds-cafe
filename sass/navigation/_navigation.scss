@@ -134,8 +134,8 @@
 									line-height: 20px;
 									padding: 10px 15px 10px 25px;
 								}
-								&:not(.active) a {
-									background: transparent;
+								&.active a, a {
+									background: transparent !important;
 								}
 							}
 						}

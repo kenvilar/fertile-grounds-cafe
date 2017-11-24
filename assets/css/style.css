@@ -3853,8 +3853,8 @@ address {
     line-height: 20px;
     padding: 10px 15px 10px 25px;
   }
-  #Header .navbar .navbar-collapse .navbar-nav li .dropdown-menu li:not(.active) a {
-    background: transparent;
+  #Header .navbar .navbar-collapse .navbar-nav li .dropdown-menu li.active a, #Header .navbar .navbar-collapse .navbar-nav li .dropdown-menu li a {
+    background: transparent !important;
   }
 }
 /*-------------------------Site----------------------------------------*/
@@ -5597,7 +5597,11 @@ footer .footer-social li a .fa {
     z-index: 99999999;
   }
   #Header .nav > li > a.open + ul.dropdown-menu li.active a {
-    background: #937a6b;
+    background: transparent;
+    color: inherit;
+  }
+  #Header .nav > li > a.open + ul.dropdown-menu li:hover a {
+    color: #937a6b;
   }
   #Header .nav > li ul.dropdown-menu {
     background: #fff none repeat scroll 0 0;

@@ -105,7 +105,11 @@
 							visibility: visible;
 							z-index: 99999999;
 							li.active a {
-								background: $color__main-brown;
+								background: transparent;
+								color: inherit;
+							}
+							li:hover a {
+								color: $color__main-brown;
 							}
 						}
 					}
