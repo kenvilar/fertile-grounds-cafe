@@ -16,7 +16,6 @@
 /*-------------------------Modules-------------------------------------*/
 @import "modules/accessibility";
 @import "modules/infinite-scroll";
-@import "modules/envira";
 /*-------------------------Navigation----------------------------------*/
 @import "navigation/navigation";
 /*-------------------------Site----------------------------------------*/
@@ -31,6 +30,7 @@
 /*-------------------------Libraries----------------------------------------*/
 @import "lib/animate";
 @import "lib/owl-carousel";
+@import "lib/envira";
 /*-------------------------Media Queries-------------------------------*/
 @import "media-queries/min-width";
 @import "media-queries/max-width";

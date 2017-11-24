@@ -2,7 +2,7 @@
 	body {
 		width: 1600px;
 		margin: 0 auto;
-		background-color: $color__main-brown;
+		background-color: $color__main-white;
 		-webkit-backface-visibility: initial !important;
 		backface-visibility: initial !important;
 	}
@@ -42,7 +42,7 @@
 			min-height: 154px;
 		}
 		.navbar-brand {
-			height: 154px;
+			height: auto;
 			max-height: 154px;
 			padding-top: 20px;
 			padding-bottom: 20px;
