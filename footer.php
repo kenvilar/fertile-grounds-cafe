@@ -30,7 +30,7 @@
 								                                        href="tel:+1 585-244-1280">+1 585-244-1280</a>
 							</address>
 							<ul class="footer-social">
-								<li><a href=""><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.facebook.com/fertilegroundscaferochester/"><i class="fa fa-facebook"></i></a></li>
 								<li><a href=""><i class="fa fa-twitter"></i></a></li>
 								<li><a href=""><i class="fa fa-instagram"></i></a></li>
 							</ul>
