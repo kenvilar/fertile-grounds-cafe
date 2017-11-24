@@ -75,7 +75,13 @@ get_header(); ?>
 							lacinia. Donec vel massa elit. Proin ac felis erat. Donec quis turpis sit amet lacus posuere
 							mattis in at risus. Pellentesque at malesuada tortor.</p>
 						<div class="contact-form-box">
-							<?php echo do_shortcode( '[contact-form-7 id="103" title="Contact Form"]' ); ?>
+							<?php
+							if ( get_field( 'contact_form_shortcode' ) ) {
+								echo do_shortcode( the_field( 'contact_form_shortcode' ) );
+							} else {
+								echo '<span style="color:red;">Please put your contact form shortcode</span>';
+							}
+							?>
 						</div>
 					</div>
 				</div>
