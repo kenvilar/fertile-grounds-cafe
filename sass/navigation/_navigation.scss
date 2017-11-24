@@ -33,12 +33,20 @@
 			display: none;
 		}
 	}
-	.nav > li {
-		border-top: 1px solid #ddd;
-		> a {
-			line-height: 1.2;
-			z-index: 89;
-			font-size: 15px;
+	.nav {
+		> li {
+			border-top: 1px solid #ddd;
+			> a {
+				line-height: 1.2;
+				z-index: 89;
+				font-size: 15px;
+			}
+			> a.dropdown-toggle {
+				.glyphicon {
+					font-size: 10px;
+					padding-left: 5px;
+				}
+			}
 		}
 	}
 	.navbar-toggle {
