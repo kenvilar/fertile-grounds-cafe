@@ -1,0 +1,21 @@
+/* Wordpress Page and Post default templates */
+article.page, article.post {
+	h1, h2, h3, h4, h5, h6 {
+		color: inherit;
+	}
+}
+.page-title, .widgettitle, .widget-title {
+	color: inherit;
+}
+.entry-content {
+	padding-top: 20px;
+}
+.nav-previous, .nav-next {
+	display: inline-block;
+}
+.nav-previous {
+	float: left;
+}
+.nav-next {
+	float: right;
+}

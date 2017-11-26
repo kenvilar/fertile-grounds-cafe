@@ -3858,6 +3858,31 @@ address {
   }
 }
 /*-------------------------Site----------------------------------------*/
+/* Wordpress Page and Post default templates */
+article.page h1, article.page h2, article.page h3, article.page h4, article.page h5, article.page h6, article.post h1, article.post h2, article.post h3, article.post h4, article.post h5, article.post h6 {
+  color: inherit;
+}
+
+.page-title, .widgettitle, .widget-title {
+  color: inherit;
+}
+
+.entry-content {
+  padding-top: 20px;
+}
+
+.nav-previous, .nav-next {
+  display: inline-block;
+}
+
+.nav-previous {
+  float: left;
+}
+
+.nav-next {
+  float: right;
+}
+
 #Banner {
   position: relative;
   overflow: hidden;
