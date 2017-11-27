@@ -28,7 +28,7 @@ get_header();
 
 						<br><br>
 
-						<a href="" class="btn btn-version1">Learn more &nbsp;<i class="fa fa-angle-right"></i></a>
+						<a href="/about" class="btn btn-version1">Learn more &nbsp;<i class="fa fa-angle-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -63,7 +63,7 @@ get_header();
 
 						<br><br>
 
-						<a href="" class="btn btn-version2">Check Rental Fees &nbsp;<i
+						<a href="/venue" class="btn btn-version2">Check Rental Fees &nbsp;<i
 									class="fa fa-angle-right"></i></a>
 
 						<br><br><br><br>
