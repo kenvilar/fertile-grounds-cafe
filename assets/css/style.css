@@ -3873,6 +3873,15 @@ article.page h1, article.page h2, article.page h3, article.page h4, article.page
 
 .nav-previous, .nav-next {
   display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.nav-previous a, .nav-next a {
+  text-align: center;
+  border: 1px solid #937a6b;
+  display: block;
+  color: #937a6b;
+  padding: 10px 20px;
 }
 
 .nav-previous {
@@ -4106,6 +4115,7 @@ aside .widget {
   border-radius: 10px;
   overflow: hidden;
   padding: 0 29px 20px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 aside .widget h2 {

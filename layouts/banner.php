@@ -32,6 +32,14 @@
 							?>
 						</h1>
 					</div>
+				<?php elseif ( is_archive() ) : ?>
+					<div class="col-lg-6 col-xs-12 nopadding">
+						<h1 class="animated fadeInUp banner-title-light">
+							<?php
+							the_archive_title();
+							?>
+						</h1>
+					</div>
 				<?php else : ?>
 					<div class="col-lg-4 col-xs-12 nopadding">
 						<h1 class="animated fadeInUp banner-title-light">
@@ -53,7 +61,9 @@
 			</div>
 		<?php else : ?>
 			<div class="col-lg-5 col-xs-12 nopadding hidden-xs" style="padding-left: 0;">
-				<hr>
+				<?php
+				echo is_404() ? '' : '<hr>';
+				?>
 			</div>
 		<?php endif; ?>
 		

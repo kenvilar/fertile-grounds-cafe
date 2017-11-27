@@ -12,6 +12,15 @@ article.page, article.post {
 }
 .nav-previous, .nav-next {
 	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	a {
+		text-align: center;
+		border: 1px solid $color__main_brown;
+		display: block;
+		color: $color__main-brown;
+		padding: 10px 20px;
+	}
 }
 .nav-previous {
 	float: left;
