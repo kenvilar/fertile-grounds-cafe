@@ -164,3 +164,8 @@ require get_template_directory() . '/inc/custom.php';
  * Custom Nav Menu
  */
 require get_template_directory() . '/inc/custom-nav-menu.php';
+
+/**
+ * Custom Post Type
+ */
+require get_template_directory() . '/inc/custom-post-type.php';
