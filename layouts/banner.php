@@ -20,6 +20,18 @@
 							?>
 						</h1>
 					</div>
+				<?php elseif ( is_single() || is_page() ) : ?>
+					<div class="col-lg-6 col-xs-12 nopadding">
+						<h1 class="animated fadeInUp banner-title-light">
+							<?php
+							if ( get_field( 'main_page_title' ) ) {
+								the_field( 'main_page_title' );
+							} else {
+								echo the_title();
+							}
+							?>
+						</h1>
+					</div>
 				<?php else : ?>
 					<div class="col-lg-4 col-xs-12 nopadding">
 						<h1 class="animated fadeInUp banner-title-light">
