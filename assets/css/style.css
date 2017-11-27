@@ -3883,6 +3883,11 @@ article.page h1, article.page h2, article.page h3, article.page h4, article.page
   float: right;
 }
 
+#comments footer {
+  background: transparent;
+  color: #000;
+}
+
 #Banner {
   position: relative;
   overflow: hidden;

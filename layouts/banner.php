@@ -10,7 +10,7 @@
 		<div class="container">
 			<div class="row">
 				
-				<?php if ( is_home() || is_front_page() ) : ?>
+				<?php if ( is_front_page() ) : ?>
 					<div class="col-lg-8 col-xs-12 nopadding">
 						<h1 class="animated fadeInUp home-banner-title">
 							<?php
@@ -35,7 +35,7 @@
 			</div>
 		</div>
 		
-		<?php if ( is_home() || is_front_page() ) : ?>
+		<?php if ( is_front_page() ) : ?>
 			<div class="col-lg-8 col-xs-12 nopadding hidden-xs" style="padding-left: 0;">
 				<hr>
 			</div>
@@ -45,7 +45,7 @@
 			</div>
 		<?php endif; ?>
 		
-		<?php if ( is_home() || is_front_page() ) : ?>
+		<?php if ( is_front_page() ) : ?>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 nopadding">
