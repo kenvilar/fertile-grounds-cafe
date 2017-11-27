@@ -20,11 +20,14 @@
 							?>
 						</h1>
 					</div>
-				<!-- For Blog Page -->
 				<?php elseif ( is_home() ) : ?>
+					<!-- For Blog Page -->
 					<div class="col-lg-6 col-xs-12 nopadding">
 						<h1 class="animated fadeInUp banner-title-light">
-							Events
+							<?php
+							/* Force get the main title of an events or blog page */
+							echo get_the_title( get_option( 'page_for_posts', true ) );
+							?>
 						</h1>
 					</div>
 				<?php elseif ( is_single() || is_page() ) : ?>
