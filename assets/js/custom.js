@@ -37,6 +37,12 @@
 			$( 'html,body' ).scrollTop( scrollmenutab );
 		} );
 
+		// On Load
+		$( window ).on( 'load', function() {
+			// Preloader
+			$( '.preloader' ).fadeOut( 1500 );
+		} );
+
 	} );
 
 })( jQuery );

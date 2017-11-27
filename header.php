@@ -22,6 +22,14 @@
 
 <body data-spy="scroll" data-target="#navbar">
 <div class="wrapper">
+
+	<div class="preloader">
+		<div class="pl-line pl-line-1"></div>
+		<div class="pl-line pl-line-2"></div>
+		<div class="pl-line pl-line-3"></div>
+		<div class="pl-line pl-line-4"></div>
+	</div>
+	
 	<?php require 'layouts/navigation-menu.php'; ?>
 	
 	<?php require 'layouts/banner.php'; ?>
