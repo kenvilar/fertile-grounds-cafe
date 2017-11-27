@@ -15,14 +15,14 @@ get_header(); ?>
 				<div class="col-xs-12">
 
 					<header class="page-header">
-						<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'fertilegroundscafe' ); ?></h1>
+						<h1 class="page-title text-center text-brown"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'fertilegroundscafe' ); ?></h1>
 					</header>
 
 					<div class="page-content">
-						<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try a search below?', 'fertilegroundscafe' ); ?></p>
+						<p class="text-center"><?php esc_html_e( 'It looks like nothing was found at this location. Please check the URL again.', 'fertilegroundscafe' ); ?></p>
 						
 						<?php
-						get_search_form();
+						/*get_search_form();*/
 						?>
 					</div>
 
