@@ -8,22 +8,18 @@ get_header();
 			<div class="row">
 				<div class="nopadding col-lg-6">
 					<img class="img-responsive"
-					     src="<?php echo get_template_directory_uri() . '/assets/images/home/mug.png'; ?>"
-					     alt="home-image">
+					     src="<?php echo get_field( 'about_image' ) ? the_field( 'about_image' ) : get_template_directory_uri() . '/assets/images/home/mug.png'; ?>"
+					     alt="home-about-image">
 				</div>
 				<div class="col-lg-6">
 					<br>
 					<h2 class="text-brown text-uppercase">About</h2>
 					<div class="h6">
-						<p>Fertile Grounds Cafe is located in one of Rochester's treasured East Avenue mansions. We
-							serve high-quality espresso drinks, loose leaf teas and real fruit smoothies, as well as a
-							health-conscious selection of light fare.</p>
-
-						<p>Completely remodeled, our coffee shop boasts multiple gathering spaces, including gardens,
-							patios, decks and cozy fireplaces, perfect for small groups or solitude. Inside, you will
-							find an eclectic collection of wellness-centered goods, including essential oils, self-help
-							books, journals... even premium bedding.</p>
-
+						<?php
+						if ( get_field( 'about_content' ) ) {
+							the_field( 'about_content' );
+						}
+						?>
 						<a href="/about" class="btn btn-version1">Learn more &nbsp;<i class="fa fa-angle-right"></i></a>
 					</div>
 				</div>
@@ -37,19 +33,11 @@ get_header();
 				<div class="col-lg-offset-3 col-lg-9 col-md-offset-1 col-md-11 nopadding">
 					<h2 class="text-uppercase text-white">Venue</h2>
 					<div class="h6 text-white" style="width: 97%;">
-						<p>Looking for a special place to host a shower, meeting, workshop or party?</p>
-
-						<p>Fertile Grounds Cafe offers a variety of different seasonal venue spaces. In the warmer
-							months, multiple decks, a patio, and a large park/garden space are available. In the cooler
-							months, we have a café, a fireplace lounge area and a large yoga studio space. Come tour our
-							amazing facility and its grounds, and choose the space that’s right for you!</p>
-
-						<p>Small groups of 10-20 people are a perfect fit for our intimate space, but we can accommodate
-							up to 40.</p>
-
-						<p>We offer cafe service of tea, coffee, and light fare, or you are welcome to bring in your own
-							caterer. Or, if you prefer, describe to us what you’re looking for, and we will be happy to
-							work with a caterer on your behalf.</p>
+						<?php
+						if ( get_field( 'venue_content' ) ) {
+							the_field( 'venue_content' );
+						}
+						?>
 
 						<a href="/venue" class="btn btn-version2">Check Rental Fees &nbsp;<i
 									class="fa fa-angle-right"></i></a>
