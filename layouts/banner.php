@@ -20,6 +20,13 @@
 							?>
 						</h1>
 					</div>
+				<!-- For Blog Page -->
+				<?php elseif ( is_home() ) : ?>
+					<div class="col-lg-6 col-xs-12 nopadding">
+						<h1 class="animated fadeInUp banner-title-light">
+							Events
+						</h1>
+					</div>
 				<?php elseif ( is_single() || is_page() ) : ?>
 					<div class="col-lg-6 col-xs-12 nopadding">
 						<h1 class="animated fadeInUp banner-title-light">
