@@ -4100,6 +4100,47 @@ footer .footer-social li a .fa {
   padding-right: 6px;
 }
 
+aside .widget {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #937a6b;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0 29px 20px;
+  margin-bottom: 20px;
+}
+aside .widget h2 {
+  font-size: 22px;
+}
+aside .widget ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+aside .widget ul li {
+  color: #937a6b;
+}
+aside .widget ul li a {
+  color: inherit;
+  font-weight: 400;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+aside .widget ul li a:hover {
+  color: #111111;
+  padding-left: 10px;
+}
+aside .widget .tagcloud a {
+  border: 1px solid #ddd;
+  display: block;
+  height: 35px;
+  line-height: 32px;
+  margin-right: 5px;
+  padding: 0 10px;
+  float: left;
+  color: #937a6b;
+  text-transform: uppercase;
+}
+
 /*-------------------------Libraries----------------------------------------*/
 .animated {
   animation-duration: 1s;

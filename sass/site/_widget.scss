@@ -1,0 +1,45 @@
+aside {
+	.widget {
+		background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+		border: 1px solid $color__main-brown;
+		border-radius: 10px;
+		overflow: hidden;
+		padding: 0 29px 20px;
+		margin-bottom: 20px;
+		h2 {
+			font-size: 22px;
+		}
+		ul {
+			list-style-type: none;
+			padding-left: 0;
+			li {
+				color: $color__main-brown;
+				a {
+					color: inherit;
+					font-weight: 400;
+					text-transform: capitalize;
+					-webkit-transition: all 0.5s ease 0s;
+					transition: all 0.5s ease 0s;
+					&:hover {
+						color: $color__main-black;
+						padding-left: 10px;
+					}
+				}
+			}
+		}
+
+		.tagcloud {
+			a {
+				border: 1px solid #ddd;
+				display: block;
+				height: 35px;
+				line-height: 32px;
+				margin-right: 5px;
+				padding: 0 10px;
+				float: left;
+				color: $color__main-brown;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
