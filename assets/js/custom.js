@@ -18,7 +18,7 @@
 			],
 			loop            : true,
 			responsiveClass : true,
-			animateOut      : 'fadeOutLeft',
+			/*animateOut      : 'fadeOutDown',*/
 			animateIn       : 'flipInX',
 			responsive      : {
 				0 : {
