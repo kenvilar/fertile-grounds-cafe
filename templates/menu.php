@@ -16,7 +16,7 @@ get_header(); ?>
 			     ?>)">
 			</div>
 			<div class="col-md-7 col-xs-12 nopadding absolute-md" style="right: 0;">
-				<div style="margin-bottom: 50px;"></div>
+				<div style="margin-bottom: 15px;"></div>
 				<div class="cafe-menu-wrapper">
 					<h2 class="text-uppercase text-white text-bold">
 						Cafe Menu
