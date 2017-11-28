@@ -18,46 +18,18 @@ get_header(); ?>
 						Cafe Menu
 					</h2>
 					<br>
-					<div class="cafe-menu-item text-white">
-						<strong>Breakfast sandwich:</strong> <br>
-						Scrambled egg patty "buns" with sausage or bacon and Cheddar cheese
-					</div>
-					<div class="cafe-menu-item text-white">
-						<strong>Single serve yogurt (Chobani)</strong>
-					</div>
-					<div class="cafe-menu-item text-white">
-						<strong>Single serve oatmeal cups</strong>
-					</div>
-					<div class="cafe-menu-item text-white">
-						<strong>Quiche</strong>
-						(Comes in a pre-made mix that we would then use convection oven to bake for the day)
-					</div>
-					<div class="cafe-menu-item text-white">
-						<strong>Meat/Cheese Boards:</strong>
-						Choose from rotated local and international cheeses as well as proscuitto, genoa salami &
-						sopressata salami, and almonds
-					</div>
-					<div class="cafe-menu-item text-white">
-						<strong>Small:</strong>
-						1 cheese, 1 meat, almonds
-					</div>
-					<div class="cafe-menu-item text-white">
-						<strong>Large:</strong>
-						2 cheese, 2 meats, almonds
-					</div>
-					<div class="cafe-menu-item text-white">
-						<strong>Olives</strong>
-					</div>
-					<div class="cafe-menu-item text-white">
-						<strong>Hard boiled eggs</strong>
-					</div>
-					<div class="cafe-menu-item text-white">
-						<strong>Gluten free quinoa salad (cold, pre-made)</strong>
-					</div>
-					<div class="cafe-menu-item text-white">
-						<strong>Soups:</strong>
-						Can rotate between 2-3 options, made daily
-					</div>
+					<?php
+					if ( have_rows( 'cafe_menu_list' ) ) {
+						while ( have_rows( 'cafe_menu_list' ) ) {
+							the_row(); ?>
+							<div class="cafe-menu-item text-white">
+								<?php echo get_sub_field( 'menu_title' ); ?> <br>
+								<?php echo get_sub_field( 'menu_description' ); ?>
+							</div>
+							<?php
+						}
+					}
+					?>
 				</div>
 			</div>
 		</div>
