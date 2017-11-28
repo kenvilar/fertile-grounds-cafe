@@ -42,11 +42,17 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-xs-12 col-md-offset-3 col-md-6 nopadding">
 					<div class="gradient-bg-image-box">
-						<h2 class="text-white text-uppercase text-bold text-center">
-							New Teas From Serendipitea
-						</h2>
-						<div class="gradient-bg-image-box-border"></div>
-						<h5 class="text-white text-center">Sm: $1.25, Med: $1.75, Lrg: $2.50</h5>
+						<?php
+						if ( have_rows( 'sections_background_image' ) ) {
+							?>
+							<h2 class="text-white text-uppercase text-bold text-center">
+								<?php echo get_field( 'sections_background_image' )[0]['title']; ?>
+							</h2>
+							<div class="gradient-bg-image-box-border"></div>
+							<h5 class="text-white text-center"><?php echo get_field( 'sections_background_image' )[0]['description']; ?></h5>
+							<?php
+						}
+						?>
 					</div>
 				</div>
 			</div>
@@ -111,10 +117,17 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-xs-12 col-md-offset-3 col-md-6 nopadding">
 					<div class="gradient-bg-image-box">
-						<h2 class="text-white text-uppercase text-bold text-center">
-							Fertile Grounds Cafe
-						</h2>
-						<div class="gradient-bg-image-box-border"></div>
+						<?php
+						if ( have_rows( 'sections_background_image' ) ) {
+							?>
+							<h2 class="text-white text-uppercase text-bold text-center">
+								<?php echo get_field( 'sections_background_image' )[1]['title']; ?>
+							</h2>
+							<div class="gradient-bg-image-box-border"></div>
+							<h5 class="text-white text-center"><?php echo get_field( 'sections_background_image' )[1]['description']; ?></h5>
+							<?php
+						}
+						?>
 					</div>
 				</div>
 			</div>
