@@ -24,3 +24,9 @@ function fix_template_caching( WP_Screen $current_screen ) {
 }
 
 add_action( 'current_screen', 'fix_template_caching' );
+
+// ACF Pro autop
+add_action( 'acf/init', 'acf_wysiwyg_remove_wpautop', 15 );
+function acf_wysiwyg_remove_wpautop() {
+	remove_filter( 'acf_the_content', 'wpautop' );
+}
