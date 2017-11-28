@@ -71,38 +71,38 @@
 						<div class="textwidget">
 							<div class="col-lg-6 nopadding">
 								<ul>
-									<li>
-										Monday <br>
-										<span class="text-brown">7:00am - 8:00pm</span>
-									</li>
-									<li>
-										Tuesday <br>
-										<span class="text-brown">7:00am - 6:00pm</span>
-									</li>
-									<li>
-										Wednesday <br>
-										<span class="text-brown">7:00am - 8:00pm</span>
-									</li>
-									<li>
-										Thursday <br>
-										<span class="text-brown">7:00am - 8:00pm</span>
-									</li>
+									<?php
+									if ( have_rows( 'opening_hours', 'option' ) ) :
+										$i = 0;
+										while ( $i !== 4 && have_rows( 'opening_hours', 'option' ) ) : the_row();
+											?>
+											<li>
+												<?php the_sub_field( 'day', 'option' ) ?> <br>
+												<span class="text-brown"><?php the_sub_field( 'time', 'option' ) ?></span>
+											</li>
+											<?php
+											$i++;
+										endwhile;
+									endif;
+									?>
 								</ul>
 							</div>
 							<div class="col-lg-6 nopadding">
 								<ul>
-									<li>
-										Friday <br>
-										<span class="text-brown">7:00am - 4:00pm</span>
-									</li>
-									<li>
-										Saturday <br>
-										<span class="text-brown">9:00am - 12:30pm</span>
-									</li>
-									<li>
-										Sunday <br>
-										<span class="text-brown">10:00am - 2:00pm</span>
-									</li>
+									<?php
+									if ( have_rows( 'opening_hours', 'option' ) ) :
+										$i = 0;
+										while ( $i !== 4 && have_rows( 'opening_hours', 'option' ) ) : the_row();
+											?>
+											<li>
+												<?php the_sub_field( 'day', 'option' ) ?> <br>
+												<span class="text-brown"><?php the_sub_field( 'time', 'option' ) ?></span>
+											</li>
+											<?php
+											$i++;
+										endwhile;
+									endif;
+									?>
 								</ul>
 							</div>
 						</div>
