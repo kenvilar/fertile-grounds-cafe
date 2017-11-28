@@ -269,7 +269,7 @@
                     "class": "",
                     "id": ""
                 },
-                "default_value": "",
+                "default_value": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2911.244095302665!2d-77.54700468510575!3d43.14140329339266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d6ca8e9b975b89%3A0x4a3512a561ffcf50!2s2244+East+Ave%2C+Rochester%2C+NY+14610%2C+USA!5e0!3m2!1sen!2sph!4v1511547762410",
                 "placeholder": "",
                 "maxlength": "",
                 "rows": 4,
@@ -288,7 +288,7 @@
                     "class": "",
                     "id": ""
                 },
-                "default_value": "",
+                "default_value": "2244 East Avenue <br>\r\nRochester, New York",
                 "placeholder": "",
                 "maxlength": "",
                 "rows": 2,
@@ -307,7 +307,7 @@
                     "class": "",
                     "id": ""
                 },
-                "default_value": "",
+                "default_value": "+1 585-244-1280",
                 "placeholder": "",
                 "prepend": "",
                 "append": "",
@@ -326,7 +326,7 @@
                     "class": "",
                     "id": ""
                 },
-                "default_value": "",
+                "default_value": "info@fertilegroundscafe.com",
                 "placeholder": "",
                 "prepend": "",
                 "append": "",
@@ -893,6 +893,313 @@
                     "param": "page_template",
                     "operator": "==",
                     "value": "templates\/venue.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5a1d730083168",
+        "title": "Theme Options: Footer",
+        "fields": [
+            {
+                "key": "field_5a1d731a9da0e",
+                "label": "First Widget",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a1d733a9da0f",
+                "label": "First Widget Title",
+                "name": "first_widget_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "About",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a1d7c759da10",
+                "label": "First Widget Content",
+                "name": "first_widget_content",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "<p>Boutique East Ave cafe + wellness shop featuring espresso drinks, teas, lite fare,\r\n\tessential oils, books, candles and more in a sophisticated atmosphere.<\/p>\r\n<address>\r\n\t2244 East Avenue <br>\r\n\tRochester, New York <br>\r\n\t<span class=\"text-brown\">Call<\/span> <a class=\"link-no-hover\" href=\"tel:+1 585-244-1280\">+1 585-244-1280<\/a>\r\n<\/address>\r\n<ul class=\"footer-social\">\r\n\t<li><a href=\"https:\/\/www.facebook.com\/fertilegroundscaferochester\/\"><i\r\n\t\t\tclass=\"fa fa-facebook\"><\/i><\/a><\/li>\r\n\t<li><a href=\"\"><i class=\"fa fa-twitter\"><\/i><\/a><\/li>\r\n\t<li><a href=\"\"><i class=\"fa fa-instagram\"><\/i><\/a><\/li>\r\n<\/ul>",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 15,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5a1d7c8d9da11",
+                "label": "Second Widget",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a1d7c9a9da12",
+                "label": "Second Widget Title",
+                "name": "second_widget_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Gallery",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a1d7ca29da13",
+                "label": "Second Widget Gallery",
+                "name": "second_widget_gallery",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "footer-widget-gallery",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a1d7d939da14",
+                "label": "Third Widget",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a1d810295ce9",
+                "label": "Third Widget Title",
+                "name": "third_widget_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Opening Hours",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a1d7e669da15",
+                "label": "Opening Hours",
+                "name": "opening_hours",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5a1d7e809da16",
+                        "label": "Day",
+                        "name": "day",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5a1d7e889da17",
+                        "label": "Time",
+                        "name": "time",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5a1d826a55f14",
+                "label": "Copyright",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a1d827655f15",
+                "label": "Copyright",
+                "name": "copyright",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "© Copyright 2017. All rights reserved.",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-footer"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5a1d8c8654ce5",
+        "title": "Theme Options: Header",
+        "fields": [
+            {
+                "key": "field_5a1d8c96ade9f",
+                "label": "Image Logo",
+                "name": "image_logo",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-header"
                 }
             ]
         ],
