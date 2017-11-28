@@ -23,8 +23,8 @@ get_header(); ?>
 						while ( have_rows( 'cafe_menu_list' ) ) {
 							the_row(); ?>
 							<div class="cafe-menu-item text-white">
-								<?php echo get_sub_field( 'menu_title' ); ?> <br>
-								<?php echo get_sub_field( 'menu_description' ); ?>
+								<?php the_sub_field( 'menu_title' ); ?> <br>
+								<?php the_sub_field( 'menu_description' ); ?>
 							</div>
 							<?php
 						}
@@ -64,41 +64,18 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-xs-12 col-sm-6">
 					<div class="background-white cafe-menu-wrapper nopadding">
-						<div class="cafe-menu-item text-black">
-							<strong>Peppermint</strong>
-						</div>
-						<div class="cafe-menu-item text-black">
-							<strong>Lemongrass</strong>
-						</div>
-						<div class="cafe-menu-item text-black">
-							<strong>Ginger</strong>
-						</div>
-						<div class="cafe-menu-item text-black">
-							<strong>Chamomile</strong>
-						</div>
-						<div class="cafe-menu-item text-black">
-							<strong>Remember Rosemary</strong>
-							Chinese green tea, lemon myrtle, orange peel, rosemary
-						</div>
-						<div class="cafe-menu-item text-black">
-							<strong>Passion and Envy</strong>
-							Blue mallow flowers, Chinese green tea, mango flavor, marigold petals, papaya flavor,
-							pineapple flavor
-						</div>
-						<div class="cafe-menu-item text-black">
-							<strong>Secret Garden Tisane</strong>
-							Chamomile, lavender, peppermint, rooibos, rose petals
-						</div>
-						<div class="cafe-menu-item text-black">
-							<strong>Red Velvet *contains traces of sugar & dairy</strong>
-							Apple, cacao beans, chocolate bits, hibiscus, raspberry, rooibos, rose hips, vanilla, white
-							chocolate bits
-						</div>
-						<div class="cafe-menu-item text-black">
-							<strong>Once Upon A Tea *contains traces of sugar & dairy</strong>
-							Apple, cacao beans, chocolate bits, peppermint, rooibos, vanilla,
-							white chocolate bits
-						</div>
+						<?php
+						if ( have_rows( 'list_of_teas' ) ) {
+							while ( have_rows( 'list_of_teas' ) ) {
+								the_row(); ?>
+								<div class="cafe-menu-item text-black">
+									<?php the_sub_field( 'title' ); ?> <br>
+									<?php the_sub_field( 'description' ); ?>
+								</div>
+								<?php
+							}
+						}
+						?>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6">
