@@ -8,8 +8,12 @@ get_header(); ?>
 	<section style="padding-top: 70px;">
 		<div class="container-fluid nopadding relative-md">
 			<div class="col-md-6 col-xs-12 nopadding hidden-sm hidden-xs"
-			     data-image="<?php echo get_template_directory_uri() . '/assets/images/menu/cafemenu1.png'; ?>"
-			     style="height: 950px;background-image: url(<?php echo get_template_directory_uri() . '/assets/images/menu/cafemenu1.png'; ?>)">
+			     data-image="<?php
+			     echo get_field( 'cafe_menu_image' ) ? the_field( 'cafe_menu_image' ) : get_template_directory_uri() . '/assets/images/menu/cafemenu1.png';;
+			     ?>"
+			     style="height: 950px;background-image: url(<?php
+			     echo get_field( 'cafe_menu_image' ) ? the_field( 'cafe_menu_image' ) : get_template_directory_uri() . '/assets/images/menu/cafemenu1.png';;
+			     ?>)">
 			</div>
 			<div class="col-md-7 col-xs-12 nopadding absolute-md" style="right: 0;">
 				<div style="margin-bottom: 50px;"></div>
@@ -35,29 +39,30 @@ get_header(); ?>
 		</div>
 	</section>
 
+<?php
+if ( have_rows( 'sections_background_image' ) ) { ?>
 	<section class="gradient-bg-image"
-	         data-image="<?php echo get_template_directory_uri() . '/assets/images/menu/new-teas.jpg'; ?>"
-	         style="background-image: linear-gradient(rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.9)), url(<?php echo get_template_directory_uri() . '/assets/images/menu/new-teas.jpg'; ?>)">
+	         data-image="<?php
+	         echo get_field( 'sections_background_image' )[0]['image'] ? get_field( 'sections_background_image' )[0]['image'] : get_template_directory_uri() . '/assets/images/menu/new-teas.jpg';
+	         ?>"
+	         style="background-image: linear-gradient(rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.9)), url(<?php
+	         echo get_field( 'sections_background_image' )[0]['image'] ? get_field( 'sections_background_image' )[0]['image'] : get_template_directory_uri() . '/assets/images/menu/new-teas.jpg';
+	         ?>)">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-offset-3 col-md-6 nopadding">
 					<div class="gradient-bg-image-box">
-						<?php
-						if ( have_rows( 'sections_background_image' ) ) {
-							?>
-							<h2 class="text-white text-uppercase text-bold text-center">
-								<?php echo get_field( 'sections_background_image' )[0]['title']; ?>
-							</h2>
-							<div class="gradient-bg-image-box-border"></div>
-							<h5 class="text-white text-center"><?php echo get_field( 'sections_background_image' )[0]['description']; ?></h5>
-							<?php
-						}
-						?>
+						<h2 class="text-white text-uppercase text-bold text-center">
+							<?php echo get_field( 'sections_background_image' )[0]['title']; ?>
+						</h2>
+						<div class="gradient-bg-image-box-border"></div>
+						<h5 class="text-white text-center"><?php echo get_field( 'sections_background_image' )[0]['description']; ?></h5>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+<?php } ?>
 
 	<section>
 		<div class="container">
@@ -88,8 +93,12 @@ get_header(); ?>
 	</section>
 
 	<section class="gradient-bg-image"
-	         data-image="<?php echo get_template_directory_uri() . '/assets/images/menu/fertile-grounds-cafe.jpg'; ?>"
-	         style="background-image: linear-gradient(rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.9)), url(<?php echo get_template_directory_uri() . '/assets/images/menu/fertile-grounds-cafe.jpg'; ?>)">
+	         data-image="<?php
+	         echo get_field( 'sections_background_image' )[1]['image'] ? get_field( 'sections_background_image' )[1]['image'] : get_template_directory_uri() . '/assets/images/menu/fertile-grounds-cafe.jpg';
+	         ?>"
+	         style="background-image: linear-gradient(rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.9)), url(<?php
+	         echo get_field( 'sections_background_image' )[1]['image'] ? get_field( 'sections_background_image' )[1]['image'] : get_template_directory_uri() . '/assets/images/menu/fertile-grounds-cafe.jpg';
+	         ?>)">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-offset-3 col-md-6 nopadding">
