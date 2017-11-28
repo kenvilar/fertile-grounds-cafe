@@ -7,9 +7,21 @@
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="/">
-					<img src="<?php echo get_template_directory_uri() . '/assets/images/logos/logo.png'; ?>"
+					<img src="<?php
+					if ( get_field( 'image_logo', 'option' ) ) {
+						the_field( 'image_logo', 'option' );
+					} else {
+						echo get_template_directory_uri() . '/assets/images/logos/logo.png';
+					}
+					?>"
 					     alt="Fertile Grounds Cafe">
-					<img src="<?php echo get_template_directory_uri() . '/assets/images/logos/logo.png'; ?>"
+					<img src="<?php
+					if ( get_field( 'image_logo', 'option' ) ) {
+						the_field( 'image_logo', 'option' );
+					} else {
+						echo get_template_directory_uri() . '/assets/images/logos/logo.png';
+					}
+					?>"
 					     alt="Fertile Grounds Cafe">
 				</a>
 				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar"
