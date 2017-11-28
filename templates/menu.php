@@ -85,7 +85,9 @@ if ( have_rows( 'sections_background_image' ) ) { ?>
 				</div>
 				<div class="col-xs-12 col-sm-6">
 					<img class="img-responsive center-block"
-					     src="<?php echo get_template_directory_uri() . '/assets/images/menu/menu1.png'; ?>"
+					     src="<?php
+					     echo get_field( 'tea_image' ) ? the_field( 'tea_image' ) : get_template_directory_uri() . '/assets/images/menu/menu1.png';
+					     ?>"
 					     alt="image">
 				</div>
 			</div>
