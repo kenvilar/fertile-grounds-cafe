@@ -5,8 +5,8 @@
 
 get_header(); ?>
 
-	<section>
-		<div class="container-fluid nopadding">
+	<section style="padding-top: 80px;">
+		<div class="<?php echo get_field( 'first_section_image' ) ? 'container-fluid' : 'container'; ?> nopadding">
 			<?php
 			if ( get_field( 'first_section_image' ) ) :
 				?>
