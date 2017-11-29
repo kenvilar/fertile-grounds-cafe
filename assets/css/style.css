@@ -5780,6 +5780,12 @@ aside .widget .tagcloud a {
     width: 150px;
     z-index: 2147483647;
   }
+  #Header .nav > li ul.dropdown-menu > .active > a,
+  #Header .nav > li ul.dropdown-menu > .active > a:hover,
+  #Header .nav > li ul.dropdown-menu > li > a:hover {
+    background-color: transparent;
+    color: #937a6b;
+  }
   #Header.transparent {
     position: absolute;
     top: 0;
