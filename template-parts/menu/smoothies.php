@@ -53,7 +53,7 @@
 				Strawberries, mangos, guava nectar, banana
 			</td>
 			<td><strong>3.50</strong></td>
-			<td><strong>5.75</strong></td>
+			<td><strong>3.50</strong></td>
 		</tr>
 
 		<!--Menu Item-->
@@ -64,7 +64,7 @@
 				Cranberry juice, strawberries, blueberries, raspberries, blackberries
 			</td>
 			<td><strong>4.25</strong></td>
-			<td><strong>6.50</strong></td>
+			<td><strong>4.25</strong></td>
 		</tr>
 
 		<!--Menu Item-->
@@ -75,7 +75,7 @@
 				Organic peanut butter, banana, almonds, Ghirardelli chocolate, vanilla soy
 			</td>
 			<td><strong>3.50</strong></td>
-			<td><strong>5.75</strong></td>
+			<td><strong>3.50</strong></td>
 		</tr>
 
 		</tbody>
