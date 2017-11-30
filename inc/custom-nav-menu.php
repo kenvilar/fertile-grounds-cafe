@@ -63,7 +63,7 @@ class Fertilegrounds_Walker_Nav_Menu extends Walker_Nav_Menu {
 		$id = apply_filters( 'nav_menu_item_id', 'menu-item-' . $item->ID, $item, $args, $depth );
 		$id = $id ? ' id=""' : '';
 		if ( $item->hasChildren ) {
-			$li_has_children = 'class="' . $class_names_active . '"';
+			$li_has_children = 'class="has-children ' . $class_names_active . '"';
 		} else {
 			$li_has_children = 'class="' . $class_names_active . '"';
 		}
