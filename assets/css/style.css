@@ -5722,9 +5722,9 @@ aside .widget .tagcloud a {
     /* End Dropdown Menu */
   }
   #Header .nav > li > a:before {
-    content: "";
+    /*content: "";
     height: 2px;
-    background-color: #937a6b;
+    background-color: $color__main-brown;
     -webkit-transform: scale3d(0, 1, 1);
     -moz-transform: scale3d(0, 1, 1);
     -ms-transform: scale3d(0, 1, 1);
@@ -5741,7 +5741,7 @@ aside .widget .tagcloud a {
     left: 15px;
     right: 15px;
     bottom: 10px;
-    position: absolute;
+    position: absolute;*/
   }
   #Header .nav > li > a.open + ul.dropdown-menu {
     max-height: 3000px;
@@ -5802,6 +5802,10 @@ aside .widget .tagcloud a {
     background-color: transparent;
     color: #937a6b;
   }
+  #Header .nav > li ul.dropdown-menu > li > a {
+    white-space: normal;
+    padding: 3px 10px;
+  }
   #Header.transparent {
     position: absolute;
     top: 0;
@@ -5824,6 +5828,7 @@ aside .widget .tagcloud a {
   #Header.transparent .navbar:not(.navbar-fixed-top) .nav > li.active > a,
   #Header.transparent .navbar:not(.navbar-fixed-top) .nav > li > a:hover {
     background-color: transparent;
+    color: #937a6b;
   }
 
   #Banner {

@@ -27,6 +27,6 @@ and
 `NODE_ENV=production webpack --watch`
 
 
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
+Now you're ready to go! The next step is easy to say, but harder to do: make an awesome Fertile Grounds Cafe WordPress theme. :)
 
 Good luck!
