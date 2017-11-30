@@ -30,11 +30,11 @@
 		//Menu Page Nav Tabs
 		var hashmenutab = window.location.hash;
 		hashmenutab && $( 'ul.nav a[href="' + hashmenutab + '"]' ).tab( 'show' );
-		$( '#coffee-tabs a' ).click( function( e ) {
+		$( '#coffee-tabs a' ).on( 'click', function( e ) {
 			$( this ).tab( 'show' );
 			var scrollmenutab = $( 'body' ).scrollTop() || $( 'html' ).scrollTop();
 			window.location.hash = this.hash;
-			$( 'html,body' ).scrollTop( scrollmenutab );
+			$( 'html, body' ).scrollTop( scrollmenutab );
 		} );
 
 		// On Load
@@ -44,10 +44,26 @@
 		} );
 
 		//Scroll to specific div
-		$( ".dropdown-menu li a" ).on( "click", function() {
-			$( 'html,body' ).animate( {
+		$( ".menu-tab" ).on( "click", function() { //This is located at Coffee Menu links menu dropdown
+			$( 'html, body' ).animate( {
 				scrollTop : $( '#menu-nav-tabs-content' ).offset().top
+			}, 0 );
+			location.reload( true );
+		} );
+		$( ".light-fare" ).on( "click", function() { //This is located at light fare menu dropdown
+			$( 'html, body' ).animate( {
+				scrollTop : $( '#light-fare' ).offset().top
 			}, 1000 );
+		} );
+		//End Scroll to specific div
+
+		// Navigation Menu (add active class)
+		var url = window.location.pathname,
+			urlRegExp = new RegExp( url.replace( /\/$/, '' ) + "$" );
+		$( '#navbar li a' ).each( function() {
+			if ( urlRegExp.test( this.href.replace( /\/$/, '' ) ) ) {
+				$( this ).parent().addClass( 'active' );
+			}
 		} );
 
 	} );
