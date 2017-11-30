@@ -42,11 +42,19 @@ function fertilegroundscafe_scripts() {
 		array( 'jquery' ),
 		'2017', true );
 	
-	wp_enqueue_script( 'main-custom',
-		get_template_directory_uri() . '/assets/js/custom.js',
-		array(),
-		'2017',
-		true );
+	if ( fertilegroundscafe_is_localhost() ) {
+		wp_enqueue_script( 'main-custom',
+			get_template_directory_uri() . '/assets/js/custom.js',
+			array(),
+			'2017',
+			true );
+	} else {
+		wp_enqueue_script( 'main-min-custom',
+			get_template_directory_uri() . '/assets/js/custom.min.js',
+			array(),
+			'2017',
+			true );
+	}
 }
 
 add_action( 'wp_enqueue_scripts', 'fertilegroundscafe_scripts' );
