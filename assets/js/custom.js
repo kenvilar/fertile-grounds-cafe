@@ -60,11 +60,13 @@
 		// Navigation Menu (add active class)
 		var url = window.location.pathname,
 			urlRegExp = new RegExp( url.replace( /\/$/, '' ) + "$" );
-		$( '#navbar li a' ).each( function() {
-			if ( urlRegExp.test( this.href.replace( /\/$/, '' ) ) ) {
-				$( this ).parent().addClass( 'active' );
-			}
-		} );
+		if ( url != '/' ) {
+			$( '#navbar li a' ).each( function() {
+				if ( urlRegExp.test( this.href.replace( /\/$/, '' ) ) ) {
+					$( this ).parent().addClass( 'active' );
+				}
+			} );
+		}
 
 	} );
 
