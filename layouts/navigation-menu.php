@@ -59,7 +59,7 @@
 							<li class=""><a class="light-fare" href="<?php echo home_url(); ?>/menu/#light-fare">Light Fare</a></li>
 							<li class=""><a class="menu-tab" href="<?php echo home_url(); ?>/menu/#coffee">Coffee</a></li>
 							<li class=""><a class="menu-tab" href="<?php echo home_url(); ?>/menu/#drinks">Drinks</a></li>
-							<li class=""><a class="menu-tab" href="<?php echo home_url(); ?>/menu/#teas">Teas</a></li>
+							<li class=""><a class="menu-tab" href="<?php echo home_url(); ?>/menu/#teas">Teas and Tisane</a></li>
 							<li class=""><a class="menu-tab" href="<?php echo home_url(); ?>/menu/#smoothies">Smoothies</a></li>
 						</ul>
 					</li>
