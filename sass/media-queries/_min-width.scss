@@ -70,7 +70,9 @@
 				> a {
 					background-color: transparent;
 					&:before {
-						content: "";
+						// Uncomment this if you want to add over effects to the nav menu item
+
+						/*content: "";
 						height: 2px;
 						background-color: $color__main-brown;
 						-webkit-transform: scale3d(0, 1, 1);
@@ -89,7 +91,7 @@
 						left: 15px;
 						right: 15px;
 						bottom: 10px;
-						position: absolute;
+						position: absolute;*/
 					}
 					/* Dropdown Menu */
 					&.open {
@@ -155,6 +157,10 @@
 						background-color: transparent;
 						color: $color__main-brown;
 					}
+					> li > a {
+						white-space: normal;
+						padding: 3px 10px;
+					}
 				}
 				/* End Dropdown Menu */
 			}
@@ -182,6 +188,7 @@
 					> li.active > a,
 					> li > a:hover {
 						background-color: transparent;
+						color: $color__main-brown;
 					}
 				}
 			}
