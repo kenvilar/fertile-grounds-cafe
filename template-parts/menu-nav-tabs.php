@@ -28,7 +28,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid nopadding">
+	<div id="menu-nav-tabs-content" class="container-fluid nopadding">
 		<div class="tab-content">
 
 			<!--Tab Content-->

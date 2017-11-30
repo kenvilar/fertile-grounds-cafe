@@ -43,6 +43,13 @@
 			$( '.preloader' ).fadeOut( 1500 );
 		} );
 
+		//Scroll to specific div
+		$( ".dropdown-menu li a" ).on( "click", function() {
+			$( 'html,body' ).animate( {
+				scrollTop : $( '#menu-nav-tabs-content' ).offset().top
+			}, 1000 );
+		} );
+
 	} );
 
 })( jQuery );
