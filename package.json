@@ -26,5 +26,8 @@
   ],
   "author": "Ken Vilar",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/kenvilar/fertile-grounds-cafe#readme"
+  "homepage": "https://bitbucket.org/kenvilar/fertile-grounds-cafe#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
 }
