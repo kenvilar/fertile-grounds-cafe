@@ -4136,9 +4136,6 @@ footer .footer-social li a .fa {
   margin: 24px auto 25px;
 }
 
-#coffee-tabs {
-  margin-bottom: 80px;
-}
 #coffee-tabs li {
   padding-right: 25px;
 }
@@ -4156,20 +4153,23 @@ footer .footer-social li a .fa {
   color: #fff;
 }
 
-.tab-content table {
+#menu-nav-tabs-content {
+  padding-top: 80px;
+}
+#menu-nav-tabs-content .tab-content table {
   border: transparent;
 }
-.tab-content table thead th {
+#menu-nav-tabs-content .tab-content table thead th {
   border-bottom: transparent;
 }
-.tab-content table tbody tr td {
+#menu-nav-tabs-content .tab-content table tbody tr td {
   border-top: transparent;
 }
-.tab-content table tbody tr td:first-child {
+#menu-nav-tabs-content .tab-content table tbody tr td:first-child {
   position: relative;
   padding-left: 0;
 }
-.tab-content table tbody tr td:first-child:after {
+#menu-nav-tabs-content .tab-content table tbody tr td:first-child:after {
   content: "";
   border-bottom: 1px solid #937a6b;
   width: 100%;
@@ -4179,7 +4179,7 @@ footer .footer-social li a .fa {
   z-index: 1;
   top: 20px;
 }
-.tab-content table tbody tr td .table-title {
+#menu-nav-tabs-content .tab-content table tbody tr td .table-title {
   float: left;
   background: #ffffff;
   z-index: 2;

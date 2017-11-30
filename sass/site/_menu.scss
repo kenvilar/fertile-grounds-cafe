@@ -23,7 +23,6 @@
 	}
 }
 #coffee-tabs {
-	margin-bottom: 80px;
 	li {
 		padding-right: 25px;
 		a {
@@ -40,38 +39,41 @@
 		}
 	}
 }
-.tab-content {
-	table {
-		border: transparent;
-		thead {
-			th {
-				border-bottom: transparent;
+#menu-nav-tabs-content {
+	padding-top: 80px;
+	.tab-content {
+		table {
+			border: transparent;
+			thead {
+				th {
+					border-bottom: transparent;
+				}
 			}
-		}
-		tbody {
-			tr {
-				td {
-					border-top: transparent;
-					&:first-child {
-						position: relative;
-						padding-left: 0;
-						&:after {
-							content: "";
-							border-bottom: 1px solid $color__main-brown;
-							width: 100%;
-							position: absolute;
-							left: 0;
-							right: 0;
-							z-index: 1;
-							top: 20px;
+			tbody {
+				tr {
+					td {
+						border-top: transparent;
+						&:first-child {
+							position: relative;
+							padding-left: 0;
+							&:after {
+								content: "";
+								border-bottom: 1px solid $color__main-brown;
+								width: 100%;
+								position: absolute;
+								left: 0;
+								right: 0;
+								z-index: 1;
+								top: 20px;
+							}
 						}
-					}
-					.table-title {
-						float: left;
-						background: $color__main-white;
-						z-index: 2;
-						position: relative;
-						padding-right: 6px;
+						.table-title {
+							float: left;
+							background: $color__main-white;
+							z-index: 2;
+							position: relative;
+							padding-right: 6px;
+						}
 					}
 				}
 			}
