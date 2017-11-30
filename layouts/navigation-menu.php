@@ -6,7 +6,7 @@
 	<nav class="navbar">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="/">
+				<a class="navbar-brand" href="<?php echo home_url(); ?>">
 					<img src="<?php
 					if ( get_field( 'image_logo', 'option' ) ) {
 						the_field( 'image_logo', 'option' );
@@ -50,21 +50,22 @@
 			?>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li class=""><a href="http://fertilegrounds.dev/about/">About</a></li>
+					<li class=""><a href="<?php echo home_url(); ?>/about/">About</a></li>
 					<li class="has-children">
-						<a href="http://fertilegrounds.dev/menu/">Menu
-							<span data-toggle="dropdown" class="dropdown-toggle glyphicon glyphicon-chevron-down"></span></a>
+						<a href="<?php echo home_url(); ?>/menu/">Menu
+							<!--<span data-toggle="dropdown" class="dropdown-toggle glyphicon glyphicon-chevron-down"></span>-->
+						</a>
 						<ul class="dropdown-menu" role="menu">
-							<li class=""><a class="light-fare" href="http://fertilegrounds.dev/menu/#light-fare">Light Fare</a></li>
-							<li class=""><a class="menu-tab" href="http://fertilegrounds.dev/menu/#coffee">Coffee</a></li>
-							<li class=""><a class="menu-tab" href="http://fertilegrounds.dev/menu/#drinks">Drinks</a></li>
-							<li class=""><a class="menu-tab" href="http://fertilegrounds.dev/menu/#teas">Teas</a></li>
-							<li class=""><a class="menu-tab" href="http://fertilegrounds.dev/menu/#smoothies">Smoothies</a></li>
+							<li class=""><a class="light-fare" href="<?php echo home_url(); ?>/menu/#light-fare">Light Fare</a></li>
+							<li class=""><a class="menu-tab" href="<?php echo home_url(); ?>/menu/#coffee">Coffee</a></li>
+							<li class=""><a class="menu-tab" href="<?php echo home_url(); ?>/menu/#drinks">Drinks</a></li>
+							<li class=""><a class="menu-tab" href="<?php echo home_url(); ?>/menu/#teas">Teas</a></li>
+							<li class=""><a class="menu-tab" href="<?php echo home_url(); ?>/menu/#smoothies">Smoothies</a></li>
 						</ul>
 					</li>
-					<li class=""><a href="http://fertilegrounds.dev/venue/">Venue</a></li>
-					<li class=""><a href="/events">Events</a></li>
-					<li class=""><a href="http://fertilegrounds.dev/contact-us/">Contact Us</a></li>
+					<li class=""><a href="<?php echo home_url(); ?>/venue/">Venue</a></li>
+					<li class=""><a href="<?php echo home_url(); ?>/events">Events</a></li>
+					<li class=""><a href="<?php echo home_url(); ?>/contact-us/">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
