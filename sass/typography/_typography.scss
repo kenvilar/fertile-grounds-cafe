@@ -35,6 +35,9 @@ p, .p {
 	@include wordbreak;
 	margin-bottom: 20px;
 }
+small {
+	font-size: 60%;
+}
 .small-p {
 	font-size: 14px;
 	line-height: 2;

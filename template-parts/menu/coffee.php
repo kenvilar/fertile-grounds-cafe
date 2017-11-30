@@ -11,13 +11,14 @@
 <div class="col-xs-12 col-md-6 panel-body">
 	<span class="h2 text-brown text-bold text-uppercase">Coffee and Espresso</span>
 	<div class="clear"></div>
-	<span class="text-black h6 text-medium-italic">Made with frozen fruit, yogurt / milk, and or fruit juice.</span>
+	<span class="text-black h6 text-medium-italic">Served Hot or Iced</span>
 	<table class="table table-responsive">
 		<thead>
 
 		<tr>
 			<th></th>
 			<th class="text-brown">Sm</th>
+			<th class="text-brown">Med</th>
 			<th class="text-brown">Lrg</th>
 		</tr>
 
@@ -27,57 +28,58 @@
 		<!--Menu Item-->
 		<tr>
 			<td>
-				<span class="table-title"><strong>Caribbean Coolada</strong></span>
+				<span class="table-title"><strong>Americano</strong></span>
 				<div class="clearfix"></div>
-				Organic vanilla greek yogurt, strawberry, pineapple, banana, mangos
 			</td>
+			<td><strong>1.75</strong></td>
+			<td><strong>2.50</strong></td>
+			<td><strong>2.75</strong></td>
+		</tr>
+
+		<!--Menu Item-->
+		<tr>
+			<td>
+				<span class="table-title"><strong>Caffè Latte</strong></span>
+				<div class="clearfix"></div>
+			</td>
+			<td><strong>2.75</strong></td>
 			<td><strong>3.50</strong></td>
-			<td><strong>5.75</strong></td>
+			<td><strong>4.00</strong></td>
 		</tr>
 
 		<!--Menu Item-->
 		<tr>
 			<td>
-				<span class="table-title"><strong>Peachy Breakfast</strong></span>
+				<span class="table-title"><strong>Cappuccino</strong></span>
 				<div class="clearfix"></div>
-				Organic vanilla greek yogurt, apple juice, banana, peaches, blackberry
 			</td>
-			<td><strong>4.25</strong></td>
-			<td><strong>6.50</strong></td>
-		</tr>
-
-		<!--Menu Item-->
-		<tr>
-			<td>
-				<span class="table-title"><strong>Yoga Blend</strong> <i>(Dairy Free)</i></span>
-				<div class="clearfix"></div>
-				Strawberries, mangos, guava nectar, banana
-			</td>
+			<td><strong>2.75</strong></td>
 			<td><strong>3.50</strong></td>
-			<td><strong>5.75</strong></td>
+			<td><strong>4.00</strong></td>
 		</tr>
 
 		<!--Menu Item-->
 		<tr>
 			<td>
-				<span class="table-title"><strong>Berry Blast</strong> <i>(Dairy Free)</i></span>
+				<span class="table-title"><strong>Breve</strong></span>
 				<div class="clearfix"></div>
-				Cranberry juice, strawberries, blueberries, raspberries, blackberries
 			</td>
-			<td><strong>4.25</strong></td>
-			<td><strong>6.50</strong></td>
-		</tr>
-
-		<!--Menu Item-->
-		<tr>
-			<td>
-				<span class="table-title"><strong>Chocolate Craver</strong></span>
-				<div class="clearfix"></div>
-				Organic peanut butter, banana, almonds, Ghirardelli chocolate, vanilla soy
-			</td>
+			<td><strong>2.75</strong></td>
 			<td><strong>3.50</strong></td>
-			<td><strong>5.75</strong></td>
+			<td><strong>4.00</strong></td>
 		</tr>
+
+		<!--Menu Item-->
+		<tr>
+			<td>
+				<span class="table-title"><strong>Espresso</strong></span>
+				<div class="clearfix"></div>
+			</td>
+			<td><strong>1.50 <br> <small class="text-brown">Single</small></strong></td>
+			<td><strong></strong></td>
+			<td><strong>2.00 <br> <small class="text-brown">Double</small></strong></td>
+		</tr>
+
 
 		</tbody>
 	</table>
