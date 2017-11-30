@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-	<section style="padding-top: 70px;">
+	<section id="light-fare" style="padding-top: 70px;">
 		<div class="container-fluid nopadding relative-md">
 			<div class="col-md-6 col-xs-12 nopadding hidden-sm hidden-xs"
 			     data-image="<?php
