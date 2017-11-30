@@ -1,0 +1,30 @@
+{
+  "name": "fertilegroundscafe",
+  "version": "1.0.1",
+  "description": "Fertile Grounds Cafe is a coffee house located inside one of Rochester\\'s treasured East Avenue mansions. Completely remodeled, our coffee shop boasts multiple gathering spaces, including gardens, patios, decks and cozy fireplaces, perfect for small groups or solitude.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/kenvilar/fertile-grounds-cafe.git"
+  },
+  "keywords": [
+    "fertilegroundscafe",
+    "fertile",
+    "grounds",
+    "cafe",
+    "wordpress",
+    "theme",
+    "bootstrap",
+    "sass",
+    "webpack",
+    "npm",
+    "bower",
+    "owlcarousel"
+  ],
+  "author": "Ken Vilar",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/kenvilar/fertile-grounds-cafe#readme"
+}
