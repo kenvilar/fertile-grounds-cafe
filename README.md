@@ -20,9 +20,9 @@ Getting Started
 * Run SASS using this command `sass sass/style.scss assets/css/style.css` or 
 * Run and watch SASS using this command `sass --watch sass/style.scss:assets/css/style.css` or
 * Run, watch, and minify the css files using these commands     
-`sass --watch sass/style.scss:assets/css/style.css --style expanded`    
+`sass --sourcemap=none --watch sass/style.scss:assets/css/style.css --style expanded`    
 and     
-`sass --watch assets/css/style.css:assets/css/style.min.css --style compressed --scss`
+`sass --sourcemap=none --watch assets/css/style.css:assets/css/style.min.css --style compressed --scss`
 * Run this command to minify the custom js
 `NODE_ENV=production webpack --watch`
 
