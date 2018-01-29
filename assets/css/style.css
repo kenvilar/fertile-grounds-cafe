@@ -3460,6 +3460,7 @@ figure {
 a, a:hover, a:focus, a:active {
   text-decoration: none;
   outline: 0;
+  color: inherit;
 }
 
 a, button, input[type="button"] {
@@ -5887,5 +5888,3 @@ aside .widget .tagcloud a {
     text-align: center;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

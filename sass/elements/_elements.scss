@@ -34,6 +34,7 @@ figure {
 a, a:hover, a:focus, a:active {
 	text-decoration: none;
 	outline: 0;
+	color: inherit;
 }
 a, button, input[type="button"] {
 	@include transition;
