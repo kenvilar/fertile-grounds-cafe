@@ -62,7 +62,7 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<h2 class="text-center text-uppercase text-brown">What our Customer says</h2>
+					<h2 class="text-center text-uppercase text-brown">What Our Customers Say</h2>
 				</div>
 			</div>
 			<div class="row">
