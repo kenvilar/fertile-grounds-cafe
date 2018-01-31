@@ -39,6 +39,8 @@ get_header();
 						}
 						?>
 
+                        <br>
+
 						<a href="/venue" class="btn btn-version2">Check Rental Fees &nbsp;<i
 									class="fa fa-angle-right"></i></a>
 
