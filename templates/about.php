@@ -8,7 +8,7 @@ get_header(); ?>
 	<section>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-offset-2 col-md-8 col-xs-12 nopadding text-justify-center">
+				<div class="col-md-offset-2 col-md-8 col-xs-12 nopadding text-justify">
 					<div style="margin-bottom: 70px;"></div>
 					<?php
 					if ( have_posts() ) :
