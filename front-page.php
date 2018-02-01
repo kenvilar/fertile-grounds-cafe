@@ -33,7 +33,7 @@ get_header();
 			     style="background: #937a6b;padding-top: 50px;">
 				<div class="col-lg-offset-3 col-lg-9 col-md-offset-1 col-md-11 nopadding">
 					<h2 class="text-uppercase text-white">Venue</h2>
-					<div class="h6 text-white" style="width: 97%;">
+					<div class="h6 text-white text-justify" style="width: 97%;">
 						<?php
 						if ( get_field( 'venue_content' ) ) {
 							the_field( 'venue_content' );
