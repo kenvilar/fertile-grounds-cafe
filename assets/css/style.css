@@ -3603,6 +3603,10 @@ address {
   padding-bottom: 10px;
 }
 
+.ekko-lightbox-nav-overlay a span {
+  color: #fff;
+}
+
 .btn-version1 {
   color: #333;
   background-color: #fff;
