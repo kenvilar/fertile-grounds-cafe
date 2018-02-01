@@ -4094,6 +4094,21 @@ footer .footer-social li a .fa {
   background-position: center center;
   background-color: #000;
 }
+#home-venue .home-gallery-item-wrapper .home-gallery-item:hover:before {
+  content: '\f002';
+  font-family: 'FontAwesome', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  background-color: #937a6b;
+  padding: 1.7rem 1.7rem;
+  color: white;
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .map-and-address-wrapper .address {
   padding-top: 50px;
