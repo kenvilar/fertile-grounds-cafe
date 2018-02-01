@@ -62,7 +62,7 @@ get_header();
 						<div class="col-xs-12 pad-y-5 hidden-lg"></div>
 						<div class="col-xs-12">
 							<div role="link" tabindex="0" href="<?php echo get_field( 'gallery_items' )[0]['url']; ?>"
-							     data-toggle="lightbox" class="home-gallery-item"
+							     data-toggle="lightbox" data-gallery="home-gallery" class="home-gallery-item"
 							     style="height: 30vh;background-image: url(<?php echo get_field( 'gallery_items' )[0]['url']; ?>)"></div>
 						</div>
 					<?php endif; ?>
@@ -71,7 +71,7 @@ get_header();
 						<div class="col-xs-12 pad-y-5 hidden-xs hidden-sm"></div>
 						<div class="col-xs-12 <?php echo count( get_field( 'gallery_items' ) ) === 2 ? 'col-sm-12 col-md-12' : 'col-sm-6 col-md-6'; ?>">
 							<div role="link" tabindex="0" href="<?php echo get_field( 'gallery_items' )[1]['url']; ?>"
-							     data-toggle="lightbox" class="home-gallery-item"
+							     data-toggle="lightbox" data-gallery="home-gallery" class="home-gallery-item"
 							     style="height: 30vh;background-image: url(<?php echo get_field( 'gallery_items' )[1]['url']; ?>)"></div>
 						</div>
 					<?php endif; ?>
@@ -79,7 +79,7 @@ get_header();
 					<?php if ( get_field( 'gallery_items' )[2]['url'] ) : ?>
 						<div class="col-xs-12 col-sm-6 col-md-6">
 							<div role="link" tabindex="0" href="<?php echo get_field( 'gallery_items' )[2]['url']; ?>"
-							     data-toggle="lightbox" class="home-gallery-item"
+							     data-toggle="lightbox" data-gallery="home-gallery" class="home-gallery-item"
 							     style="height: 30vh;background-image: url(<?php echo get_field( 'gallery_items' )[2]['url']; ?>)"></div>
 						</div>
 					<?php endif; ?>
@@ -88,7 +88,7 @@ get_header();
 						<div class="col-xs-12 pad-y-5 hidden-xs hidden-sm"></div>
 						<div class="col-xs-12 <?php echo count( get_field( 'gallery_items' ) ) === 4 ? 'col-sm-12 col-md-12' : 'col-sm-6 col-md-6'; ?>">
 							<div role="link" tabindex="0" href="<?php echo get_field( 'gallery_items' )[3]['url']; ?>"
-							     data-toggle="lightbox" class="home-gallery-item"
+							     data-toggle="lightbox" data-gallery="home-gallery" class="home-gallery-item"
 							     style="height: 30vh;background-image: url(<?php echo get_field( 'gallery_items' )[3]['url']; ?>)"></div>
 						</div>
 					<?php endif; ?>
@@ -96,7 +96,7 @@ get_header();
 					<?php if ( get_field( 'gallery_items' )[4]['url'] ) : ?>
 						<div class="col-xs-12 col-sm-6 col-md-6">
 							<div role="link" tabindex="0" href="<?php echo get_field( 'gallery_items' )[4]['url']; ?>"
-							     data-toggle="lightbox" class="home-gallery-item"
+							     data-toggle="lightbox" data-gallery="home-gallery" class="home-gallery-item"
 							     style="height: 30vh;background-image: url(<?php echo get_field( 'gallery_items' )[4]['url']; ?>)"></div>
 						</div>
 					<?php endif; ?>
