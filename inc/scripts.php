@@ -41,6 +41,11 @@ function fertilegroundscafe_scripts() {
 		get_template_directory_uri() . '/assets/lib/jquery.viewportchecker.min.js',
 		array( 'jquery' ),
 		'2017', true );
+
+    wp_enqueue_script( 'bootstrap-lightboxjs',
+        get_template_directory_uri() . '/assets/bower_components/ekko-lightbox/dist/ekko-lightbox.min.js',
+        array( 'jquery' ),
+        '2017', true );
 	
 	if ( fertilegroundscafe_is_localhost() ) {
 		wp_enqueue_script( 'main-custom',

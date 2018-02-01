@@ -3487,6 +3487,10 @@ i {
   background-repeat: no-repeat;
 }
 
+[data-toggle] {
+  cursor: pointer;
+}
+
 section {
   padding-top: 10px;
   padding-bottom: 10px;

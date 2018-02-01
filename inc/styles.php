@@ -11,6 +11,10 @@ function fertilegroundscafe_styles() {
 	wp_enqueue_style( 'owl-carousel-style', get_template_directory_uri() . '/assets/bower_components/owl.carousel/dist/assets/owl.carousel.min.css',
 		array(),
 		'2017' );
+
+    wp_enqueue_style( 'bootstrap-lightboxcss', get_template_directory_uri() . '/assets/bower_components/ekko-lightbox/dist/ekko-lightbox.css',
+        array(),
+        '2017' );
 	
 	if ( fertilegroundscafe_is_localhost() ) {
 		wp_enqueue_style( 'main-style-expanded', get_template_directory_uri() . '/assets/css/style.css',
