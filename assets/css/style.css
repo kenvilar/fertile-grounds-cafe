@@ -4088,8 +4088,8 @@ footer .footer-social li a .fa {
   }
 }
 #home-venue .home-gallery-item-wrapper .home-gallery-item {
-  -webkit-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #000;
