@@ -55,25 +55,26 @@ get_header();
                     envira_gallery( 'home-gallery', 'slug', array( 'limit' => 8 ) );
                 }*/
                 ?>
+                <div class="col-xs-12 pad-y-5 hidden-lg"></div>
                 <div class="col-xs-12">
                     <div class="home-gallery-item"
                          style="height: 30vh;background-image: url(http://fertilegrounds.dev/wp-content/uploads/2017/11/about.png)"></div>
                 </div>
-                <div class="col-xs-12 pad-y-5"></div>
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 pad-y-5 hidden-xs hidden-sm"></div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="home-gallery-item"
                          style="height: 30vh;background-image: url(http://fertilegrounds.dev/wp-content/uploads/2017/11/venue2.png)"></div>
                 </div>
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="home-gallery-item"
                          style="height: 30vh;background-image: url(http://fertilegrounds.dev/wp-content/uploads/2017/11/venue3.png)"></div>
                 </div>
-                <div class="col-xs-12 pad-y-5"></div>
-                <div class="col-xs-12 col-md-6 equal-height">
+                <div class="col-xs-12 pad-y-5 hidden-xs hidden-sm"></div>
+                <div class="col-xs-12 col-sm-6 col-md-6 equal-height">
                     <div class="home-gallery-item"
                          style="height: 30vh;background-image: url(http://fertilegrounds.dev/wp-content/uploads/2017/11/venue4.png)"></div>
                 </div>
-                <div class="col-xs-12 col-md-6 equal-height">
+                <div class="col-xs-12 col-sm-6 col-md-6 equal-height">
                     <div class="home-gallery-item"
                          style="height: 30vh;background-image: url(http://fertilegrounds.dev/wp-content/uploads/2017/11/venue4.png)"></div>
                 </div>

@@ -4074,6 +4074,11 @@ footer .footer-social li a .fa {
   padding-left: 0;
   padding-right: 0;
 }
+@media screen and (max-width: 960px) {
+  #home-venue .home-gallery-item-wrapper .home-gallery-item {
+    margin-bottom: 10px;
+  }
+}
 #home-venue .home-gallery-item-wrapper .home-gallery-item {
   -webkit-background-size: contain;
   background-size: contain;
