@@ -4,4 +4,13 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.home-gallery-item-wrapper {
+		.home-gallery-item {
+			-webkit-background-size: contain;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-color: #000;
+		}
+	}
 }

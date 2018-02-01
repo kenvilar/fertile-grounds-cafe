@@ -6,6 +6,11 @@
 		position: relative;
 	}
 }
+@media screen and (max-width: 1136px) {
+	.ken-col-md-12 {
+		width: 100%;
+	}
+}
 @media screen and (max-width: 992px) {
 	/* Footer Widget */
 	.opening-hours {

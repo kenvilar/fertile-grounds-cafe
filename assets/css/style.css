@@ -3589,6 +3589,16 @@ address {
   background-color: #111111 !important;
 }
 
+.pad-y-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.pad-y-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .btn-version1 {
   color: #333;
   background-color: #fff;
@@ -4063,6 +4073,13 @@ footer .footer-social li a .fa {
 #home-venue .container-fluid {
   padding-left: 0;
   padding-right: 0;
+}
+#home-venue .home-gallery-item-wrapper .home-gallery-item {
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #000;
 }
 
 .map-and-address-wrapper .address {
@@ -5619,34 +5636,35 @@ aside .widget .tagcloud a {
     background: none;
   }
 }
-.fertilegrounds-home-gallery .envira-gallery-item-inner {
-  background-color: #000;
+/*
+.fertilegrounds-home-gallery {
+	.envira-gallery-item-inner {
+		background-color: #000;
+	}
+	.envira-gallery-item-inner:hover:before {
+		content: '\f002';
+		@include fontawesome;
+		font-size: 20px;
+		background-color: #937a6b;
+		padding: 1.7rem 1.7rem;
+		color: rgb(255, 255, 255);
+		position: relative;
+		float: left;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	a.envira-gallery-link {
+		display: block;
+		border: none;
+		padding: 0;
+		margin: 0;
+	}
+	.envira-gallery-item-inner.envira-gallery-item-inner.envira-gallery-item-inner.envira-gallery-item-inner.envira-gallery-item-inner:hover img.envira-gallery-image {
+		opacity: 0.5;
+	}
 }
-.fertilegrounds-home-gallery .envira-gallery-item-inner:hover:before {
-  content: '\f002';
-  font-family: 'FontAwesome', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 20px;
-  background-color: #937a6b;
-  padding: 1.7rem 1.7rem;
-  color: white;
-  position: relative;
-  float: left;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.fertilegrounds-home-gallery a.envira-gallery-link {
-  display: block;
-  border: none;
-  padding: 0;
-  margin: 0;
-}
-.fertilegrounds-home-gallery .envira-gallery-item-inner.envira-gallery-item-inner.envira-gallery-item-inner.envira-gallery-item-inner.envira-gallery-item-inner:hover img.envira-gallery-image {
-  opacity: 0.5;
-}
-
+*/
 /*-------------------------Media Queries-------------------------------*/
 @media screen and (min-width: 1920px) {
   body {
@@ -5655,6 +5673,11 @@ aside .widget .tagcloud a {
     background-color: #ffffff;
     -webkit-backface-visibility: initial !important;
     backface-visibility: initial !important;
+  }
+}
+@media screen and (min-width: 1680px) {
+  .home-gallery-item {
+    height: 18vh !important;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -5857,6 +5880,11 @@ aside .widget .tagcloud a {
 
   footer {
     position: relative;
+  }
+}
+@media screen and (max-width: 1136px) {
+  .ken-col-md-12 {
+    width: 100%;
   }
 }
 @media screen and (max-width: 992px) {

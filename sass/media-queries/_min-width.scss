@@ -7,6 +7,12 @@
 		backface-visibility: initial !important;
 	}
 }
+@media screen and (min-width: 1680px) {
+	///homepage gallery
+	.home-gallery-item {
+		height: 18vh !important;
+	}
+}
 @media screen and (min-width: 1200px) {
 	.container {
 		width: 1200px;
