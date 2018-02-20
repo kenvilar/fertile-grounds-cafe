@@ -11,12 +11,20 @@
 
 <section class="no-results not-found">
 	<div class="row">
-
-		<div class="col-xs-12">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'fertilegroundscafe' ); ?></h1>
-			</header>
-		</div>
+		
+		<?php if ( ! is_front_page() && is_home() ) : ?>
+			<div class="col-xs-12">
+				<header class="page-header">
+					<h1 class="page-title"><?php esc_html_e( 'Coming Soon!', 'fertilegroundscafe' ); ?></h1>
+				</header>
+			</div>
+		<?php else : ?>
+			<div class="col-xs-12">
+				<header class="page-header">
+					<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'fertilegroundscafe' ); ?></h1>
+				</header>
+			</div>
+		<?php endif; ?>
 
 		<div class="col-xs-12">
 			<div class="page-content">
@@ -46,7 +54,14 @@
 				
 				else : ?>
 
-					<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for.', 'fertilegroundscafe' ); ?></p>
+					<p>
+						<?php
+						/*esc_html_e(
+							'It seems we can&rsquo;t find what you&rsquo;re looking for.',
+							'fertilegroundscafe'
+						);*/
+						?>
+					</p>
 					<?php
 					/*get_search_form();*/
 				
