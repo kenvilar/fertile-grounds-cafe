@@ -7,6 +7,11 @@
  * @package Fertile_Grounds_Cafe
  */
 
+/*
+ * Good for enqueue scripts and enqueue styles
+ * */
+define('FERTILEGROUNDSCAFE_VERSION', '2018');
+
 if ( ! function_exists( 'fertilegroundscafe_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
