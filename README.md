@@ -26,6 +26,8 @@ and
 (Note that I add --sourcemap=none in minified css for production)
 * Run this command to minify the custom js
 `NODE_ENV=production webpack --watch`
+* If you have a different url in your local just add on it in this line
+`return in_array( $server_name, array( 'localhost', '127.0.0.1', 'fertilegrounds.dev' ) );` at wp-content/themes/fertilegroundscafe/inc/ directory
 
 
 Now you're ready to go! The next step is easy to say, but harder to do: make an awesome Fertile Grounds Cafe WordPress theme. :)
