@@ -5,7 +5,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 
 Requires at least: 4.0
 Tested up to: 4.8
-Stable tag: 1.0.1
+Stable tag: 1.2.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
@@ -34,6 +34,9 @@ Fertile Grounds Cafe includes support for Infinite Scroll in Jetpack.
 
 = 1.0.1 - November 23, 2017 =
 * Front Page Template
+
+= 1.2.0 - February 23, 2018 =
+* Style and content updates
 
 == Credits ==
 
