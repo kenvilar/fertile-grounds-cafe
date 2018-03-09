@@ -28,6 +28,16 @@
 			padding-right: 0;
 		}
 	}
+	#menu-nav-tabs-content {
+		#teas table tbody {
+			tr {
+				td {
+					width: 100%;
+					display: inline-table;
+				}
+			}
+		}
+	}
 }
 @media screen and (max-width: 360px) {
 	/* Menu */
