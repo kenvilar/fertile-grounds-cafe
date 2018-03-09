@@ -9,7 +9,7 @@
 	</div>
 	<br>
 	<div data-image=""
-	     style="height: 475px;
+	     style="height: 300px;
 			     background-image: url(<?php echo get_template_directory_uri() . '/assets/images/banner/venue.jpg'; ?>)">
 	</div>
 </div>
