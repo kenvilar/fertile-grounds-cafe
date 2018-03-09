@@ -4235,13 +4235,13 @@ footer .footer-social li a .fa {
 #menu-nav-tabs-content .tab-content #teas table tbody tr td {
   border-top: transparent;
 }
-#menu-nav-tabs-content .tab-content #teas table tbody tr td:nth-child(2) {
+#menu-nav-tabs-content .tab-content #teas table tbody tr td:first-child, #menu-nav-tabs-content .tab-content #teas table tbody tr td:nth-child(2) {
   position: relative;
   padding-left: 0;
 }
-#menu-nav-tabs-content .tab-content #teas table tbody tr td:nth-child(2):after {
+#menu-nav-tabs-content .tab-content #teas table tbody tr td:first-child:after, #menu-nav-tabs-content .tab-content #teas table tbody tr td:nth-child(2):after {
   content: "";
-  border-bottom: 1px solid #937a6b;
+  border-bottom: none;
   width: 100%;
   position: absolute;
   left: 0;
