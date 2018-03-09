@@ -66,6 +66,7 @@ if ( have_rows( 'sections_background_image' ) ) : ?>
 	<?php endif; ?>
 <?php endif; ?>
 
+<?php if ( have_rows( 'list_of_teas' ) ) : ?>
 	<section>
 		<div class="container">
 			<div class="row">
@@ -88,13 +89,14 @@ if ( have_rows( 'sections_background_image' ) ) : ?>
 				<div class="col-xs-12 col-sm-6">
 					<img class="img-responsive center-block"
 					     src="<?php
-					     echo get_field( 'tea_image' ) ? the_field( 'tea_image' ) : get_template_directory_uri() . '/assets/images/menu/menu1.png';
+					     echo get_field( 'tea_image' ) ? the_field( 'tea_image' ) : '';
 					     ?>"
 					     alt="image">
 				</div>
 			</div>
 		</div>
 	</section>
+<?php endif; ?>
 
 <?php if ( have_rows( 'sections_background_image' ) ) : ?>
 	<?php if ( get_field( 'sections_background_image' )[1]['title'] ) : ?>
