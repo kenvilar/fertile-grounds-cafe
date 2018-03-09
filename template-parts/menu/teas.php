@@ -135,10 +135,10 @@
 				<div class="clearfix"></div>
 				Apple, cacao beans, chocolate bits, peppermint, rooibos, vanilla, white chocolate bits
 			</td>
-			<td>
+			<!--<td>
 				<span class="table-title"><strong></strong></span>
 				<div class="clearfix"></div>
-			</td>
+			</td>-->
 		</tr>
 
 		<!--Menu Item-->
