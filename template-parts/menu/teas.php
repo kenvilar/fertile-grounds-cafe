@@ -142,6 +142,7 @@
 			<td>
 				<span class="table-title"><strong>Remember Rosemary</strong></span>
 				<div class="clearfix"></div>
+				Chinese green tea, lemon myrtle, orange peel, rosemary
 			</td>
 		</tr>
 
@@ -150,6 +151,7 @@
 			<td>
 				<span class="table-title"><strong>Passion and Envy</strong></span>
 				<div class="clearfix"></div>
+				Blue mallow flowers, Chinese green tea, mango flavor, marigold petals, papaya flavor, pineapple flavor
 			</td>
 		</tr>
 
@@ -158,6 +160,7 @@
 			<td>
 				<span class="table-title"><strong>Secret Garden Tisane</strong></span>
 				<div class="clearfix"></div>
+				Chamomile, lavender, peppermint, rooibos, rose petals
 			</td>
 		</tr>
 
@@ -166,6 +169,7 @@
 			<td>
 				<span class="table-title"><strong>Red Velvet *contains traces of sugar & dairy</strong></span>
 				<div class="clearfix"></div>
+				Apple, cacao beans, chocolate bits, hibiscus, raspberry, rooibos, rose hips, vanilla, white chocolate bits
 			</td>
 		</tr>
 
@@ -174,6 +178,7 @@
 			<td>
 				<span class="table-title"><strong>Once Upon A Tea *contains traces of sugar & dairy</strong></span>
 				<div class="clearfix"></div>
+				Apple, cacao beans, chocolate bits, peppermint, rooibos, vanilla, white chocolate bits
 			</td>
 		</tr>
 
