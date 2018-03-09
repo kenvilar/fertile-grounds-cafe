@@ -4,7 +4,13 @@
 
 <div class="col-xs-12 col-md-4 nopadding">
 	<div data-image=""
-	     style="height: 475px;background-image: url(<?php echo get_template_directory_uri() . '/assets/images/menu/new-teas.jpg'; ?>)">
+	     style="height: 475px;
+			     background-image: url(<?php echo get_template_directory_uri() . '/assets/images/menu/new-teas.jpg'; ?>)">
+	</div>
+	<br>
+	<div data-image=""
+	     style="height: 475px;
+			     background-image: url(<?php echo get_template_directory_uri() . '/assets/images/banner/venue.jpg'; ?>)">
 	</div>
 </div>
 <div class="col-xs-12 col-md-8 panel-body">
@@ -125,7 +131,8 @@
 			<td>
 				<span class="table-title"><strong>Red Velvet *contains traces of sugar & dairy</strong></span>
 				<div class="clearfix"></div>
-				Apple, cacao beans, chocolate bits, hibiscus, raspberry, rooibos, rose hips, vanilla, white chocolate bits
+				Apple, cacao beans, chocolate bits, hibiscus, raspberry, rooibos, rose hips, vanilla, white chocolate
+				bits
 			</td>
 		</tr>
 
