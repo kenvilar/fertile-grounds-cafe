@@ -17,7 +17,7 @@
 		<tr>
 			<th></th>
 			<th class="text-brown">Sm</th>
-			<th class="text-brown">Lrg</th>
+			<th class="text-brown">Med</th>
 		</tr>
 
 		</thead>
@@ -73,6 +73,39 @@
 				<span class="table-title"><strong>Chocolate Craver</strong></span>
 				<div class="clearfix"></div>
 				Organic peanut butter, banana, almonds, Ghirardelli chocolate, vanilla soy
+			</td>
+			<td><strong>3.50</strong></td>
+			<td><strong>5.75</strong></td>
+		</tr>
+
+		<!--Menu Item-->
+		<tr>
+			<td>
+				<span class="table-title"><strong>Green Power House</strong></span>
+				<div class="clearfix"></div>
+				Spinach, avocado, mango, pineapple, and guava nectar
+			</td>
+			<td><strong>3.50</strong></td>
+			<td><strong>5.75</strong></td>
+		</tr>
+
+		<!--Menu Item-->
+		<tr>
+			<td>
+				<span class="table-title"><strong>Raspberry Truffle</strong></span>
+				<div class="clearfix"></div>
+				Chocolate, raspberries, strawberries, avocado, almond milk
+			</td>
+			<td><strong>3.50</strong></td>
+			<td><strong>5.75</strong></td>
+		</tr>
+
+		<!--Menu Item-->
+		<tr>
+			<td>
+				<span class="table-title"><strong>Island Breeze</strong></span>
+				<div class="clearfix"></div>
+				Mangos, bananas, pineapple, avocado, guava nectar
 			</td>
 			<td><strong>3.50</strong></td>
 			<td><strong>5.75</strong></td>
