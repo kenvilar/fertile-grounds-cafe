@@ -7,7 +7,16 @@
  * */
 ?>
 
-<section>
+<div class="container mobile-short-height" style="padding-top: 150px;display: table;position: relative;">
+	<div class="row">
+		<div style="position: relative">
+			<div style="position: absolute;"></div>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+</div>
+
+<section id="menu-nav-tabs-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 center-block text-center nopadding">

@@ -11,6 +11,11 @@
 		width: 100%;
 	}
 }
+@media screen and (max-width: 1280px) and (min-width: 992px) {
+	#menu-nav-tabs-wrapper {
+		padding-top: 100px;
+	}
+}
 @media screen and (max-width: 992px) {
 	/* Footer Widget */
 	.opening-hours {
@@ -37,6 +42,9 @@
 				}
 			}
 		}
+	}
+	.mobile-short-height {
+		padding-top: 0 !important;
 	}
 }
 @media screen and (max-width: 360px) {
