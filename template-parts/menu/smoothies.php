@@ -72,7 +72,7 @@
 			<td>
 				<span class="table-title"><strong>Chocolate Craver</strong></span>
 				<div class="clearfix"></div>
-				Organic peanut butter, banana, almonds, Ghirardelli chocolate, vanilla soy
+				Organic peanut butter, banana, almonds, Ghirardelli chocolate, almond milk
 			</td>
 			<td><strong>3.50</strong></td>
 			<td><strong>5.75</strong></td>
