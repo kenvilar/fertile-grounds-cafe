@@ -17,7 +17,7 @@
 		<tr>
 			<th></th>
 			<th class="text-brown">Sm</th>
-			<th class="text-brown">Med</th>
+			<th class="text-brown">Lrg</th>
 		</tr>
 
 		</thead>
