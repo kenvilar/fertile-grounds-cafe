@@ -23,3 +23,4 @@ include get_template_directory() . '/inc/custom-post-types/teas-and-tisane.php';
 /**
  * Smoothies
  */
+include get_template_directory() . '/inc/custom-post-types/smoothies.php';
