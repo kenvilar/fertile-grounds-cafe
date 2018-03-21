@@ -47,7 +47,7 @@ function fertilegrounds_coffeeandespresso_cpt() {
 		'show_in_admin_bar'   => true,
 		'show_in_nav_menus'   => true,
 		'can_export'          => true,
-		'has_archive'         => true,
+		'has_archive'         => false,
 		'hierarchical'        => false,
 		'exclude_from_search' => false,
 		'show_in_rest'        => true,
