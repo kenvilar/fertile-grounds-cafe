@@ -2,7 +2,7 @@
 
 // Register Custom Post Type Smoothie
 // Post Type Key: smoothie
-function create_smoothie_cpt() {
+function fertilegrounds_smoothie_cpt() {
 	
 	$labels = array(
 		'name'                  => __( 'Smoothies', 'Post Type General Name', 'fertilegroundscafe' ),
@@ -58,4 +58,4 @@ function create_smoothie_cpt() {
 	
 }
 
-add_action( 'init', 'create_smoothie_cpt', 0 );
+add_action( 'init', 'fertilegrounds_smoothie_cpt', 0 );

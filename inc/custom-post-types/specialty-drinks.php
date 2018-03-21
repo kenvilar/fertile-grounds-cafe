@@ -2,7 +2,7 @@
 
 // Register Custom Post Type Specialty Drink
 // Post Type Key: specialtydrink
-function create_specialtydrink_cpt() {
+function fertilegrounds_specialtydrink_cpt() {
 	
 	$labels = array(
 		'name'                  => __( 'Specialty Drinks', 'Post Type General Name', 'fertilegroundscafe' ),
@@ -58,4 +58,4 @@ function create_specialtydrink_cpt() {
 	
 }
 
-add_action( 'init', 'create_specialtydrink_cpt', 0 );
+add_action( 'init', 'fertilegrounds_specialtydrink_cpt', 0 );
