@@ -63,7 +63,7 @@ get_header();
 						<div class="col-xs-12">
 							<div role="link" tabindex="0" href="<?php echo get_field( 'gallery_items' )[0]['url']; ?>"
 							     data-toggle="lightbox" data-gallery="home-gallery" class="home-gallery-item"
-							     style="height: 30vh;background-image: url(<?php echo get_field( 'gallery_items' )[0]['url']; ?>)"></div>
+							     style="height: 35vh;background-image: url(<?php echo get_field( 'gallery_items' )[0]['url']; ?>)"></div>
 						</div>
 					<?php endif; ?>
 					
@@ -72,7 +72,7 @@ get_header();
 						<div class="col-xs-12 <?php echo count( get_field( 'gallery_items' ) ) === 2 ? 'col-sm-12 col-md-12' : 'col-sm-6 col-md-6'; ?>">
 							<div role="link" tabindex="0" href="<?php echo get_field( 'gallery_items' )[1]['url']; ?>"
 							     data-toggle="lightbox" data-gallery="home-gallery" class="home-gallery-item"
-							     style="height: 30vh;background-image: url(<?php echo get_field( 'gallery_items' )[1]['url']; ?>)"></div>
+							     style="height: 35vh;background-image: url(<?php echo get_field( 'gallery_items' )[1]['url']; ?>)"></div>
 						</div>
 					<?php endif; ?>
 					
@@ -80,7 +80,7 @@ get_header();
 						<div class="col-xs-12 col-sm-6 col-md-6">
 							<div role="link" tabindex="0" href="<?php echo get_field( 'gallery_items' )[2]['url']; ?>"
 							     data-toggle="lightbox" data-gallery="home-gallery" class="home-gallery-item"
-							     style="height: 30vh;background-image: url(<?php echo get_field( 'gallery_items' )[2]['url']; ?>)"></div>
+							     style="height: 35vh;background-image: url(<?php echo get_field( 'gallery_items' )[2]['url']; ?>)"></div>
 						</div>
 					<?php endif; ?>
 					
@@ -89,7 +89,7 @@ get_header();
 						<div class="col-xs-12 <?php echo count( get_field( 'gallery_items' ) ) === 4 ? 'col-sm-12 col-md-12' : 'col-sm-6 col-md-6'; ?>">
 							<div role="link" tabindex="0" href="<?php echo get_field( 'gallery_items' )[3]['url']; ?>"
 							     data-toggle="lightbox" data-gallery="home-gallery" class="home-gallery-item"
-							     style="height: 30vh;background-image: url(<?php echo get_field( 'gallery_items' )[3]['url']; ?>)"></div>
+							     style="height: 35vh;background-image: url(<?php echo get_field( 'gallery_items' )[3]['url']; ?>)"></div>
 						</div>
 					<?php endif; ?>
 					
@@ -97,41 +97,11 @@ get_header();
 						<div class="col-xs-12 col-sm-6 col-md-6">
 							<div role="link" tabindex="0" href="<?php echo get_field( 'gallery_items' )[4]['url']; ?>"
 							     data-toggle="lightbox" data-gallery="home-gallery" class="home-gallery-item"
-							     style="height: 30vh;background-image: url(<?php echo get_field( 'gallery_items' )[4]['url']; ?>)"></div>
+							     style="height: 35vh;background-image: url(<?php echo get_field( 'gallery_items' )[4]['url']; ?>)"></div>
 						</div>
 					<?php endif; ?>
 				
 				<?php endif; ?>
-			</div>
-		</div>
-	</section>
-
-	<section id="home-testimonial">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<h2 class="text-center text-uppercase text-brown">What Our Customers Say</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12 nopadding">
-					<div id="testimonial-carousel" class="owl-carousel owl-theme">
-						<?php
-						$args = array( 'post_type' => 'testimonial' );
-						$loop = new WP_Query( $args );
-						while ( $loop->have_posts() ) : $loop->the_post(); ?>
-							<div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
-								<div class="item">
-									<blockquote>
-										<h6><?php the_content(); ?></h6>
-
-										<strong><span class="h6"><?php the_title(); ?></span></strong>
-									</blockquote>
-								</div>
-							</div>
-						<?php endwhile; ?>
-					</div>
-				</div>
 			</div>
 		</div>
 	</section>
