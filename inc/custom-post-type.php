@@ -18,6 +18,7 @@ include get_template_directory() . '/inc/custom-post-types/specialty-drinks.php'
 /**
  * Teas and Tisane
  */
+include get_template_directory() . '/inc/custom-post-types/teas-and-tisane.php';
 
 /**
  * Smoothies
