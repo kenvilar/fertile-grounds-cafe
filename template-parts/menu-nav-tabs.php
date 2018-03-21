@@ -7,7 +7,7 @@
  * */
 ?>
 
-<div class="container mobile-short-height" style="padding-top: 150px;display: table;position: relative;">
+<div class="container mobile-short-height" style="padding-top: 160px;display: table;position: relative;">
 	<div class="row">
 		<div style="position: relative">
 			<div style="position: absolute;"></div>
