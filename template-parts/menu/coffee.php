@@ -24,9 +24,47 @@
 
 		</thead>
 		<tbody>
+		
+		<?php
+		$args = array(
+			'post_type'      => array( 'coffeeandespresso' ),
+			'post_status'    => array( 'publish' ),
+			'posts_per_page' => - 1,
+			'order'          => 'DESC',
+		);
+		
+		$coffeeQuery = new WP_Query( $args );
+		
+		if ( $coffeeQuery->have_posts() ) {
+			while ( $coffeeQuery->have_posts() ) {
+				$coffeeQuery->the_post();
+				?>
+
+				<tr>
+					<td>
+						<span class="table-title"><?php the_title( '<strong>', '</strong>' ); ?></span>
+						<div class="clearfix"></div>
+					</td>
+					<td><strong><?php echo get_post_meta( $post->ID, 'coffee-small', true ); ?></strong></td>
+					<td><strong><?php echo get_post_meta( $post->ID, 'coffee-medium', true ); ?></strong></td>
+					<td><strong><?php echo get_post_meta( $post->ID, 'coffee-large', true ); ?></strong></td>
+				</tr>
+				
+				<?php
+			}
+		} else {
+			?>
+			<tr>
+				<td colspan="4">No posts found.</td>
+			</tr>
+			
+			<?php
+		}
+		wp_reset_postdata();
+		?>
 
 		<!--Menu Item-->
-		<tr>
+		<!--<tr>
 			<td>
 				<span class="table-title"><strong>Americano</strong></span>
 				<div class="clearfix"></div>
@@ -34,10 +72,10 @@
 			<td><strong>1.75</strong></td>
 			<td><strong>2.50</strong></td>
 			<td><strong>2.75</strong></td>
-		</tr>
+		</tr>-->
 
 		<!--Menu Item-->
-		<tr>
+		<!--<tr>
 			<td>
 				<span class="table-title"><strong>Caffè Latte</strong></span>
 				<div class="clearfix"></div>
@@ -45,10 +83,10 @@
 			<td><strong>2.75</strong></td>
 			<td><strong>3.50</strong></td>
 			<td><strong>4.00</strong></td>
-		</tr>
+		</tr>-->
 
 		<!--Menu Item-->
-		<tr>
+		<!--<tr>
 			<td>
 				<span class="table-title"><strong>Cappuccino</strong></span>
 				<div class="clearfix"></div>
@@ -56,10 +94,10 @@
 			<td><strong>2.75</strong></td>
 			<td><strong>3.50</strong></td>
 			<td><strong>4.00</strong></td>
-		</tr>
+		</tr>-->
 
 		<!--Menu Item-->
-		<tr>
+		<!--<tr>
 			<td>
 				<span class="table-title"><strong>Breve</strong></span>
 				<div class="clearfix"></div>
@@ -67,10 +105,10 @@
 			<td><strong>2.75</strong></td>
 			<td><strong>3.50</strong></td>
 			<td><strong>4.00</strong></td>
-		</tr>
+		</tr>-->
 
 		<!--Menu Item-->
-		<tr>
+		<!--<tr>
 			<td>
 				<span class="table-title"><strong>Espresso</strong></span>
 				<div class="clearfix"></div>
@@ -78,7 +116,7 @@
 			<td><strong>1.50 <br> <small class="text-brown">Single</small></strong></td>
 			<td><strong></strong></td>
 			<td><strong>2.00 <br> <small class="text-brown">Double</small></strong></td>
-		</tr>
+		</tr>-->
 
 
 		</tbody>
