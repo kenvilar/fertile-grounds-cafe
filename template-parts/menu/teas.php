@@ -31,8 +31,67 @@
 
 		</thead>
 		<tbody>
+		
+		<?php
+		$args = array(
+			'post_type'      => array( 'teasandtisane' ),
+			'post_status'    => array( 'publish' ),
+			'posts_per_page' => - 1,
+			'order'          => 'DESC',
+		);
+		
+		$teasQuery = new WP_Query( $args );
+		
+		if ( $teasQuery->have_posts() ) {
+			?>
 
-		<tr>
+			<!--Menu Item-->
+			<tr>
+				<?php
+				$i = 1;
+				while ( $teasQuery->have_posts() ) {
+					$teasQuery->the_post();
+					?>
+					
+					<?php if ( $i % 2 === 0 ) : ?>
+					
+						<td>
+							<span class="table-title"><?php the_title( '<strong>', '</strong>' ); ?></span>
+							<div class="clearfix"></div>
+							<?php echo wpautop( get_the_content(), false ); ?>
+						</td>
+						</tr>
+						<!--Menu Item-->
+					
+					<?php $i = 1; ?>
+					
+					<?php else : ?>
+					
+						<td>
+							<span class="table-title"><?php the_title( '<strong>', '</strong>' ); ?></span>
+							<div class="clearfix"></div>
+							<?php echo wpautop( get_the_content(), false ); ?>
+						</td>
+					
+					<?php $i++; endif; ?>
+					
+					<?php
+				}
+				?>
+			
+			<?php
+		} else {
+			?>
+			<tr>
+				<td colspan="4">No posts found.</td>
+			</tr>
+			
+			<?php
+		}
+		wp_reset_postdata();
+		?>
+
+		<!--<tr>
 			<td>
 				<span class="table-title"><strong>China Green</strong></span>
 				<div class="clearfix"></div>
@@ -142,11 +201,7 @@
 				<div class="clearfix"></div>
 				Apple, cacao beans, chocolate bits, peppermint, rooibos, vanilla, white chocolate bits
 			</td>
-			<!--<td>
-				<span class="table-title"><strong></strong></span>
-				<div class="clearfix"></div>
-			</td>-->
-		</tr>
+		</tr>-->
 
 		<!--Menu Item-->
 		<!--<tr>
