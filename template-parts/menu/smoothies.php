@@ -41,7 +41,9 @@
 				<!--Menu Item-->
 				<tr>
 					<td>
-						<span class="table-title"><?php the_title( '<strong>', '</strong>' ); ?></span>
+						<span class="table-title">
+							<?php the_title( '<strong>', '</strong>' ); ?> <?php echo get_post_meta( $post->ID, 'smoothie-subtitle', true ); ?>
+						</span>
 						<div class="clearfix"></div>
 						<?php echo get_the_content(); ?>
 					</td>
