@@ -31,11 +31,11 @@
 			'order'          => 'DESC',
 		);
 		
-		$drinkQuery = new WP_Query( $args );
+		$smoothieQuery = new WP_Query( $args );
 		
-		if ( $drinkQuery->have_posts() ) {
-			while ( $drinkQuery->have_posts() ) {
-				$drinkQuery->the_post();
+		if ( $smoothieQuery->have_posts() ) {
+			while ( $smoothieQuery->have_posts() ) {
+				$smoothieQuery->the_post();
 				?>
 
 				<!--Menu Item-->
