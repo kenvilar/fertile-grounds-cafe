@@ -58,7 +58,7 @@
 						<td>
 							<span class="table-title"><?php the_title( '<strong>', '</strong>' ); ?></span>
 							<div class="clearfix"></div>
-							<?php echo wpautop( get_the_content(), false ); ?>
+							<?php echo get_the_content(); ?>
 						</td>
 						</tr>
 						<!--Menu Item-->
