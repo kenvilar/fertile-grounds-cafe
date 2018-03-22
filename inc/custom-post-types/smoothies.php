@@ -38,7 +38,7 @@ function fertilegrounds_smoothie_cpt() {
 		'description'         => __( '', 'fertilegroundscafe' ),
 		'labels'              => $labels,
 		'menu_icon'           => 'dashicons-heart',
-		'supports'            => array( 'title', 'revisions', 'page-attributes', 'post-formats', ),
+		'supports'            => array( 'title', 'editor', 'revisions', 'page-attributes', 'post-formats', ),
 		'taxonomies'          => array(),
 		'public'              => true,
 		'show_ui'             => true,
