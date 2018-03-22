@@ -23,9 +23,48 @@
 
 		</thead>
 		<tbody>
+		
+		<?php
+		$args = array(
+			'post_type'      => array( 'specialtydrink' ),
+			'post_status'    => array( 'publish' ),
+			'posts_per_page' => - 1,
+			'order'          => 'DESC',
+		);
+		
+		$drinkQuery = new WP_Query( $args );
+		
+		if ( $drinkQuery->have_posts() ) {
+			while ( $drinkQuery->have_posts() ) {
+				$drinkQuery->the_post();
+				?>
+
+				<!--Menu Item-->
+				<tr>
+					<td>
+						<span class="table-title"><?php the_title( '<strong>', '</strong>' ); ?></span>
+						<div class="clearfix"></div>
+					</td>
+					<td><strong><?php echo get_post_meta( $post->ID, 'specialty-drink-small', true ); ?></strong></td>
+					<td><strong><?php echo get_post_meta( $post->ID, 'specialty-drink-medium', true ); ?></strong></td>
+					<td><strong><?php echo get_post_meta( $post->ID, 'specialty-drink-large', true ); ?></strong></td>
+				</tr>
+				
+				<?php
+			}
+		} else {
+			?>
+			<tr>
+				<td colspan="4">No posts found.</td>
+			</tr>
+			
+			<?php
+		}
+		wp_reset_postdata();
+		?>
 
 		<!--Menu Item-->
-		<tr>
+		<!--<tr>
 			<td>
 				<span class="table-title"><strong>Hot Chocolate</strong></span>
 				<div class="clearfix"></div>
@@ -33,10 +72,10 @@
 			<td><strong>2.50</strong></td>
 			<td><strong>3.25</strong></td>
 			<td><strong>3.50</strong></td>
-		</tr>
+		</tr>-->
 
 		<!--Menu Item-->
-		<tr>
+		<!--<tr>
 			<td>
 				<span class="table-title"><strong>Mocha Latte</strong></span>
 				<div class="clearfix"></div>
@@ -44,10 +83,10 @@
 			<td><strong>2.75</strong></td>
 			<td><strong>3.50</strong></td>
 			<td><strong>4.00</strong></td>
-		</tr>
+		</tr>-->
 
 		<!--Menu Item-->
-		<tr>
+		<!--<tr>
 			<td>
 				<span class="table-title"><strong>Chai Tea</strong></span>
 				<div class="clearfix"></div>
@@ -55,10 +94,10 @@
 			<td><strong>2.75</strong></td>
 			<td><strong>3.50</strong></td>
 			<td><strong>4.00</strong></td>
-		</tr>
+		</tr>-->
 
 		<!--Menu Item-->
-		<tr>
+		<!--<tr>
 			<td>
 				<span class="table-title"><strong>Chai Latte</strong></span>
 				<div class="clearfix"></div>
@@ -66,7 +105,7 @@
 			<td><strong>2.75</strong></td>
 			<td><strong>3.50</strong></td>
 			<td><strong>4.00</strong></td>
-		</tr>
+		</tr>-->
 
 		</tbody>
 	</table>

@@ -39,7 +39,8 @@
 			while ( $coffeeQuery->have_posts() ) {
 				$coffeeQuery->the_post();
 				?>
-
+				
+				<!--Menu Item-->
 				<tr>
 					<td>
 						<span class="table-title"><?php the_title( '<strong>', '</strong>' ); ?></span>
