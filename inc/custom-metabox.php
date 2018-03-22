@@ -18,4 +18,5 @@ include get_template_directory() . '/inc/custom-metabox/specialty-drink/Specialt
 /**
  * For Smoothies Post Type
  */
+include get_template_directory() . '/inc/custom-metabox/smoothies/SmoothieSubtitleMetabox.php';
 include get_template_directory() . '/inc/custom-metabox/smoothies/SmoothieSizesMetabox.php';
