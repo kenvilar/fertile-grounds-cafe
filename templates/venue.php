@@ -12,10 +12,10 @@ get_header(); ?>
 				?>
 				<div class="col-md-6 col-xs-12 nopadding hidden-sm hidden-xs"
 				     data-image="<?php
-				     echo get_field( 'first_section_image' ) ? the_field( 'first_section_image' ) : get_template_directory_uri() . '/assets/images/venue/venue1.png';
+				     echo get_field( 'first_section_image' ) ? get_field( 'first_section_image' ) : get_template_directory_uri() . '/assets/images/venue/venue1.png';
 				     ?>"
 				     style="height: 859px;background-image: url(<?php
-				     echo get_field( 'first_section_image' ) ? the_field( 'first_section_image' ) : get_template_directory_uri() . '/assets/images/venue/venue1.png';
+				     echo get_field( 'first_section_image' ) ? get_field( 'first_section_image' ) : get_template_directory_uri() . '/assets/images/venue/venue1.png';
 				     ?>)">
 
 				</div>

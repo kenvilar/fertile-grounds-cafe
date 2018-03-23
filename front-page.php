@@ -8,7 +8,7 @@ get_header();
 			<div class="row">
 				<div class="nopadding col-lg-6">
 					<img class="img-responsive"
-					     src="<?php echo get_field( 'about_image' ) ? the_field( 'about_image' ) : get_template_directory_uri() . '/assets/images/home/mug.png'; ?>"
+					     src="<?php echo get_field( 'about_image' ) ? get_field( 'about_image' ) : get_template_directory_uri() . '/assets/images/home/mug.png'; ?>"
 					     alt="home-about-image">
 				</div>
 				<div class="col-lg-6">
@@ -50,12 +50,6 @@ get_header();
 				</div>
 			</div>
 			<div class="col-lg-5 col-md-5 ken-col-md-12 col-sm-12 equal-height home-gallery-item-wrapper">
-				<?php
-				/*if ( function_exists( 'envira_gallery' ) ) {
-					envira_gallery( 'home-gallery', 'slug', array( 'limit' => 8 ) );
-				}*/
-				?>
-				
 				<?php if ( get_field( 'gallery_items' ) ) : ?>
 					
 					<?php if ( get_field( 'gallery_items' )[0]['url'] ) : ?>

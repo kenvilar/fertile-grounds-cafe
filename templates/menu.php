@@ -9,7 +9,7 @@ get_header(); ?>
 		<div class="container-fluid nopadding relative-md">
 			<div class="col-md-6 col-xs-12 nopadding hidden-sm hidden-xs"
 			     data-image="<?php
-			     echo get_field( 'cafe_menu_image' ) ? the_field( 'cafe_menu_image' ) : get_template_directory_uri() . '/assets/images/menu/cafemenu1.png';;
+			     echo get_field( 'cafe_menu_image' ) ? get_field( 'cafe_menu_image' ) : get_template_directory_uri() . '/assets/images/menu/cafemenu1.png';;
 			     ?>"
 			     style="height: 950px;background-image: url(<?php
 			     echo get_field( 'cafe_menu_image' ) ? the_field( 'cafe_menu_image' ) : get_template_directory_uri() . '/assets/images/menu/cafemenu1.png';;
@@ -89,7 +89,7 @@ if ( have_rows( 'sections_background_image' ) ) : ?>
 				<div class="col-xs-12 col-sm-6">
 					<img class="img-responsive center-block"
 					     src="<?php
-					     echo get_field( 'tea_image' ) ? the_field( 'tea_image' ) : '';
+					     echo get_field( 'tea_image' ) ? get_field( 'tea_image' ) : '';
 					     ?>"
 					     alt="image">
 				</div>

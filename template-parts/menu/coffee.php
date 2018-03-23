@@ -63,63 +63,7 @@
 		}
 		wp_reset_postdata();
 		?>
-
-		<!--Menu Item-->
-		<!--<tr>
-			<td>
-				<span class="table-title"><strong>Americano</strong></span>
-				<div class="clearfix"></div>
-			</td>
-			<td><strong>1.75</strong></td>
-			<td><strong>2.50</strong></td>
-			<td><strong>2.75</strong></td>
-		</tr>-->
-
-		<!--Menu Item-->
-		<!--<tr>
-			<td>
-				<span class="table-title"><strong>Caffè Latte</strong></span>
-				<div class="clearfix"></div>
-			</td>
-			<td><strong>2.75</strong></td>
-			<td><strong>3.50</strong></td>
-			<td><strong>4.00</strong></td>
-		</tr>-->
-
-		<!--Menu Item-->
-		<!--<tr>
-			<td>
-				<span class="table-title"><strong>Cappuccino</strong></span>
-				<div class="clearfix"></div>
-			</td>
-			<td><strong>2.75</strong></td>
-			<td><strong>3.50</strong></td>
-			<td><strong>4.00</strong></td>
-		</tr>-->
-
-		<!--Menu Item-->
-		<!--<tr>
-			<td>
-				<span class="table-title"><strong>Breve</strong></span>
-				<div class="clearfix"></div>
-			</td>
-			<td><strong>2.75</strong></td>
-			<td><strong>3.50</strong></td>
-			<td><strong>4.00</strong></td>
-		</tr>-->
-
-		<!--Menu Item-->
-		<!--<tr>
-			<td>
-				<span class="table-title"><strong>Espresso</strong></span>
-				<div class="clearfix"></div>
-			</td>
-			<td><strong>1.50 <br> <small class="text-brown">Single</small></strong></td>
-			<td><strong></strong></td>
-			<td><strong>2.00 <br> <small class="text-brown">Double</small></strong></td>
-		</tr>-->
-
-
+		
 		</tbody>
 	</table>
 </div>

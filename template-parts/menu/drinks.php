@@ -63,50 +63,6 @@
 		wp_reset_postdata();
 		?>
 
-		<!--Menu Item-->
-		<!--<tr>
-			<td>
-				<span class="table-title"><strong>Hot Chocolate</strong></span>
-				<div class="clearfix"></div>
-			</td>
-			<td><strong>2.50</strong></td>
-			<td><strong>3.25</strong></td>
-			<td><strong>3.50</strong></td>
-		</tr>-->
-
-		<!--Menu Item-->
-		<!--<tr>
-			<td>
-				<span class="table-title"><strong>Mocha Latte</strong></span>
-				<div class="clearfix"></div>
-			</td>
-			<td><strong>2.75</strong></td>
-			<td><strong>3.50</strong></td>
-			<td><strong>4.00</strong></td>
-		</tr>-->
-
-		<!--Menu Item-->
-		<!--<tr>
-			<td>
-				<span class="table-title"><strong>Chai Tea</strong></span>
-				<div class="clearfix"></div>
-			</td>
-			<td><strong>2.75</strong></td>
-			<td><strong>3.50</strong></td>
-			<td><strong>4.00</strong></td>
-		</tr>-->
-
-		<!--Menu Item-->
-		<!--<tr>
-			<td>
-				<span class="table-title"><strong>Chai Latte</strong></span>
-				<div class="clearfix"></div>
-			</td>
-			<td><strong>2.75</strong></td>
-			<td><strong>3.50</strong></td>
-			<td><strong>4.00</strong></td>
-		</tr>-->
-
 		</tbody>
 	</table>
 

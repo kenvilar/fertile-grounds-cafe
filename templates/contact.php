@@ -103,7 +103,7 @@ get_header(); ?>
 						<div class="contact-form-box">
 							<?php
 							if ( get_field( 'contact_form_shortcode' ) ) {
-								echo do_shortcode( the_field( 'contact_form_shortcode' ) );
+								echo do_shortcode( get_field( 'contact_form_shortcode' ) );
 							} else {
 								echo '<span style="color:red;">Please put your contact form shortcode</span>';
 							}
