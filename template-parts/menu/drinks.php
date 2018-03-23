@@ -8,9 +8,21 @@
 	</div>
 </div>
 <div class="col-xs-12 col-md-6 panel-body">
-	<span class="h2 text-brown text-bold text-uppercase">Specialty Drinks</span>
+	<span class="h2 text-brown text-bold text-uppercase">
+		<?php if ( get_field( 'specialty_drinks_main_title' ) ) : ?>
+			<?php the_field( 'specialty_drinks_main_title' ); ?>
+		<?php else : ?>
+			Specialty Drinks
+		<?php endif; ?>
+	</span>
 	<div class="clear"></div>
-	<span class="text-black h6 text-medium-italic">Served Hot or Iced</span>
+	<span class="text-black h6 text-medium-italic">
+		<?php if ( get_field( 'specialty_drinks_subtitle' ) ) : ?>
+			<?php the_field( 'specialty_drinks_subtitle' ); ?>
+		<?php else : ?>
+			Served Hot or Iced
+		<?php endif; ?>
+	</span>
 	<table class="table table-responsive">
 		<thead>
 
@@ -67,11 +79,15 @@
 	</table>
 
 	<div>
-		<p class="text-uppercase"><strong>Flavor Shot: <span
-						class="text-brown">Added to any drink: $0.50</span></strong></p>
-		<p class="small-p">Flavor Options: Vanilla, Hazelnut, Amaretto, Cinnamon, Almond, Cherry, Caramel, Gingerbread,
-			Pumpkin Pie, Egg
-			nog, Chocolate, White Chocolate, Raspberry, Crème De Menthe</p>
-		<p class="small-p">*Sugar Free Options: Vanilla, Hazelnut, Almond, Peppermint</p>
+		<?php if ( get_field( 'specialty_drinks_second_content' ) ) : ?>
+			<?php echo get_field( 'specialty_drinks_second_content', false, false ); ?>
+		<?php else : ?>
+			<p class="text-uppercase"><strong>Flavor Shot: <span class="text-brown">Added to any drink: $0.50</span></strong></p>
+			<p class="small-p">
+				Flavor Options: Vanilla, Hazelnut, Amaretto, Cinnamon, Almond, Cherry, Caramel, Gingerbread,
+				Pumpkin Pie, Egg nog, Chocolate, White Chocolate, Raspberry, Crème De Menthe
+			</p>
+			<p class="small-p">*Sugar Free Options: Vanilla, Hazelnut, Almond, Peppermint</p>
+		<?php endif; ?>
 	</div>
 </div>

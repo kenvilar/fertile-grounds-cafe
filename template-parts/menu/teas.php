@@ -14,12 +14,28 @@
 	</div>
 </div>
 <div class="col-xs-12 col-md-8 panel-body">
-	<span class="h2 text-brown text-bold text-uppercase">Teas and Tisane</span>
+	<span class="h2 text-brown text-bold text-uppercase">
+		<?php if ( get_field( 'teas_and_tisane_main_title' ) ) : ?>
+			<?php the_field( 'teas_and_tisane_main_title' ); ?>
+		<?php else: ?>
+			Teas and Tisane
+		<?php endif; ?>
+	</span>
 	<div class="clear"></div>
-	<h3 class="text-brown text-uppercase"><strong>Serendipitea: Organic Teas and Tisane</strong></h3>
+	<h3 class="text-brown text-uppercase"><strong>
+			<?php if ( get_field( 'teas_and_tisane_subtitle' ) ) : ?>
+				<?php the_field( 'teas_and_tisane_subtitle' ); ?>
+			<?php else : ?>
+				Serendipitea: Organic Teas and Tisane
+			<?php endif; ?>
+		</strong></h3>
 	<span class="text-black h6 text-medium-italic">
-		<strong>Sm: $1.25, Med: $1.75, Lrg: $2.50</strong> <br>
-		Served Hot or Iced
+		<?php if ( get_field( 'teas_and_tisane_second_subtitle' ) ) : ?>
+			<?php the_field( 'teas_and_tisane_second_subtitle' ); ?>
+		<?php else : ?>
+			<strong>Sm: $1.25, Med: $1.75, Lrg: $2.50</strong> <br>
+			Served Hot or Iced
+		<?php endif; ?>
 	</span>
 	<table class="table table-responsive">
 		<thead>

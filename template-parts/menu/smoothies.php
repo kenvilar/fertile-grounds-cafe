@@ -8,9 +8,21 @@
 	</div>
 </div>
 <div class="col-xs-12 col-md-6 panel-body">
-	<span class="h2 text-brown text-bold text-uppercase">Smoothies</span>
+	<span class="h2 text-brown text-bold text-uppercase">
+		<?php if ( get_field( 'smoothies_main_title' ) ) : ?>
+			<?php the_field( 'smoothies_main_title' ) ?>
+		<?php else : ?>
+			Smoothies
+		<?php endif; ?>
+	</span>
 	<div class="clear"></div>
-	<span class="text-black h6 text-medium-italic">Made with frozen fruit, yogurt / milk, and or fruit juice.</span>
+	<span class="text-black h6 text-medium-italic">
+		<?php if ( get_field( 'smoothies_subtitle' ) ) : ?>
+			<?php the_field( 'smoothies_subtitle' ); ?>
+		<?php else : ?>
+			Made with frozen fruit, yogurt / milk, and or fruit juice.
+		<?php endif; ?>
+	</span>
 	<table class="table table-responsive">
 		<thead>
 

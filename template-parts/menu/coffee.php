@@ -9,9 +9,21 @@
 	</div>
 </div>
 <div class="col-xs-12 col-md-6 panel-body">
-	<span class="h2 text-brown text-bold text-uppercase">Coffee and Espresso</span>
+	<span class="h2 text-brown text-bold text-uppercase">
+		<?php if ( get_field( 'coffee_and_espresso_main_title' ) ) : ?>
+			<?php the_field( 'coffee_and_espresso_main_title' ); ?>
+		<?php else : ?>
+			Coffee and Espresso
+		<?php endif; ?>
+	</span>
 	<div class="clear"></div>
-	<span class="text-black h6 text-medium-italic">Served Hot or Iced</span>
+	<span class="text-black h6 text-medium-italic">
+		<?php if ( get_field( 'coffee_and_espresso_subtitle' ) ) : ?>
+			<?php the_field( 'coffee_and_espresso_subtitle' ); ?>
+		<?php else : ?>
+			Served Hot or Iced
+		<?php endif; ?>
+	</span>
 	<table class="table table-responsive">
 		<thead>
 
